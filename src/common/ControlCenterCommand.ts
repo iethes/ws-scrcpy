@@ -7,6 +7,7 @@ export class ControlCenterCommand {
     public static CONFIGURE_STREAM = 'configure_stream';
     public static RUN_WDA = 'run-wda';
     public static REQUEST_WDA = 'request-wda';
+    public static SCREENSHOT = 'screenshot';
 
     private id = -1;
     private type = '';
@@ -30,23 +31,24 @@ export class ControlCenterCommand {
             command.udid = data.udid;
         }
         switch (body.type) {
-            case this.KILL_SERVER:
+            case ControlCenterCommand.KILL_SERVER:
                 if (typeof data.pid !== 'number' && data.pid <= 0) {
                     throw new Error('Invalid "pid" value');
                 }
                 command.pid = data.pid;
                 return command;
-            case this.REQUEST_WDA:
+            case ControlCenterCommand.REQUEST_WDA:
                 if (typeof data.method !== 'string') {
                     throw new Error('Invalid "method" value');
                 }
                 command.method = data.method;
                 command.args = data.args;
                 return command;
-            case this.START_SERVER:
-            case this.UPDATE_INTERFACES:
-            case this.CONFIGURE_STREAM:
-            case this.RUN_WDA:
+            case ControlCenterCommand.START_SERVER:
+            case ControlCenterCommand.UPDATE_INTERFACES:
+            case ControlCenterCommand.CONFIGURE_STREAM:
+            case ControlCenterCommand.RUN_WDA:
+            case ControlCenterCommand.SCREENSHOT:
                 return command;
             default:
                 throw new Error(`Unknown command "${body.command}"`);

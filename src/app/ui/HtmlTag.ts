@@ -1,7 +1,13 @@
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
-type Value = any;
+class RawHTML {
+    constructor(public html: string) {}
+}
 
-function htmlValue(value: Value): string {
+export const rawHtml = (html: string): RawHTML => new RawHTML(html);
+
+function htmlValue(value: unknown): string {
+    if (value instanceof RawHTML) {
+        return value.html;
+    }
     if (value instanceof HTMLTemplateElement) {
         return value.innerHTML;
     }
@@ -16,7 +22,10 @@ function htmlValue(value: Value): string {
     return e.innerHTML;
 }
 
-export const html = function html(strings: TemplateStringsArray, ...values: ReadonlyArray<Value>): HTMLTemplateElement {
+export const html = function html(
+    strings: TemplateStringsArray,
+    ...values: ReadonlyArray<unknown>
+): HTMLTemplateElement {
     const template = document.createElement('template') as HTMLTemplateElement;
     template.innerHTML = values.reduce((acc, v, idx) => acc + htmlValue(v) + strings[idx + 1], strings[0]).toString();
     return template;

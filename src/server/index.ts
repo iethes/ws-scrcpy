@@ -9,6 +9,9 @@ import { WebsocketProxy } from './mw/WebsocketProxy';
 import { HostTracker } from './mw/HostTracker';
 import { WebsocketMultiplexer } from './mw/WebsocketMultiplexer';
 
+import * as dotenv from 'dotenv';
+dotenv.config();
+
 const servicesToStart: ServiceClass[] = [HttpServer, WebSocketServer];
 
 // MWs that accept WebSocket

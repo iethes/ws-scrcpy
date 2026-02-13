@@ -15,6 +15,9 @@ import { ParamsDeviceTracker } from '../../../types/ParamsDeviceTracker';
 import { HostItem } from '../../../types/Configuration';
 import { ChannelCode } from '../../../common/ChannelCode';
 import { Tool } from '../../client/Tool';
+import { NocoDBClient } from '../../../common/NocoDBClient';
+
+const TAG = '[DeviceTracker]';
 
 type Field = keyof GoogDeviceDescriptor | ((descriptor: GoogDeviceDescriptor) => string);
 type DescriptionColumn = { title: string; field: Field };
@@ -36,6 +39,11 @@ export class DeviceTracker extends BaseDeviceTracker<GoogDeviceDescriptor, never
     private static instancesByUrl: Map<string, DeviceTracker> = new Map();
     protected static tools: Set<Tool> = new Set();
     protected tableId = 'goog_device_list';
+    private static nocodbClient = NocoDBClient.getInstance();
+    private mobileScraperData = new Map<
+        string,
+        { label: string; regions: string; loggedin: string; operator: string }
+    >();
 
     public static start(hostItem: HostItem): DeviceTracker {
         const url = this.buildUrlForTracker(hostItem).toString();
@@ -53,8 +61,16 @@ export class DeviceTracker extends BaseDeviceTracker<GoogDeviceDescriptor, never
     protected constructor(params: HostItem, directUrl: string) {
         super({ ...params, action: DeviceTracker.ACTION }, directUrl);
         DeviceTracker.instancesByUrl.set(directUrl, this);
-        this.buildDeviceTable();
         this.openNewConnection();
+    }
+
+    private mobileScraperDataFetched = false;
+
+    private async ensureMobileScraperData(): Promise<void> {
+        if (!this.mobileScraperDataFetched) {
+            await this.fetchMobileScraperData();
+            this.mobileScraperDataFetched = true;
+        }
     }
 
     protected onSocketOpen(): void {
@@ -106,6 +122,9 @@ export class DeviceTracker extends BaseDeviceTracker<GoogDeviceDescriptor, never
             if (!playerFullName || !playerCodeName) {
                 return;
             }
+            const decodedPlayerFullName = decodeURIComponent(playerFullName);
+            const linkText =
+                decodedPlayerFullName === 'H264 Converter' ? 'Remote Device Stream' : decodedPlayerFullName;
             const link = DeviceTracker.buildLink(
                 {
                     action,
@@ -113,7 +132,7 @@ export class DeviceTracker extends BaseDeviceTracker<GoogDeviceDescriptor, never
                     player: decodeURIComponent(playerCodeName),
                     ws: url,
                 },
-                decodeURIComponent(playerFullName),
+                linkText,
                 this.params,
             );
             item.appendChild(link);
@@ -170,6 +189,111 @@ export class DeviceTracker extends BaseDeviceTracker<GoogDeviceDescriptor, never
         return title.toLowerCase().replace(/\s/g, '_');
     }
 
+    private async fetchMobileScraperData(): Promise<void> {
+        try {
+            const data = await DeviceTracker.nocodbClient.getMobileScraperData();
+            this.mobileScraperData.clear();
+            data.forEach((record, ztnetIp) => {
+                this.mobileScraperData.set(ztnetIp, {
+                    label: record.label,
+                    regions: record.regions,
+                    loggedin: record.loggedin,
+                    operator: record.operator,
+                });
+            });
+        } catch (error: unknown) {
+            const errorMessage = error instanceof Error ? error.message : String(error);
+            console.error(TAG, 'Failed to fetch mobile-scraper data:', errorMessage);
+        }
+    }
+
+    private getDeviceLabel(device: GoogDeviceDescriptor): string {
+        console.log(TAG, `Looking up label for device ${device.udid}`);
+        console.log(TAG, `Cached ztnet_ips: ${Array.from(this.mobileScraperData.keys()).join(', ')}`);
+        const data = this.mobileScraperData.get(device.udid);
+        console.log(TAG, `Found match for ${device.udid}: ${!!data}`);
+        if (data && data.label) {
+            return data.label;
+        }
+        return `${device['ro.product.manufacturer']} ${device['ro.product.model']}`;
+    }
+
+    private renderRegionsBlock(
+        services: Element,
+        device: GoogDeviceDescriptor,
+        regions: string,
+        loggedin: string,
+        _fullName: string,
+        blockClass: string,
+    ): void {
+        const regionList = regions
+            ? regions
+                  .split(',')
+                  .map((r) => r.trim())
+                  .filter((r) => r)
+            : [];
+        const loggedinList = loggedin
+            ? loggedin
+                  .split(',')
+                  .map((r) => r.trim())
+                  .filter((r) => r)
+            : [];
+        const td = document.createElement('div');
+        td.classList.add('regions', blockClass);
+        const container = document.createElement('div');
+        container.className = 'regions-checkboxes';
+        loggedinList.forEach((country) => {
+            const label = document.createElement('label');
+            label.className = 'region-checkbox-label';
+            const checkbox = document.createElement('input');
+            checkbox.type = 'checkbox';
+            checkbox.value = country;
+            checkbox.checked = regionList.includes(country);
+            checkbox.className = 'region-checkbox';
+            checkbox.onchange = async () => {
+                const checkedBoxes = container.querySelectorAll<HTMLInputElement>('.region-checkbox:checked');
+                const activeRegions = Array.from(checkedBoxes)
+                    .map((cb) => cb.value)
+                    .join(',');
+                await this.updateRegions(device, activeRegions);
+            };
+            const span = document.createElement('span');
+            span.textContent = country.toUpperCase();
+            label.appendChild(checkbox);
+            label.appendChild(span);
+            container.appendChild(label);
+        });
+        td.appendChild(container);
+        services.appendChild(td);
+    }
+
+    private async updateRegions(device: GoogDeviceDescriptor, activeRegions: string): Promise<void> {
+        try {
+            const response = await fetch('/api/mobile-scrapers', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({ ztnet_ip: device.udid, regions: activeRegions }),
+            });
+            if (response.ok) {
+                console.log(TAG, `Updated regions for ${device.udid}: ${activeRegions}`);
+                await this.fetchMobileScraperData();
+            } else {
+                console.error(TAG, `Failed to update regions for ${device.udid}: ${response.statusText}`);
+            }
+        } catch (error: unknown) {
+            const errorMessage = error instanceof Error ? error.message : String(error);
+            console.error(TAG, `Error updating regions for ${device.udid}: ${errorMessage}`);
+        }
+    }
+
+    protected override onSocketMessage(event: MessageEvent): void {
+        this.ensureMobileScraperData().then(() => {
+            super.onSocketMessage(event);
+        });
+    }
+
     protected buildDeviceRow(tbody: Element, device: GoogDeviceDescriptor): void {
         let selectedInterfaceUrl = '';
         let selectedInterfaceName = '';
@@ -178,9 +302,11 @@ export class DeviceTracker extends BaseDeviceTracker<GoogDeviceDescriptor, never
         const isActive = device.state === DeviceState.DEVICE;
         let hasPid = false;
         const servicesId = `device_services_${fullName}`;
+        const screenshotId = `screenshot_${fullName}`;
+        const deviceData = this.mobileScraperData.get(device.udid);
         const row = html`<div class="device ${isActive ? 'active' : 'not-active'}">
             <div class="device-header">
-                <div class="device-name">${device['ro.product.manufacturer']} ${device['ro.product.model']}</div>
+                <div class="device-name">${this.getDeviceLabel(device)}</div>
                 <div class="device-serial">${device.udid}</div>
                 <div class="device-version">
                     <div class="release-version">${device['ro.build.version.release']}</div>
@@ -189,27 +315,103 @@ export class DeviceTracker extends BaseDeviceTracker<GoogDeviceDescriptor, never
                 <div class="device-state" title="State: ${device.state}"></div>
             </div>
             <div id="${servicesId}" class="services"></div>
+            <div id="${screenshotId}" class="screenshot-container"></div>
         </div>`.content;
         const services = row.getElementById(servicesId);
         if (!services) {
             return;
         }
 
+        const toggleButton = document.createElement('button');
+        toggleButton.className = 'services-toggle-button';
+        toggleButton.innerHTML = '▼ Services';
+        toggleButton.onclick = () => {
+            services.classList.toggle('services-expanded');
+            toggleButton.innerHTML = services.classList.contains('services-expanded') ? '▲ Services' : '▼ Services';
+        };
+        services.appendChild(toggleButton);
+        const servicesContent = document.createElement('div');
+        servicesContent.className = 'services-content';
+        services.appendChild(servicesContent);
+
         DeviceTracker.tools.forEach((tool) => {
             const entry = tool.createEntryForDeviceList(device, blockClass, this.params);
             if (entry) {
                 if (Array.isArray(entry)) {
                     entry.forEach((item) => {
-                        item && services.appendChild(item);
+                        item && servicesContent.appendChild(item);
                     });
                 } else {
-                    services.appendChild(entry);
+                    servicesContent.appendChild(entry);
                 }
             }
         });
 
         const streamEntry = StreamClientScrcpy.createEntryForDeviceList(device, blockClass, fullName, this.params);
-        streamEntry && services.appendChild(streamEntry);
+        streamEntry && servicesContent.appendChild(streamEntry);
+
+        if (deviceData) {
+            this.renderRegionsBlock(services, device, deviceData.regions, deviceData.loggedin, fullName, blockClass);
+        }
+
+        const screenshotContainer = row.getElementById(screenshotId);
+        if (screenshotContainer && isActive) {
+            const screenshotTd = document.createElement('div');
+            screenshotTd.classList.add(blockClass);
+            const screenshotButton = document.createElement('button');
+            screenshotButton.className = 'action-button screenshot-button active';
+            screenshotButton.title = 'Take screenshot';
+            screenshotButton.innerText = 'Take screenshot';
+            screenshotButton.setAttribute(Attribute.UDID, device.udid);
+            screenshotButton.setAttribute(Attribute.COMMAND, ControlCenterCommand.SCREENSHOT);
+            screenshotButton.onclick = this.onActionButtonClick;
+            screenshotTd.appendChild(screenshotButton);
+            services.appendChild(screenshotTd);
+
+            if (device['screenshot.path']) {
+                const screenshotDisplay = document.createElement('div');
+                screenshotDisplay.className = 'screenshot-display';
+                const img = document.createElement('img');
+                img.src = device['screenshot.path'];
+                img.alt = `Screenshot of ${device.udid}`;
+                const timestampDisplay = document.createElement('div');
+                timestampDisplay.className = 'screenshot-timestamp';
+                const updateTimestamp = () => {
+                    const elapsed = Math.floor((Date.now() - device['screenshot.timestamp']) / 1000);
+                    if (elapsed < 60) {
+                        timestampDisplay.innerText = `taken ${elapsed}s ago`;
+                    } else if (elapsed < 3600) {
+                        const minutes = Math.floor(elapsed / 60);
+                        timestampDisplay.innerText = `taken ${minutes}m ago`;
+                    } else {
+                        const hours = Math.floor(elapsed / 3600);
+                        timestampDisplay.innerText = `taken ${hours}h ago`;
+                    }
+                };
+                updateTimestamp();
+                setInterval(updateTimestamp, 1000);
+                screenshotDisplay.appendChild(img);
+                screenshotDisplay.appendChild(timestampDisplay);
+                screenshotContainer.appendChild(screenshotDisplay);
+            }
+        }
+
+        if (DeviceTracker.CREATE_DIRECT_LINKS) {
+            const name = `${DeviceTracker.AttributePrefixPlayerFor}${fullName}`;
+            StreamClientScrcpy.getPlayers().forEach((playerClass) => {
+                const { playerCodeName, playerFullName } = playerClass;
+                const playerTd = document.createElement('div');
+                playerTd.classList.add(blockClass);
+                playerTd.setAttribute('name', encodeURIComponent(name));
+                playerTd.setAttribute(DeviceTracker.AttributePlayerFullName, encodeURIComponent(playerFullName));
+                playerTd.setAttribute(DeviceTracker.AttributePlayerCodeName, encodeURIComponent(playerCodeName));
+                if (playerFullName === 'H264 Converter') {
+                    services.appendChild(playerTd);
+                } else {
+                    servicesContent.appendChild(playerTd);
+                }
+            });
+        }
 
         DESC_COLUMNS.forEach((item) => {
             const { title } = item;
@@ -222,7 +424,7 @@ export class DeviceTracker extends BaseDeviceTracker<GoogDeviceDescriptor, never
             }
             const td = document.createElement('div');
             td.classList.add(DeviceTracker.titleToClassName(title), blockClass);
-            services.appendChild(td);
+            servicesContent.appendChild(td);
             if (fieldName === 'pid') {
                 hasPid = value !== '-1';
                 const actionButton = document.createElement('button');
@@ -319,19 +521,6 @@ export class DeviceTracker extends BaseDeviceTracker<GoogDeviceDescriptor, never
                 td.innerText = value;
             }
         });
-
-        if (DeviceTracker.CREATE_DIRECT_LINKS) {
-            const name = `${DeviceTracker.AttributePrefixPlayerFor}${fullName}`;
-            StreamClientScrcpy.getPlayers().forEach((playerClass) => {
-                const { playerCodeName, playerFullName } = playerClass;
-                const playerTd = document.createElement('div');
-                playerTd.classList.add(blockClass);
-                playerTd.setAttribute('name', encodeURIComponent(name));
-                playerTd.setAttribute(DeviceTracker.AttributePlayerFullName, encodeURIComponent(playerFullName));
-                playerTd.setAttribute(DeviceTracker.AttributePlayerCodeName, encodeURIComponent(playerCodeName));
-                services.appendChild(playerTd);
-            });
-        }
 
         tbody.appendChild(row);
         if (DeviceTracker.CREATE_DIRECT_LINKS && hasPid && selectedInterfaceUrl) {

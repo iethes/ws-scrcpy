@@ -15,7 +15,7 @@ const PACKAGE_JSON = path.join(PROJECT_ROOT, 'package.json');
 const override = path.join(PROJECT_ROOT, '/build.config.override.json');
 const buildConfigOptions = mergeWithDefaultConfig(override);
 const buildConfigDefinePlugin = new webpack.DefinePlugin({
-    '__PATHNAME__': JSON.stringify(buildConfigOptions.PATHNAME),
+    __PATHNAME__: JSON.stringify(buildConfigOptions.PATHNAME),
 });
 
 export const common = () => {
@@ -102,7 +102,9 @@ const front: webpack.Configuration = {
             template: path.join(PROJECT_ROOT, '/src/public/index.html'),
             inject: 'head',
         }),
-        new MiniCssExtractPlugin(),
+        new MiniCssExtractPlugin({
+            filename: 'main.[contenthash].css',
+        }),
         new webpack.ProvidePlugin({
             Buffer: ['buffer', 'Buffer'],
         }),
@@ -114,7 +116,7 @@ const front: webpack.Configuration = {
         extensions: ['.tsx', '.ts', '.js'],
     },
     output: {
-        filename: 'bundle.js',
+        filename: 'bundle.[contenthash].js',
         path: CLIENT_DIST_PATH,
     },
 };
@@ -139,10 +141,7 @@ delete packageJson.devDependencies;
 const back: webpack.Configuration = {
     entry: path.join(PROJECT_ROOT, './src/server/index.ts'),
     externals: [nodeExternals()],
-    plugins: [
-        new GeneratePackageJsonPlugin(basePackage),
-        buildConfigDefinePlugin,
-    ],
+    plugins: [new GeneratePackageJsonPlugin(basePackage), buildConfigDefinePlugin],
     node: {
         global: false,
         __filename: false,

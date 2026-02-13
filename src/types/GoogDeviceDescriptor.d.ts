@@ -11,4 +11,6 @@ export default interface GoogDeviceDescriptor extends BaseDeviceDescriptor {
     interfaces: NetInterface[];
     pid: number;
     'last.update.timestamp': number;
+    'screenshot.path': string;
+    'screenshot.timestamp': number;
 }

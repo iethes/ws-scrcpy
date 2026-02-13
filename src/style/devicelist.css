@@ -14,7 +14,6 @@
     }
 }
 
-
 body.list {
     height: auto;
     width: auto;
@@ -28,13 +27,19 @@ body.list {
     overflow-y: auto;
 }
 
-body.stream #devices {
+body.stream #devices,
+body.split-view #devices {
     background-color: var(--device-list-default-color);
-    opacity: .8;
+    opacity: 0.8;
     position: absolute;
     top: 0;
     left: 0;
     z-index: 3;
+}
+
+body.split-view #devices {
+    opacity: 1;
+    position: relative;
 }
 
 body.list #device_list_menu {
@@ -52,14 +57,6 @@ body.list #device_list_menu {
 #devices .device-list button {
     font-size: var(--font-size);
     color: var(--button-text-color);
-}
-
-#devices .device-list div.device:nth-child(2n+1){
-    background-color: var(--device-list-default-color);
-}
-
-#devices .device-list div.device:nth-child(2n){
-    background-color: var(--device-list-stripe-color);
 }
 
 #devices .device-header {
@@ -114,21 +111,22 @@ body.list #device_list_menu {
     bottom: 0;
     left: 0;
     width: 100%;
-}
-
-#devices .device-list {
-    border-spacing: 0;
-    border-collapse: collapse;
+    display: flex !important;
+    flex-wrap: wrap !important;
+    gap: 20px;
     font-family: monospace;
     font-size: var(--font-size);
 }
 
 #devices .device-list div.device {
     padding: 5px 20px 5px;
+    box-sizing: border-box;
+    flex: 0 0 calc(33.33% - 14px);
+    min-width: 200px;
 }
 
 #devices .device-list div.device:hover {
-    background-color: var(--device-list-hover-color)
+    background-color: var(--device-list-hover-color);
 }
 
 #devices .device-list div.device select {
@@ -139,11 +137,11 @@ body.list #device_list_menu {
 }
 
 #devices .device-list div.device:hover select {
-    background-color: var(--device-list-hover-color);;
+    background-color: var(--device-list-hover-color);
 }
 
 #devices .device-list div.desc-block {
-    margin: .3em;
+    margin: 0.3em;
     display: inline-flex;
 }
 
@@ -153,11 +151,52 @@ body.list #device_list_menu {
 
 #devices .device-list div.desc-block.stream,
 #devices .device-list div.desc-block.server_pid,
-#devices .device-list div.desc-block.net_interface {
+#devices .device-list div.desc-block.net_interface,
+#devices .device-list div.desc-block.regions,
+#devices .device-list div.desc-block.loggedin {
     border: 1px solid var(--device-border-color);
-    border-radius: .3em;
+    border-radius: 0.3em;
     overflow: hidden;
     white-space: nowrap;
+}
+
+#devices .device-list div.desc-block.regions select {
+    color: var(--text-color);
+    background-color: var(--main-bg-color);
+    border: none;
+    padding: 2px;
+    font-size: 80%;
+    min-width: 60px;
+}
+
+#devices .device-list div.desc-block.regions select:disabled {
+    opacity: 0.8;
+    cursor: default;
+}
+
+#devices .device-list .regions-checkboxes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    padding: 2px;
+}
+
+#devices .device-list .region-checkbox-label {
+    display: inline-flex;
+    align-items: center;
+    gap: 2px;
+    cursor: pointer;
+    font-size: 80%;
+}
+
+#devices .device-list .region-checkbox {
+    cursor: pointer;
+}
+
+#devices .device-list .services > .regions,
+#devices .device-list .services > .stream,
+#devices .device-list .services > .screenshot-button {
+    margin: 0.3em;
 }
 
 #devices .device-list div.device div.desc-block.stream button.action-button {
@@ -165,11 +204,11 @@ body.list #device_list_menu {
 }
 
 #devices .device-list div.desc-block button {
-    fill: var(--text-color)
+    fill: var(--text-color);
 }
 
 #devices .device-list div.desc-block button > span {
-    padding: 0 .5em;
+    padding: 0 0.5em;
 }
 
 #devices .device-list div.desc-block button > span,
@@ -232,4 +271,57 @@ body.list #device_list_menu {
     padding: 5px 20px 5px;
     font-size: larger;
     font-weight: bolder;
+}
+
+#devices .device-list .screenshot-container {
+    margin: 0.3em;
+    padding: 0.5em;
+    border-top: 1px solid var(--device-border-color);
+}
+
+#devices .device-list .screenshot-display {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0.5em;
+}
+
+#devices .device-list .screenshot-display img {
+    max-width: 200px;
+    max-height: 200px;
+    border-radius: 0.3em;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+#devices .device-list .screenshot-timestamp {
+    font-size: 75%;
+    color: var(--text-color-light);
+    margin-top: 0.3em;
+}
+
+#devices .device-list .screenshot-button {
+    border-radius: 0.3em;
+}
+
+#devices .device-list .services-toggle-button {
+    background: none;
+    border: none;
+    color: var(--text-color);
+    cursor: pointer;
+    font-size: 90%;
+    padding: 2px 5px;
+    margin-bottom: 5px;
+}
+
+#devices .device-list .services-toggle-button:hover {
+    color: var(--link-color);
+}
+
+#devices .device-list .services-content {
+    display: none;
+}
+
+#devices .device-list .services.services-expanded .services-content {
+    display: flex;
+    flex-wrap: wrap;
 }

@@ -173,8 +173,19 @@ export class ControlCenter extends BaseControlCenter<GoogDeviceDescriptor> imple
             case ControlCenterCommand.UPDATE_INTERFACES:
                 await device.updateInterfaces();
                 return;
+            case ControlCenterCommand.SCREENSHOT:
+                await this.handleScreenshot(device);
+                return;
             default:
                 throw new Error(`Unsupported command: "${type}"`);
         }
+    }
+
+    private async handleScreenshot(device: Device): Promise<void> {
+        const screenshotPath = await device.captureScreenshot();
+        const descriptor = device.descriptor;
+        descriptor['screenshot.path'] = screenshotPath;
+        descriptor['screenshot.timestamp'] = Date.now();
+        this.emit('device', descriptor);
     }
 }

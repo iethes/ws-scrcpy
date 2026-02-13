@@ -2,6 +2,8 @@ import { AdbExtended } from './adb';
 import AdbKitClient from '@dead50f7/adbkit/lib/adb/client';
 import PushTransfer from '@dead50f7/adbkit/lib/adb/sync/pushtransfer';
 import { spawn } from 'child_process';
+import * as fs from 'fs';
+import * as path from 'path';
 import { NetInterface } from '../../types/NetInterface';
 import { TypedEmitter } from '../../common/TypedEmitter';
 import GoogDeviceDescriptor from '../../types/GoogDeviceDescriptor';
@@ -52,6 +54,8 @@ export class Device extends TypedEmitter<DeviceEvents> {
             'ro.product.model': '',
             'ro.product.cpu.abi': '',
             'last.update.timestamp': 0,
+            'screenshot.path': '',
+            'screenshot.timestamp': 0,
         };
         this.client = AdbExtended.createClient();
         this.setState(state);
@@ -461,5 +465,56 @@ export class Device extends TypedEmitter<DeviceEvents> {
             console.error(this.TAG, `Error: ${error.message}`);
             throw error;
         }
+    }
+
+    public async captureScreenshot(): Promise<string> {
+        if (!this.connected) {
+            throw new Error('Device is not connected');
+        }
+        const filename = `screenshot_${this.udid}_${Date.now()}.png`;
+        let screenshotsDir: string;
+        const cwd = process.cwd();
+        if (cwd.endsWith('/dist')) {
+            screenshotsDir = path.join(cwd, 'public', 'screenshots');
+        } else {
+            screenshotsDir = path.join(cwd, 'dist', 'public', 'screenshots');
+        }
+        if (!fs.existsSync(screenshotsDir)) {
+            fs.mkdirSync(screenshotsDir, { recursive: true });
+        }
+        const filepath = path.join(screenshotsDir, filename);
+        const command = 'screencap -p';
+        return new Promise<string>((resolve, reject) => {
+            const cmd = 'adb';
+            const args = ['-s', `${this.udid}`, 'shell', command];
+            const adb = spawn(cmd, args, { stdio: ['ignore', 'pipe', 'pipe'] });
+            const fileStream = fs.createWriteStream(filepath);
+
+            adb.stdout.pipe(fileStream);
+
+            fileStream.on('finish', () => {
+                console.log(this.TAG, `Screenshot saved to ${filename}`);
+                console.log(this.TAG, `Screenshots directory: ${screenshotsDir}`);
+                resolve(`/screenshots/${filename}`);
+            });
+
+            fileStream.on('error', (error: Error) => {
+                console.error(this.TAG, `Failed to write screenshot: ${error.message}`);
+                reject(error);
+            });
+
+            adb.stderr.on('data', (data) => {
+                console.error(this.TAG, `stderr: ${data}`);
+            });
+
+            adb.on('error', (error: Error) => {
+                console.error(this.TAG, `failed to spawn adb process.\n${error.stack}`);
+                reject(error);
+            });
+
+            adb.on('close', (code) => {
+                console.log(this.TAG, `adb process (${args.join(' ')}) exited with code ${code}`);
+            });
+        });
     }
 }

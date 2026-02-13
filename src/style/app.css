@@ -73,6 +73,38 @@ body {
     overflow: hidden;
 }
 
+body.stream {
+    background-color: var(--stream-bg-color);
+}
+
+body.split-view {
+    display: flex;
+    height: 100%;
+    overflow: hidden;
+}
+
+body.split-view #devices {
+    flex: 3;
+    overflow-y: auto;
+}
+
+body.split-view #stream-view-container {
+    flex: 1;
+    overflow: hidden;
+    border-left: 1px solid var(--device-border-color);
+}
+
+#stream-view-container {
+    position: relative;
+    width: 0;
+    height: 100%;
+}
+
+#stream-view-container iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
 
 body.shell {
     background-color: var(--shell-bg-color);
@@ -124,7 +156,6 @@ body.stream {
     background-color: #000000;
 }
 
-
 .control-buttons-list {
     float: right;
     width: 3.715rem;
@@ -132,7 +163,7 @@ body.stream {
 }
 
 .control-button {
-    margin: .357rem .786rem;
+    margin: 0.357rem 0.786rem;
     padding: 0;
     width: 2.143rem;
     height: 2.143rem;
@@ -145,7 +176,7 @@ body.stream {
     opacity: 1;
 }
 
-.control-wrapper > input[type=checkbox] {
+.control-wrapper > input[type='checkbox'] {
     display: none;
 }
 
@@ -157,22 +188,22 @@ body.stream {
     fill: var(--svg-button-fill);
 }
 
-.control-wrapper > input[type=checkbox].two-images:checked + label > svg.image-on {
+.control-wrapper > input[type='checkbox'].two-images:checked + label > svg.image-on {
     display: block;
 }
 
-.control-wrapper > input[type=checkbox].two-images:not(:checked) + label > svg.image-on {
+.control-wrapper > input[type='checkbox'].two-images:not(:checked) + label > svg.image-on {
     display: none;
 }
 
-.control-wrapper > input[type=checkbox].two-images:checked + label > svg.image-off {
+.control-wrapper > input[type='checkbox'].two-images:checked + label > svg.image-off {
     display: none;
 }
 
-.control-wrapper > input[type=checkbox].two-images:not(:checked) + label > svg.image-off {
+.control-wrapper > input[type='checkbox'].two-images:not(:checked) + label > svg.image-off {
     display: block;
 }
 
-.control-wrapper > input[type=checkbox]:checked + label > svg {
+.control-wrapper > input[type='checkbox']:checked + label > svg {
     fill: var(--svg-checkbox-bg-color);
 }

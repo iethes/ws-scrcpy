@@ -1,0 +1,547 @@
+2026-02-12 09:19:45 +00:00: Listening on:
+	http://mobile-orch:8000/ http://localhost:8000/
+2026-02-12 09:19:45 +00:00: 	http://127.0.0.1:8000/ http://10.1.0.5:8000/ http://10.121.17.222:8000/
+2026-02-12 09:19:45 +00:00: 	http://[::1]:8000/
+2026-02-12 09:44:47 +00:00: 
+Received signal SIGINT
+2026-02-12 09:44:47 +00:00: Stopping HTTP(s) Server Service ...
+2026-02-12 09:44:47 +00:00: Stopping WebSocket Server Service ...
+2026-02-12 09:44:47 +00:00: Stopping aDevice Tracker [mobile-orch] ...
+2026-02-12 09:44:49 +00:00: Listening on:
+	http://mobile-orch:8000/ http://localhost:8000/
+2026-02-12 09:44:49 +00:00: 	http://127.0.0.1:8000/ http://10.1.0.5:8000/ http://10.121.17.222:8000/
+2026-02-12 09:44:49 +00:00: 	http://[::1]:8000/
+2026-02-12 09:44:55 +00:00: [10.121.17.139:55555] Screenshot saved to screenshot_10.121.17.139:55555_1770889494597.png
+2026-02-12 09:44:55 +00:00: [10.121.17.139:55555] adb process (-s 10.121.17.139:55555 shell screencap -p) exited with code 0
+2026-02-12 09:45:12 +00:00: [10.121.17.140:55555] Screenshot saved to screenshot_10.121.17.140:55555_1770889511922.png
+2026-02-12 09:45:12 +00:00: [10.121.17.140:55555] adb process (-s 10.121.17.140:55555 shell screencap -p) exited with code 0
+2026-02-12 09:45:52 +00:00: 
+Received signal SIGINT
+2026-02-12 09:45:52 +00:00: Stopping HTTP(s) Server Service ...
+2026-02-12 09:45:52 +00:00: Stopping WebSocket Server Service ...
+2026-02-12 09:45:52 +00:00: Stopping aDevice Tracker [mobile-orch] ...
+2026-02-12 09:45:55 +00:00: Listening on:
+	http://mobile-orch:8000/ http://localhost:8000/
+2026-02-12 09:45:55 +00:00: 	http://127.0.0.1:8000/ http://10.1.0.5:8000/ http://10.121.17.222:8000/
+2026-02-12 09:45:55 +00:00: 	http://[::1]:8000/
+2026-02-12 09:46:06 +00:00: [10.121.17.140:55555] Screenshot saved to screenshot_10.121.17.140:55555_1770889565352.png
+2026-02-12 09:46:06 +00:00: [10.121.17.140:55555] adb process (-s 10.121.17.140:55555 shell screencap -p) exited with code 0
+2026-02-12 09:49:36 +00:00: 
+Received signal SIGINT
+2026-02-12 09:49:36 +00:00: Stopping HTTP(s) Server Service ...
+2026-02-12 09:49:36 +00:00: Stopping WebSocket Server Service ...
+2026-02-12 09:49:36 +00:00: Stopping aDevice Tracker [mobile-orch] ...
+2026-02-12 09:49:38 +00:00: Listening on:
+	http://mobile-orch:8000/ http://localhost:8000/
+2026-02-12 09:49:38 +00:00: 	http://127.0.0.1:8000/ http://10.1.0.5:8000/ http://10.121.17.222:8000/
+2026-02-12 09:49:38 +00:00: 	http://[::1]:8000/
+2026-02-12 09:50:00 +00:00: [10.121.17.139:55555] Screenshot saved to screenshot_10.121.17.139:55555_1770889800129.png
+2026-02-12 09:50:00 +00:00: [10.121.17.139:55555] adb process (-s 10.121.17.139:55555 shell screencap -p) exited with code 0
+2026-02-12 09:59:36 +00:00: 
+Received signal SIGINT
+2026-02-12 09:59:36 +00:00: Stopping HTTP(s) Server Service ...
+2026-02-12 09:59:36 +00:00: Stopping WebSocket Server Service ...
+2026-02-12 09:59:36 +00:00: Stopping aDevice Tracker [mobile-orch] ...
+2026-02-12 09:59:39 +00:00: Listening on:
+	http://mobile-orch:8000/ http://localhost:8000/
+2026-02-12 09:59:39 +00:00: 	http://127.0.0.1:8000/ http://10.1.0.5:8000/ http://10.121.17.222:8000/
+2026-02-12 09:59:39 +00:00: 	http://[::1]:8000/
+2026-02-12 09:59:45 +00:00: [10.121.17.140:55555] Screenshot saved to screenshot_10.121.17.140:55555_1770890384373.png
+2026-02-12 09:59:45 +00:00: [10.121.17.140:55555] adb process (-s 10.121.17.140:55555 shell screencap -p) exited with code 0
+2026-02-12 10:03:48 +00:00: [10.121.17.206:55555] Screenshot saved to screenshot_10.121.17.206:55555_1770890627186.png
+2026-02-12 10:03:48 +00:00: [10.121.17.206:55555] adb process (-s 10.121.17.206:55555 shell screencap -p) exited with code 0
+2026-02-12 10:03:53 +00:00: [10.121.17.149:55555] Screenshot saved to screenshot_10.121.17.149:55555_1770890630838.png
+2026-02-12 10:03:53 +00:00: [10.121.17.149:55555] adb process (-s 10.121.17.149:55555 shell screencap -p) exited with code 0
+2026-02-12 10:03:56 +00:00: [10.121.17.139:55555] Screenshot saved to screenshot_10.121.17.139:55555_1770890635807.png
+2026-02-12 10:03:56 +00:00: [10.121.17.139:55555] adb process (-s 10.121.17.139:55555 shell screencap -p) exited with code 0
+2026-02-12 10:07:30 +00:00: 
+Received signal SIGINT
+2026-02-12 10:07:30 +00:00: Stopping HTTP(s) Server Service ...
+2026-02-12 10:07:30 +00:00: Stopping WebSocket Server Service ...
+2026-02-12 10:07:30 +00:00: Stopping aDevice Tracker [mobile-orch] ...
+2026-02-12 10:07:32 +00:00: Listening on:
+	http://mobile-orch:8000/ http://localhost:8000/
+2026-02-12 10:07:32 +00:00: 	http://127.0.0.1:8000/ http://10.1.0.5:8000/ http://10.121.17.222:8000/
+2026-02-12 10:07:32 +00:00: 	http://[::1]:8000/
+2026-02-12 10:07:52 +00:00: 
+Received signal SIGINT
+2026-02-12 10:07:52 +00:00: Stopping HTTP(s) Server Service ...
+2026-02-12 10:07:52 +00:00: Stopping WebSocket Server Service ...
+2026-02-12 10:07:52 +00:00: Stopping aDevice Tracker [mobile-orch] ...
+2026-02-12 10:07:55 +00:00: Listening on:
+	http://mobile-orch:8000/ http://localhost:8000/
+2026-02-12 10:07:55 +00:00: 	http://127.0.0.1:8000/ http://10.1.0.5:8000/ http://10.121.17.222:8000/
+2026-02-12 10:07:55 +00:00: 	http://[::1]:8000/
+2026-02-12 10:34:46 +00:00: [10.121.17.139:55555] Screenshot saved to screenshot_10.121.17.139:55555_1770892485709.png
+2026-02-12 10:34:46 +00:00: [10.121.17.139:55555] Screenshots directory: /home/fsd/ws-scrcpy/dist/public/screenshots
+2026-02-12 10:34:46 +00:00: [10.121.17.139:55555] adb process (-s 10.121.17.139:55555 shell screencap -p) exited with code 0
+2026-02-12 10:34:49 +00:00: [10.121.17.140:55555] Screenshot saved to screenshot_10.121.17.140:55555_1770892488068.png
+2026-02-12 10:34:49 +00:00: [10.121.17.140:55555] Screenshots directory: /home/fsd/ws-scrcpy/dist/public/screenshots
+2026-02-12 10:34:49 +00:00: [10.121.17.140:55555] adb process (-s 10.121.17.140:55555 shell screencap -p) exited with code 0
+2026-02-12 10:34:52 +00:00: [10.121.17.149:55555] Screenshot saved to screenshot_10.121.17.149:55555_1770892491286.png
+2026-02-12 10:34:52 +00:00: [10.121.17.149:55555] Screenshots directory: /home/fsd/ws-scrcpy/dist/public/screenshots
+2026-02-12 10:34:52 +00:00: [10.121.17.149:55555] adb process (-s 10.121.17.149:55555 shell screencap -p) exited with code 0
+2026-02-12 10:34:56 +00:00: [10.121.17.206:55555] Screenshot saved to screenshot_10.121.17.206:55555_1770892495304.png
+2026-02-12 10:34:56 +00:00: [10.121.17.206:55555] Screenshots directory: /home/fsd/ws-scrcpy/dist/public/screenshots
+2026-02-12 10:34:56 +00:00: [10.121.17.206:55555] adb process (-s 10.121.17.206:55555 shell screencap -p) exited with code 0
+2026-02-12 10:35:00 +00:00: [10.121.17.228:55555] Screenshot saved to screenshot_10.121.17.228:55555_1770892499265.png
+2026-02-12 10:35:00 +00:00: [10.121.17.228:55555] Screenshots directory: /home/fsd/ws-scrcpy/dist/public/screenshots
+2026-02-12 10:35:00 +00:00: [10.121.17.228:55555] adb process (-s 10.121.17.228:55555 shell screencap -p) exited with code 0
+2026-02-12 10:39:36 +00:00: 
+Received signal SIGINT
+2026-02-12 10:39:36 +00:00: Stopping HTTP(s) Server Service ...
+2026-02-12 10:39:36 +00:00: Stopping WebSocket Server Service ...
+2026-02-12 10:39:36 +00:00: Stopping aDevice Tracker [mobile-orch] ...
+2026-02-12 10:39:39 +00:00: Listening on:
+	http://mobile-orch:8000/ http://localhost:8000/
+2026-02-12 10:39:39 +00:00: 	http://127.0.0.1:8000/ http://10.1.0.5:8000/ http://10.121.17.222:8000/
+2026-02-12 10:39:39 +00:00: 	http://[::1]:8000/
+2026-02-12 10:39:49 +00:00: [10.121.17.139:55555] Screenshot saved to screenshot_10.121.17.139:55555_1770892789201.png
+2026-02-12 10:39:49 +00:00: [10.121.17.139:55555] Screenshots directory: /home/fsd/ws-scrcpy/dist/public/screenshots
+2026-02-12 10:39:49 +00:00: [10.121.17.139:55555] adb process (-s 10.121.17.139:55555 shell screencap -p) exited with code 0
+2026-02-12 10:39:51 +00:00: [10.121.17.140:55555] Screenshot saved to screenshot_10.121.17.140:55555_1770892790965.png
+2026-02-12 10:39:51 +00:00: [10.121.17.140:55555] Screenshots directory: /home/fsd/ws-scrcpy/dist/public/screenshots
+2026-02-12 10:39:51 +00:00: [10.121.17.140:55555] adb process (-s 10.121.17.140:55555 shell screencap -p) exited with code 0
+2026-02-12 10:39:54 +00:00: [10.121.17.206:55555] Screenshot saved to screenshot_10.121.17.206:55555_1770892793063.png
+2026-02-12 10:39:54 +00:00: [10.121.17.206:55555] Screenshots directory: /home/fsd/ws-scrcpy/dist/public/screenshots
+2026-02-12 10:39:54 +00:00: [10.121.17.206:55555] adb process (-s 10.121.17.206:55555 shell screencap -p) exited with code 0
+2026-02-12 10:39:58 +00:00: [10.121.17.149:55555] Screenshot saved to screenshot_10.121.17.149:55555_1770892797073.png
+2026-02-12 10:39:58 +00:00: [10.121.17.149:55555] Screenshots directory: /home/fsd/ws-scrcpy/dist/public/screenshots
+2026-02-12 10:39:58 +00:00: [10.121.17.149:55555] adb process (-s 10.121.17.149:55555 shell screencap -p) exited with code 0
+2026-02-12 10:40:01 +00:00: [10.121.17.228:55555] Screenshot saved to screenshot_10.121.17.228:55555_1770892800895.png
+2026-02-12 10:40:01 +00:00: [10.121.17.228:55555] Screenshots directory: /home/fsd/ws-scrcpy/dist/public/screenshots
+2026-02-12 10:40:01 +00:00: [10.121.17.228:55555] adb process (-s 10.121.17.228:55555 shell screencap -p) exited with code 0
+2026-02-12 10:40:48 +00:00: [10.121.17.228:55555] Screenshot saved to screenshot_10.121.17.228:55555_1770892847898.png
+2026-02-12 10:40:48 +00:00: [10.121.17.228:55555] Screenshots directory: /home/fsd/ws-scrcpy/dist/public/screenshots
+2026-02-12 10:40:48 +00:00: [10.121.17.228:55555] adb process (-s 10.121.17.228:55555 shell screencap -p) exited with code 0
+2026-02-12 11:04:37 +00:00: [10.121.17.139:55555] Screenshot saved to screenshot_10.121.17.139:55555_1770894276912.png
+2026-02-12 11:04:37 +00:00: [10.121.17.139:55555] Screenshots directory: /home/fsd/ws-scrcpy/dist/public/screenshots
+2026-02-12 11:04:37 +00:00: [10.121.17.139:55555] adb process (-s 10.121.17.139:55555 shell screencap -p) exited with code 0
+2026-02-12 11:04:40 +00:00: [10.121.17.149:55555] Screenshot saved to screenshot_10.121.17.149:55555_1770894279045.png
+2026-02-12 11:04:40 +00:00: [10.121.17.149:55555] Screenshots directory: /home/fsd/ws-scrcpy/dist/public/screenshots
+2026-02-12 11:04:40 +00:00: [10.121.17.149:55555] adb process (-s 10.121.17.149:55555 shell screencap -p) exited with code 0
+2026-02-12 11:04:41 +00:00: [10.121.17.140:55555] Screenshot saved to screenshot_10.121.17.140:55555_1770894280787.png
+2026-02-12 11:04:41 +00:00: [10.121.17.140:55555] Screenshots directory: /home/fsd/ws-scrcpy/dist/public/screenshots
+2026-02-12 11:04:41 +00:00: [10.121.17.140:55555] adb process (-s 10.121.17.140:55555 shell screencap -p) exited with code 0
+2026-02-12 11:04:42 +00:00: [10.121.17.228:55555] Screenshot saved to screenshot_10.121.17.228:55555_1770894282046.png
+2026-02-12 11:04:42 +00:00: [10.121.17.228:55555] Screenshots directory: /home/fsd/ws-scrcpy/dist/public/screenshots
+2026-02-12 11:04:42 +00:00: [10.121.17.228:55555] adb process (-s 10.121.17.228:55555 shell screencap -p) exited with code 0
+2026-02-12 11:04:44 +00:00: [10.121.17.206:55555] Screenshot saved to screenshot_10.121.17.206:55555_1770894283678.png
+2026-02-12 11:04:44 +00:00: [10.121.17.206:55555] Screenshots directory: /home/fsd/ws-scrcpy/dist/public/screenshots
+2026-02-12 11:04:44 +00:00: [10.121.17.206:55555] adb process (-s 10.121.17.206:55555 shell screencap -p) exited with code 0
+2026-02-12 11:04:49 +00:00: [10.121.17.139:55555] Screenshot saved to screenshot_10.121.17.139:55555_1770894288229.png
+2026-02-12 11:04:49 +00:00: [10.121.17.139:55555] Screenshots directory: /home/fsd/ws-scrcpy/dist/public/screenshots
+2026-02-12 11:04:49 +00:00: [10.121.17.139:55555] adb process (-s 10.121.17.139:55555 shell screencap -p) exited with code 0
+2026-02-12 11:13:18 +00:00: [10.121.17.139:55555] Screenshot saved to screenshot_10.121.17.139:55555_1770894797327.png
+2026-02-12 11:13:18 +00:00: [10.121.17.139:55555] Screenshots directory: /home/fsd/ws-scrcpy/dist/public/screenshots
+2026-02-12 11:13:18 +00:00: [10.121.17.139:55555] adb process (-s 10.121.17.139:55555 shell screencap -p) exited with code 0
+2026-02-12 11:13:24 +00:00: [10.121.17.140:55555] Screenshot saved to screenshot_10.121.17.140:55555_1770894803405.png
+2026-02-12 11:13:24 +00:00: [10.121.17.140:55555] Screenshots directory: /home/fsd/ws-scrcpy/dist/public/screenshots
+2026-02-12 11:13:24 +00:00: [10.121.17.140:55555] adb process (-s 10.121.17.140:55555 shell screencap -p) exited with code 0
+2026-02-12 11:13:30 +00:00: [10.121.17.206:55555] Screenshot saved to screenshot_10.121.17.206:55555_1770894807645.png
+2026-02-12 11:13:30 +00:00: [10.121.17.206:55555] Screenshots directory: /home/fsd/ws-scrcpy/dist/public/screenshots
+2026-02-12 11:13:30 +00:00: [10.121.17.206:55555] adb process (-s 10.121.17.206:55555 shell screencap -p) exited with code 0
+2026-02-12 11:26:15 +00:00: [10.121.17.139:55555] Screenshot saved to screenshot_10.121.17.139:55555_1770895575072.png
+2026-02-12 11:26:15 +00:00: [10.121.17.139:55555] Screenshots directory: /home/fsd/ws-scrcpy/dist/public/screenshots
+2026-02-12 11:26:15 +00:00: [10.121.17.139:55555] adb process (-s 10.121.17.139:55555 shell screencap -p) exited with code 0
+2026-02-12 11:26:32 +00:00: [10.121.17.139:55555] Screenshot saved to screenshot_10.121.17.139:55555_1770895589625.png
+2026-02-12 11:26:32 +00:00: [10.121.17.139:55555] Screenshots directory: /home/fsd/ws-scrcpy/dist/public/screenshots
+2026-02-12 11:26:32 +00:00: [10.121.17.139:55555] adb process (-s 10.121.17.139:55555 shell screencap -p) exited with code 0
+2026-02-12 11:26:47 +00:00: [10.121.17.149:55555] Screenshot saved to screenshot_10.121.17.149:55555_1770895606832.png
+2026-02-12 11:26:47 +00:00: [10.121.17.149:55555] Screenshots directory: /home/fsd/ws-scrcpy/dist/public/screenshots
+2026-02-12 11:26:47 +00:00: [10.121.17.149:55555] adb process (-s 10.121.17.149:55555 shell screencap -p) exited with code 0
+2026-02-12 11:26:59 +00:00: [10.121.17.149:55555] Screenshot saved to screenshot_10.121.17.149:55555_1770895619395.png
+2026-02-12 11:26:59 +00:00: [10.121.17.149:55555] Screenshots directory: /home/fsd/ws-scrcpy/dist/public/screenshots
+2026-02-12 11:26:59 +00:00: [10.121.17.149:55555] adb process (-s 10.121.17.149:55555 shell screencap -p) exited with code 0
+2026-02-12 12:12:40 +00:00: [10.121.17.149:55555] Screenshot saved to screenshot_10.121.17.149:55555_1770898358889.png
+2026-02-12 12:12:40 +00:00: [10.121.17.149:55555] Screenshots directory: /home/fsd/ws-scrcpy/dist/public/screenshots
+2026-02-12 12:12:40 +00:00: [10.121.17.149:55555] adb process (-s 10.121.17.149:55555 shell screencap -p) exited with code 0
+2026-02-12 12:12:43 +00:00: [10.121.17.228:55555] Screenshot saved to screenshot_10.121.17.228:55555_1770898362246.png
+2026-02-12 12:12:43 +00:00: [10.121.17.228:55555] Screenshots directory: /home/fsd/ws-scrcpy/dist/public/screenshots
+2026-02-12 12:12:43 +00:00: [10.121.17.228:55555] adb process (-s 10.121.17.228:55555 shell screencap -p) exited with code 0
+2026-02-12 12:12:47 +00:00: [10.121.17.140:55555] Screenshot saved to screenshot_10.121.17.140:55555_1770898366432.png
+2026-02-12 12:12:47 +00:00: [10.121.17.140:55555] Screenshots directory: /home/fsd/ws-scrcpy/dist/public/screenshots
+2026-02-12 12:12:47 +00:00: [10.121.17.140:55555] adb process (-s 10.121.17.140:55555 shell screencap -p) exited with code 0
+2026-02-12 12:12:50 +00:00: [10.121.17.206:55555] Screenshot saved to screenshot_10.121.17.206:55555_1770898369309.png
+2026-02-12 12:12:50 +00:00: [10.121.17.206:55555] Screenshots directory: /home/fsd/ws-scrcpy/dist/public/screenshots
+2026-02-12 12:12:50 +00:00: [10.121.17.206:55555] adb process (-s 10.121.17.206:55555 shell screencap -p) exited with code 0
+2026-02-12 12:12:52 +00:00: [10.121.17.139:55555] Screenshot saved to screenshot_10.121.17.139:55555_1770898372021.png
+2026-02-12 12:12:52 +00:00: [10.121.17.139:55555] Screenshots directory: /home/fsd/ws-scrcpy/dist/public/screenshots
+2026-02-12 12:12:52 +00:00: [10.121.17.139:55555] adb process (-s 10.121.17.139:55555 shell screencap -p) exited with code 0
+2026-02-13 02:05:22 +00:00: [10.121.17.140:55555] Screenshot saved to screenshot_10.121.17.140:55555_1770948320529.png
+2026-02-13 02:05:22 +00:00: [10.121.17.140:55555] Screenshots directory: /home/fsd/ws-scrcpy/dist/public/screenshots
+2026-02-13 02:05:22 +00:00: [10.121.17.140:55555] adb process (-s 10.121.17.140:55555 shell screencap -p) exited with code 0
+2026-02-13 02:12:23 +00:00: [10.121.17.149:55555] Screenshot saved to screenshot_10.121.17.149:55555_1770948743117.png
+2026-02-13 02:12:23 +00:00: [10.121.17.149:55555] Screenshots directory: /home/fsd/ws-scrcpy/dist/public/screenshots
+2026-02-13 02:12:23 +00:00: [10.121.17.149:55555] adb process (-s 10.121.17.149:55555 shell screencap -p) exited with code 0
+2026-02-13 02:13:36 +00:00: [10.121.17.228:55555] Screenshot saved to screenshot_10.121.17.228:55555_1770948815522.png
+2026-02-13 02:13:36 +00:00: [10.121.17.228:55555] Screenshots directory: /home/fsd/ws-scrcpy/dist/public/screenshots
+2026-02-13 02:13:36 +00:00: [10.121.17.228:55555] adb process (-s 10.121.17.228:55555 shell screencap -p) exited with code 0
+2026-02-13 02:13:41 +00:00: [10.121.17.228:55555] Screenshot saved to screenshot_10.121.17.228:55555_1770948821195.png
+2026-02-13 02:13:41 +00:00: [10.121.17.228:55555] Screenshots directory: /home/fsd/ws-scrcpy/dist/public/screenshots
+2026-02-13 02:13:41 +00:00: [10.121.17.228:55555] adb process (-s 10.121.17.228:55555 shell screencap -p) exited with code 0
+2026-02-13 02:13:50 +00:00: [10.121.17.228:55555] Screenshot saved to screenshot_10.121.17.228:55555_1770948829282.png
+2026-02-13 02:13:50 +00:00: [10.121.17.228:55555] Screenshots directory: /home/fsd/ws-scrcpy/dist/public/screenshots
+2026-02-13 02:13:50 +00:00: [10.121.17.228:55555] adb process (-s 10.121.17.228:55555 shell screencap -p) exited with code 0
+2026-02-13 02:15:38 +00:00: [10.121.17.139:55555] Screenshot saved to screenshot_10.121.17.139:55555_1770948935743.png
+2026-02-13 02:15:38 +00:00: [10.121.17.139:55555] Screenshots directory: /home/fsd/ws-scrcpy/dist/public/screenshots
+2026-02-13 02:15:38 +00:00: [10.121.17.139:55555] adb process (-s 10.121.17.139:55555 shell screencap -p) exited with code 0
+2026-02-13 02:15:51 +00:00: [10.121.17.206:55555] Screenshot saved to screenshot_10.121.17.206:55555_1770948949589.png
+2026-02-13 02:15:51 +00:00: [10.121.17.206:55555] Screenshots directory: /home/fsd/ws-scrcpy/dist/public/screenshots
+2026-02-13 02:15:51 +00:00: [10.121.17.206:55555] adb process (-s 10.121.17.206:55555 shell screencap -p) exited with code 0
+2026-02-13 03:57:01 +00:00: [10.121.17.140:55555] Screenshot saved to screenshot_10.121.17.140:55555_1770955020342.png
+2026-02-13 03:57:01 +00:00: [10.121.17.140:55555] Screenshots directory: /home/fsd/ws-scrcpy/dist/public/screenshots
+2026-02-13 03:57:01 +00:00: [10.121.17.140:55555] adb process (-s 10.121.17.140:55555 shell screencap -p) exited with code 0
+2026-02-13 04:11:08 +00:00: 
+Received signal SIGINT
+2026-02-13 04:11:08 +00:00: Stopping HTTP(s) Server Service ...
+2026-02-13 04:11:08 +00:00: Stopping WebSocket Server Service ...
+2026-02-13 04:11:08 +00:00: Stopping aDevice Tracker [mobile-orch] ...
+2026-02-13 04:11:11 +00:00: Listening on:
+	http://mobile-orch:8000/ http://localhost:8000/
+2026-02-13 04:11:11 +00:00: 	http://127.0.0.1:8000/ http://10.1.0.5:8000/ http://10.121.17.222:8000/
+2026-02-13 04:11:11 +00:00: 	http://[::1]:8000/
+2026-02-13 04:11:12 +00:00: [NocoDBApi] Cached 0 records from mobile-scrapers table
+2026-02-13 04:12:33 +00:00: 
+Received signal SIGINT
+2026-02-13 04:12:33 +00:00: Stopping HTTP(s) Server Service ...
+2026-02-13 04:12:33 +00:00: Stopping WebSocket Server Service ...
+2026-02-13 04:12:33 +00:00: Stopping aDevice Tracker [mobile-orch] ...
+2026-02-13 04:12:36 +00:00: Listening on:
+	http://mobile-orch:8000/ http://localhost:8000/
+2026-02-13 04:12:36 +00:00: 	http://127.0.0.1:8000/ http://10.1.0.5:8000/ http://10.121.17.222:8000/
+2026-02-13 04:12:36 +00:00: 	http://[::1]:8000/
+2026-02-13 04:12:37 +00:00: [NocoDBApi] Cached 0 records from mobile-scrapers table
+2026-02-13 04:16:24 +00:00: 
+Received signal SIGINT
+2026-02-13 04:16:24 +00:00: Stopping HTTP(s) Server Service ...
+2026-02-13 04:16:24 +00:00: Stopping WebSocket Server Service ...
+2026-02-13 04:16:24 +00:00: Stopping aDevice Tracker [mobile-orch] ...
+2026-02-13 04:16:26 +00:00: Listening on:
+	http://mobile-orch:8000/ http://localhost:8000/
+2026-02-13 04:16:26 +00:00: 	http://127.0.0.1:8000/ http://10.1.0.5:8000/ http://10.121.17.222:8000/
+2026-02-13 04:16:26 +00:00: 	http://[::1]:8000/
+2026-02-13 04:16:30 +00:00: [NocoDBApi] Cached 0 records from mobile-scrapers table
+2026-02-13 04:17:40 +00:00: 
+Received signal SIGINT
+2026-02-13 04:17:40 +00:00: Stopping HTTP(s) Server Service ...
+2026-02-13 04:17:40 +00:00: Stopping WebSocket Server Service ...
+2026-02-13 04:17:40 +00:00: Stopping aDevice Tracker [mobile-orch] ...
+2026-02-13 04:17:42 +00:00: Listening on:
+	http://mobile-orch:8000/ http://localhost:8000/
+2026-02-13 04:17:42 +00:00: 	http://127.0.0.1:8000/ http://10.1.0.5:8000/ http://10.121.17.222:8000/
+2026-02-13 04:17:42 +00:00: 	http://[::1]:8000/
+2026-02-13 04:17:45 +00:00: [NocoDBApi] Cached 0 records from mobile-scrapers table
+2026-02-13 04:24:31 +00:00: 
+Received signal SIGINT
+2026-02-13 04:24:31 +00:00: Stopping HTTP(s) Server Service ...
+2026-02-13 04:24:31 +00:00: Stopping WebSocket Server Service ...
+2026-02-13 04:24:31 +00:00: Stopping aDevice Tracker [mobile-orch] ...
+2026-02-13 04:24:33 +00:00: [dotenv@17.3.1] injecting env (3) from .env -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit
+2026-02-13 04:24:33 +00:00: Listening on:
+	http://mobile-orch:8000/ http://localhost:8000/
+2026-02-13 04:24:33 +00:00: 	http://127.0.0.1:8000/ http://10.1.0.5:8000/ http://10.121.17.222:8000/
+2026-02-13 04:24:33 +00:00: 	http://[::1]:8000/
+2026-02-13 04:29:44 +00:00: 
+Received signal SIGINT
+2026-02-13 04:29:44 +00:00: Stopping HTTP(s) Server Service ...
+2026-02-13 04:29:44 +00:00: Stopping WebSocket Server Service ...
+2026-02-13 04:29:44 +00:00: Stopping aDevice Tracker [mobile-orch] ...
+2026-02-13 04:29:46 +00:00: [dotenv@17.3.1] injecting env (3) from .env -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`
+2026-02-13 04:29:46 +00:00: Listening on:
+	http://mobile-orch:8000/ http://localhost:8000/
+2026-02-13 04:29:46 +00:00: 	http://127.0.0.1:8000/ http://10.1.0.5:8000/ http://10.121.17.222:8000/
+2026-02-13 04:29:46 +00:00: 	http://[::1]:8000/
+2026-02-13 04:29:49 +00:00: [NocoDBApi] Response from NocoDB: {
+  "error": "ERR_TABLE_NOT_FOUND",
+  "message": "Table 'p4ct2g2urhzcfnz' not found"
+}
+2026-02-13 04:29:49 +00:00: [NocoDBApi] Cached 0 records from mobile-scrapers table
+2026-02-13 04:30:19 +00:00: 
+Received signal SIGINT
+2026-02-13 04:30:19 +00:00: Stopping HTTP(s) Server Service ...
+2026-02-13 04:30:19 +00:00: Stopping WebSocket Server Service ...
+2026-02-13 04:30:19 +00:00: Stopping aDevice Tracker [mobile-orch] ...
+2026-02-13 04:30:21 +00:00: [dotenv@17.3.1] injecting env (3) from .env -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`
+2026-02-13 04:30:21 +00:00: Listening on:
+	http://mobile-orch:8000/ http://localhost:8000/
+2026-02-13 04:30:21 +00:00: 	http://127.0.0.1:8000/ http://10.1.0.5:8000/ http://10.121.17.222:8000/
+2026-02-13 04:30:21 +00:00: 	http://[::1]:8000/
+2026-02-13 04:30:24 +00:00: [NocoDBApi] Response from NocoDB: {
+  "list": [
+    {
+      "Id": 1,
+      "CreatedAt": "2026-01-30 04:15:25+00:00",
+      "UpdatedAt": "2026-02-13 03:45:26+00:00",
+      "ztnet_ip": "10.121.17.228:55555",
+      "label": "magpie-infinix-zt-1",
+      "regions": "id",
+      "loggedin": "id,th,ph,sg",
+      "operator": "<@403527393484210187>",
+      "remote_stream": null,
+      "active": true
+    },
+    {
+      "Id": 2,
+      "CreatedAt": "2026-01-30 06:27:47+00:00",
+      "UpdatedAt": "2026-02-12 07:13:35+00:00",
+      "ztnet_ip": "10.121.17.149:55555",
+      "label": "magpie-motorola-zt-1",
+      "regions": "th",
+      "loggedin": "id,sg,ph,my,vn",
+      "operator": "<@1361207913741549608>",
+      "remote_stream": null,
+      "active": true
+    },
+    {
+      "Id": 4,
+      "CreatedAt": "2026-02-03 05:22:35+00:00",
+      "UpdatedAt": "2026-02-12 10:22:32+00:00",
+      "ztnet_ip": "10.121.17.140:55555",
+      "label": "magpie-infinix-zt-2",
+      "regions": "id",
+      "loggedin": "id,vn,th",
+      "operator": "<@403527393484210187>",
+      "remote_stream": null,
+      "active": true
+    },
+    {
+      "Id": 5,
+      "CreatedAt": "2026-02-03 09:44:06+00:00",
+      "UpdatedAt": "2026-02-12 08:31:19+00:00",
+      "ztnet_ip": "10.121.17.139:55555",
+      "label": "magpie-samsung-1",
+      "regions": "ph,my,th",
+      "loggedin": "id,th,my,ph,vn",
+      "operator": "<@1361207913741549608>",
+      "remote_stream": null,
+      "active": true
+    },
+    {
+      "Id": 6,
+      "CreatedAt": "2026-02-09 10:32:00+00:00",
+      "UpdatedAt": "2026-02-11 09:45:45+00:00",
+      "ztnet_ip": "10.121.17.206:55555",
+      "label": "magpie-infinix-zt-3",
+      "regions": "id",
+      "loggedin": "vn,ph,id,sg",
+      "operator": "<@721896653896024125>",
+      "remote_stream": null,
+      "active": true
+    }
+  ],
+  "pageInfo": {
+    "totalRows": 5,
+    "page": 1,
+    "pageSize": 50,
+    "isFirstPage": true,
+    "isLastPage": true
+  }
+}
+2026-02-13 04:30:24 +00:00: [NocoDBApi] Cached 0 records from mobile-scrapers table
+2026-02-13 04:30:52 +00:00: [10.121.17.149:55555] Screenshot saved to screenshot_10.121.17.149:55555_1770957051442.png
+2026-02-13 04:30:52 +00:00: [10.121.17.149:55555] Screenshots directory: /home/fsd/ws-scrcpy/dist/public/screenshots
+2026-02-13 04:30:52 +00:00: [10.121.17.149:55555] adb process (-s 10.121.17.149:55555 shell screencap -p) exited with code 0
+2026-02-13 04:34:04 +00:00: 
+Received signal SIGINT
+2026-02-13 04:34:04 +00:00: Stopping HTTP(s) Server Service ...
+2026-02-13 04:34:04 +00:00: Stopping WebSocket Server Service ...
+2026-02-13 04:34:04 +00:00: Stopping aDevice Tracker [mobile-orch] ...
+2026-02-13 04:34:06 +00:00: [dotenv@17.3.1] injecting env (3) from .env -- tip: ⚙️  specify custom .env file path with { path: '/custom/path/.env' }
+2026-02-13 04:34:06 +00:00: Listening on:
+	http://mobile-orch:8000/ http://localhost:8000/
+2026-02-13 04:34:06 +00:00: 	http://127.0.0.1:8000/ http://10.1.0.5:8000/ http://10.121.17.222:8000/
+2026-02-13 04:34:06 +00:00: 	http://[::1]:8000/
+2026-02-13 04:34:09 +00:00: [NocoDBApi] Cached 5 records from mobile-scrapers table
+2026-02-13 04:34:16 +00:00: 
+Received signal SIGINT
+2026-02-13 04:34:16 +00:00: Stopping HTTP(s) Server Service ...
+2026-02-13 04:34:16 +00:00: Stopping WebSocket Server Service ...
+2026-02-13 04:34:16 +00:00: Stopping aDevice Tracker [mobile-orch] ...
+2026-02-13 04:34:18 +00:00: [dotenv@17.3.1] injecting env (3) from .env -- tip: ⚡️ secrets for agents: https://dotenvx.com/as2
+2026-02-13 04:34:18 +00:00: Listening on:
+	http://mobile-orch:8000/ http://localhost:8000/
+2026-02-13 04:34:18 +00:00: 	http://127.0.0.1:8000/ http://10.1.0.5:8000/ http://10.121.17.222:8000/
+2026-02-13 04:34:18 +00:00: 	http://[::1]:8000/
+2026-02-13 04:34:22 +00:00: 
+Received signal SIGINT
+2026-02-13 04:34:22 +00:00: Stopping HTTP(s) Server Service ...
+2026-02-13 04:34:22 +00:00: Stopping WebSocket Server Service ...
+2026-02-13 04:34:22 +00:00: Stopping aDevice Tracker [mobile-orch] ...
+2026-02-13 04:34:24 +00:00: [dotenv@17.3.1] injecting env (3) from .env -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit
+2026-02-13 04:34:25 +00:00: Listening on:
+	http://mobile-orch:8000/ http://localhost:8000/
+2026-02-13 04:34:25 +00:00: 	http://127.0.0.1:8000/ http://10.1.0.5:8000/ http://10.121.17.222:8000/
+2026-02-13 04:34:25 +00:00: 	http://[::1]:8000/
+2026-02-13 04:34:26 +00:00: 
+Received signal SIGINT
+2026-02-13 04:34:26 +00:00: Stopping HTTP(s) Server Service ...
+2026-02-13 04:34:26 +00:00: Stopping WebSocket Server Service ...
+2026-02-13 04:34:26 +00:00: Stopping aDevice Tracker [mobile-orch] ...
+2026-02-13 04:34:29 +00:00: [dotenv@17.3.1] injecting env (3) from .env -- tip: ⚡️ secrets for agents: https://dotenvx.com/as2
+2026-02-13 04:34:29 +00:00: Listening on:
+	http://mobile-orch:8000/ http://localhost:8000/
+2026-02-13 04:34:29 +00:00: 	http://127.0.0.1:8000/ http://10.1.0.5:8000/ http://10.121.17.222:8000/
+2026-02-13 04:34:29 +00:00: 	http://[::1]:8000/
+2026-02-13 04:34:35 +00:00: [NocoDBApi] Cached 5 records from mobile-scrapers table
+2026-02-13 04:38:44 +00:00: 
+Received signal SIGINT
+2026-02-13 04:38:44 +00:00: Stopping HTTP(s) Server Service ...
+2026-02-13 04:38:44 +00:00: Stopping WebSocket Server Service ...
+2026-02-13 04:38:44 +00:00: Stopping aDevice Tracker [mobile-orch] ...
+2026-02-13 04:38:46 +00:00: [dotenv@17.3.1] injecting env (3) from .env -- tip: 🤖 agentic secret storage: https://dotenvx.com/as2
+2026-02-13 04:38:46 +00:00: Listening on:
+	http://mobile-orch:8000/ http://localhost:8000/
+2026-02-13 04:38:46 +00:00: 	http://127.0.0.1:8000/ http://10.1.0.5:8000/ http://10.121.17.222:8000/
+2026-02-13 04:38:46 +00:00: 	http://[::1]:8000/
+2026-02-13 04:38:49 +00:00: [NocoDBApi] Cached 5 records from mobile-scrapers table
+2026-02-13 04:42:54 +00:00: 
+Received signal SIGINT
+2026-02-13 04:42:54 +00:00: Stopping HTTP(s) Server Service ...
+2026-02-13 04:42:54 +00:00: Stopping WebSocket Server Service ...
+2026-02-13 04:42:54 +00:00: Stopping aDevice Tracker [mobile-orch] ...
+2026-02-13 04:42:56 +00:00: [dotenv@17.3.1] injecting env (3) from .env -- tip: ⚙️  specify custom .env file path with { path: '/custom/path/.env' }
+2026-02-13 04:42:57 +00:00: Listening on:
+	http://mobile-orch:8000/ http://localhost:8000/
+2026-02-13 04:42:57 +00:00: 	http://127.0.0.1:8000/ http://10.1.0.5:8000/ http://10.121.17.222:8000/
+2026-02-13 04:42:57 +00:00: 	http://[::1]:8000/
+2026-02-13 04:43:00 +00:00: [NocoDBApi] Cached 5 records from mobile-scrapers table
+2026-02-13 04:50:42 +00:00: 
+Received signal SIGINT
+2026-02-13 04:50:42 +00:00: Stopping HTTP(s) Server Service ...
+2026-02-13 04:50:42 +00:00: Stopping WebSocket Server Service ...
+2026-02-13 04:50:42 +00:00: Stopping aDevice Tracker [mobile-orch] ...
+2026-02-13 04:50:44 +00:00: [dotenv@17.3.1] injecting env (3) from .env -- tip: ⚡️ secrets for agents: https://dotenvx.com/as2
+2026-02-13 04:50:45 +00:00: Listening on:
+	http://mobile-orch:8000/ http://localhost:8000/
+2026-02-13 04:50:45 +00:00: 	http://127.0.0.1:8000/ http://10.1.0.5:8000/ http://10.121.17.222:8000/
+2026-02-13 04:50:45 +00:00: 	http://[::1]:8000/
+2026-02-13 04:50:48 +00:00: [NocoDBApi] Cached 5 records from mobile-scrapers table
+2026-02-13 05:59:13 +00:00: [NocoDBApi] Cached 5 records from mobile-scrapers table
+2026-02-13 07:06:58 +00:00: [NocoDBApi] Cached 5 records from mobile-scrapers table
+2026-02-13 07:08:51 +00:00: 
+Received signal SIGINT
+2026-02-13 07:08:51 +00:00: Stopping HTTP(s) Server Service ...
+2026-02-13 07:08:51 +00:00: Stopping WebSocket Server Service ...
+2026-02-13 07:08:51 +00:00: Stopping aDevice Tracker [mobile-orch] ...
+2026-02-13 07:08:54 +00:00: [dotenv@17.3.1] injecting env (3) from .env -- tip: 🤖 agentic secret storage: https://dotenvx.com/as2
+2026-02-13 07:08:54 +00:00: Listening on:
+	http://mobile-orch:8000/ http://localhost:8000/
+2026-02-13 07:08:54 +00:00: 	http://127.0.0.1:8000/ http://10.1.0.5:8000/ http://10.121.17.222:8000/
+2026-02-13 07:08:54 +00:00: 	http://[::1]:8000/
+2026-02-13 07:08:55 +00:00: [NocoDBApi] Cached 5 records from mobile-scrapers table
+2026-02-13 07:19:03 +00:00: 
+Received signal SIGINT
+2026-02-13 07:19:03 +00:00: Stopping HTTP(s) Server Service ...
+2026-02-13 07:19:03 +00:00: Stopping WebSocket Server Service ...
+2026-02-13 07:19:03 +00:00: Stopping aDevice Tracker [mobile-orch] ...
+2026-02-13 07:19:05 +00:00: [dotenv@17.3.1] injecting env (3) from .env -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }
+2026-02-13 07:19:05 +00:00: Listening on:
+	http://mobile-orch:8000/ http://localhost:8000/
+2026-02-13 07:19:05 +00:00: 	http://127.0.0.1:8000/ http://10.1.0.5:8000/ http://10.121.17.222:8000/
+2026-02-13 07:19:05 +00:00: 	http://[::1]:8000/
+2026-02-13 07:19:07 +00:00: [NocoDBApi] Cached 5 records from mobile-scrapers table
+2026-02-13 07:19:43 +00:00: [10.121.17.139:55555] Screenshot saved to screenshot_10.121.17.139:55555_1770967182634.png
+2026-02-13 07:19:43 +00:00: [10.121.17.139:55555] Screenshots directory: /home/fsd/ws-scrcpy/dist/public/screenshots
+2026-02-13 07:19:43 +00:00: [10.121.17.139:55555] adb process (-s 10.121.17.139:55555 shell screencap -p) exited with code 0
+2026-02-13 07:20:11 +00:00: [10.121.17.139:55555] start server: "16919"
+2026-02-13 07:25:27 +00:00: [NocoDBApi] Cached 5 records from mobile-scrapers table
+2026-02-13 07:36:59 +00:00: [NocoDBApi] Cached 5 records from mobile-scrapers table
+2026-02-13 07:42:00 +00:00: 
+Received signal SIGINT
+2026-02-13 07:42:00 +00:00: Stopping HTTP(s) Server Service ...
+2026-02-13 07:42:00 +00:00: Stopping WebSocket Server Service ...
+2026-02-13 07:42:00 +00:00: Stopping aDevice Tracker [mobile-orch] ...
+2026-02-13 07:42:00 +00:00: [10.121.17.139:55555] adb process (-s 10.121.17.139:55555 shell CLASSPATH=/data/local/tmp/scrcpy-server.jar nohup app_process / com.genymobile.scrcpy.Server 1.19-ws6 web ERROR 8886 true 2>&1 > /dev/null) exited with code null
+2026-02-13 07:42:00 +00:00: [10.121.17.139:55555] Server exited: 
+2026-02-13 07:42:02 +00:00: [dotenv@17.3.1] injecting env (3) from .env -- tip: ⚙️  write to custom object with { processEnv: myObject }
+2026-02-13 07:42:02 +00:00: Listening on:
+	http://mobile-orch:8000/ http://localhost:8000/
+2026-02-13 07:42:02 +00:00: 	http://127.0.0.1:8000/ http://10.1.0.5:8000/ http://10.121.17.222:8000/
+2026-02-13 07:42:02 +00:00: 	http://[::1]:8000/
+2026-02-13 07:42:06 +00:00: [NocoDBApi] Cached 5 records from mobile-scrapers table
+2026-02-13 08:31:29 +00:00: [NocoDBApi] Cached 5 records from mobile-scrapers table
+2026-02-13 08:33:49 +00:00: [NocoDBApi] Cached 5 records from mobile-scrapers table
+2026-02-13 08:43:02 +00:00: [NocoDBApi] Cached 5 records from mobile-scrapers table
+2026-02-13 08:43:32 +00:00: 
+Received signal SIGINT
+2026-02-13 08:43:32 +00:00: Stopping HTTP(s) Server Service ...
+2026-02-13 08:43:32 +00:00: Stopping WebSocket Server Service ...
+2026-02-13 08:43:32 +00:00: Stopping aDevice Tracker [mobile-orch] ...
+2026-02-13 08:43:35 +00:00: [dotenv@17.3.1] injecting env (3) from .env -- tip: ⚡️ secrets for agents: https://dotenvx.com/as2
+2026-02-13 08:43:35 +00:00: Listening on:
+	http://mobile-orch:8000/ http://localhost:8000/
+2026-02-13 08:43:35 +00:00: 	http://127.0.0.1:8000/ http://10.1.0.5:8000/ http://10.121.17.222:8000/
+2026-02-13 08:43:35 +00:00: 	http://[::1]:8000/
+2026-02-13 08:43:36 +00:00: [NocoDBApi] Cached 5 records from mobile-scrapers table
+2026-02-13 08:43:36 +00:00: [NocoDBApi] Cached 5 records from mobile-scrapers table
+2026-02-13 08:43:36 +00:00: [NocoDBApi] Cached 5 records from mobile-scrapers table
+2026-02-13 08:43:42 +00:00: [NocoDBApi] Record 4 updated successfully
+2026-02-13 08:45:35 +00:00: [NocoDBApi] Cached 5 records from mobile-scrapers table
+2026-02-13 08:47:15 +00:00: [NocoDBApi] Cached 5 records from mobile-scrapers table
+2026-02-13 08:53:34 +00:00: 
+Received signal SIGINT
+2026-02-13 08:53:34 +00:00: Stopping HTTP(s) Server Service ...
+2026-02-13 08:53:34 +00:00: Stopping WebSocket Server Service ...
+2026-02-13 08:53:34 +00:00: Stopping aDevice Tracker [mobile-orch] ...
+2026-02-13 08:53:37 +00:00: [dotenv@17.3.1] injecting env (3) from .env -- tip: ⚙️  override existing env vars with { override: true }
+2026-02-13 08:53:37 +00:00: Listening on:
+	http://mobile-orch:8000/ http://localhost:8000/
+2026-02-13 08:53:37 +00:00: 	http://127.0.0.1:8000/ http://10.1.0.5:8000/ http://10.121.17.222:8000/
+2026-02-13 08:53:37 +00:00: 	http://[::1]:8000/
+2026-02-13 08:53:38 +00:00: [NocoDBApi] Cached 5 records from mobile-scrapers table
+2026-02-13 09:03:08 +00:00: [NocoDBApi] Cached 5 records from mobile-scrapers table
+2026-02-13 09:03:08 +00:00: [NocoDBApi] Cached 5 records from mobile-scrapers table
+2026-02-13 09:03:08 +00:00: [NocoDBApi] Cached 5 records from mobile-scrapers table
+2026-02-13 09:06:35 +00:00: 
+Received signal SIGINT
+2026-02-13 09:06:35 +00:00: Stopping HTTP(s) Server Service ...
+2026-02-13 09:06:35 +00:00: Stopping WebSocket Server Service ...
+2026-02-13 09:06:35 +00:00: Stopping aDevice Tracker [mobile-orch] ...
+2026-02-13 09:06:37 +00:00: [dotenv@17.3.1] injecting env (3) from .env -- tip: ⚙️  specify custom .env file path with { path: '/custom/path/.env' }
+2026-02-13 09:06:37 +00:00: Listening on:
+	http://mobile-orch:8000/ http://localhost:8000/
+2026-02-13 09:06:37 +00:00: 	http://127.0.0.1:8000/ http://10.1.0.5:8000/ http://10.121.17.222:8000/
+2026-02-13 09:06:37 +00:00: 	http://[::1]:8000/
+2026-02-13 09:06:39 +00:00: [NocoDBApi] Cached 5 records from mobile-scrapers table
+2026-02-13 09:11:01 +00:00: 
+Received signal SIGINT
+2026-02-13 09:11:01 +00:00: Stopping HTTP(s) Server Service ...
+2026-02-13 09:11:01 +00:00: Stopping WebSocket Server Service ...
+2026-02-13 09:11:01 +00:00: Stopping aDevice Tracker [mobile-orch] ...
+2026-02-13 09:11:03 +00:00: [dotenv@17.3.1] injecting env (3) from .env -- tip: 🤖 agentic secret storage: https://dotenvx.com/as2
+2026-02-13 09:11:04 +00:00: Listening on:
+	http://mobile-orch:8000/ http://localhost:8000/
+2026-02-13 09:11:04 +00:00: 	http://127.0.0.1:8000/ http://10.1.0.5:8000/ http://10.121.17.222:8000/
+2026-02-13 09:11:04 +00:00: 	http://[::1]:8000/
+2026-02-13 09:11:05 +00:00: [NocoDBApi] Cached 5 records from mobile-scrapers table
+2026-02-13 09:16:49 +00:00: [NocoDBApi] Cached 5 records from mobile-scrapers table
+2026-02-13 09:18:47 +00:00: 
+Received signal SIGINT
+2026-02-13 09:18:47 +00:00: Stopping HTTP(s) Server Service ...
+2026-02-13 09:18:47 +00:00: Stopping WebSocket Server Service ...
+2026-02-13 09:18:47 +00:00: Stopping aDevice Tracker [mobile-orch] ...
+2026-02-13 09:18:50 +00:00: [dotenv@17.3.1] injecting env (3) from .env -- tip: ⚙️  enable debug logging with { debug: true }
+2026-02-13 09:18:50 +00:00: Listening on:
+	http://mobile-orch:8000/ http://localhost:8000/
+2026-02-13 09:18:50 +00:00: 	http://127.0.0.1:8000/ http://10.1.0.5:8000/ http://10.121.17.222:8000/
+2026-02-13 09:18:50 +00:00: 	http://[::1]:8000/
+2026-02-13 09:18:52 +00:00: [NocoDBApi] Cached 5 records from mobile-scrapers table
+2026-02-13 09:18:57 +00:00: [10.121.17.206:55555] Screenshot saved to screenshot_10.121.17.206:55555_1770974336480.png
+2026-02-13 09:18:57 +00:00: [10.121.17.206:55555] Screenshots directory: /home/fsd/ws-scrcpy/dist/public/screenshots
+2026-02-13 09:18:57 +00:00: [10.121.17.206:55555] adb process (-s 10.121.17.206:55555 shell screencap -p) exited with code 0
+2026-02-13 09:19:00 +00:00: [10.121.17.149:55555] Screenshot saved to screenshot_10.121.17.149:55555_1770974339206.png
+2026-02-13 09:19:00 +00:00: [10.121.17.149:55555] Screenshots directory: /home/fsd/ws-scrcpy/dist/public/screenshots
+2026-02-13 09:19:00 +00:00: [10.121.17.149:55555] adb process (-s 10.121.17.149:55555 shell screencap -p) exited with code 0
+2026-02-13 09:19:02 +00:00: [10.121.17.140:55555] Screenshot saved to screenshot_10.121.17.140:55555_1770974341747.png
+2026-02-13 09:19:02 +00:00: [10.121.17.140:55555] Screenshots directory: /home/fsd/ws-scrcpy/dist/public/screenshots
+2026-02-13 09:19:02 +00:00: [10.121.17.140:55555] adb process (-s 10.121.17.140:55555 shell screencap -p) exited with code 0
+2026-02-13 09:19:03 +00:00: [10.121.17.139:55555] Screenshot saved to screenshot_10.121.17.139:55555_1770974343364.png
+2026-02-13 09:19:03 +00:00: [10.121.17.139:55555] Screenshots directory: /home/fsd/ws-scrcpy/dist/public/screenshots
+2026-02-13 09:19:03 +00:00: [10.121.17.139:55555] adb process (-s 10.121.17.139:55555 shell screencap -p) exited with code 0
+2026-02-13 09:19:05 +00:00: [10.121.17.228:55555] Screenshot saved to screenshot_10.121.17.228:55555_1770974345013.png
+2026-02-13 09:19:05 +00:00: [10.121.17.228:55555] Screenshots directory: /home/fsd/ws-scrcpy/dist/public/screenshots
+2026-02-13 09:19:05 +00:00: [10.121.17.228:55555] adb process (-s 10.121.17.228:55555 shell screencap -p) exited with code 0
+2026-02-13 09:21:33 +00:00: [10.121.17.149:55555] Screenshot saved to screenshot_10.121.17.149:55555_1770974491997.png
+2026-02-13 09:21:33 +00:00: [10.121.17.149:55555] Screenshots directory: /home/fsd/ws-scrcpy/dist/public/screenshots
+2026-02-13 09:21:33 +00:00: [10.121.17.149:55555] adb process (-s 10.121.17.149:55555 shell screencap -p) exited with code 0

@@ -67,10 +67,34 @@ export abstract class BaseDeviceTracker<DD extends BaseDeviceDescriptor, TE exte
         const a = document.createElement('a');
         a.setAttribute('href', `${protocol}//${hostname}:${port}${pathname}${hash}`);
         a.setAttribute('rel', 'noopener noreferrer');
-        a.setAttribute('target', '_blank');
         a.classList.add(`link-${q.action}`);
         a.innerText = text;
+        const action = q.action as string;
+        if (action.includes('stream')) {
+            a.onclick = (event: MouseEvent) => {
+                event.preventDefault();
+                BaseDeviceTracker.openStreamInIframe(`${protocol}//${hostname}:${port}${pathname}${hash}`);
+            };
+        } else {
+            a.setAttribute('target', '_blank');
+        }
         return a;
+    }
+
+    private static openStreamInIframe(url: string): void {
+        let streamContainer = document.getElementById('stream-view-container');
+        if (!streamContainer) {
+            streamContainer = document.createElement('div');
+            streamContainer.id = 'stream-view-container';
+            document.body.appendChild(streamContainer);
+        }
+        let iframe = streamContainer.querySelector('iframe') as HTMLIFrameElement | null;
+        if (!iframe) {
+            iframe = document.createElement('iframe');
+            streamContainer.appendChild(iframe);
+        }
+        iframe.src = url;
+        document.body.classList.add('split-view');
     }
 
     protected title = 'Device list';
@@ -107,7 +131,6 @@ export abstract class BaseDeviceTracker<DD extends BaseDeviceDescriptor, TE exte
         const data = this.descriptors;
         const devices = this.getOrCreateTableHolder();
         const tbody = this.getOrBuildTableBody(devices);
-
         const block = this.getOrCreateTrackerBlock(tbody, this.trackerName);
         data.forEach((item) => {
             this.buildDeviceRow(block, item);
@@ -124,6 +147,8 @@ export abstract class BaseDeviceTracker<DD extends BaseDeviceDescriptor, TE exte
             nameEl = document.createElement('div');
             nameEl.id = nameBlockId;
             nameEl.className = 'tracker-name';
+            nameEl.style.width = '100%';
+            nameEl.style.flexBasis = '100%';
         }
         nameEl.innerText = name;
         parent.insertBefore(nameEl, parent.firstChild);
@@ -134,6 +159,7 @@ export abstract class BaseDeviceTracker<DD extends BaseDeviceDescriptor, TE exte
         if (!el) {
             el = document.createElement('div');
             el.id = this.elementId;
+            el.style.display = 'contents';
             parent.appendChild(el);
             this.created = true;
         } else {

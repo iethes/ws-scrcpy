@@ -76,7 +76,14 @@ export class HttpServer extends TypedEmitter<HttpServerEvents> implements Servic
 
     public async start(): Promise<void> {
         this.mainApp = express();
+        this.mainApp.use(express.json());
         if (HttpServer.SERVE_STATIC && HttpServer.PUBLIC_DIR) {
+            this.mainApp.use((_req, res, next) => {
+                res.header('Access-Control-Allow-Origin', '*');
+                res.header('Access-Control-Allow-Methods', 'GET, POST, PUT, PATCH, DELETE, OPTIONS');
+                res.header('Access-Control-Allow-Headers', 'Content-Type, Authorization');
+                next();
+            });
             this.mainApp.use(PATHNAME, express.static(HttpServer.PUBLIC_DIR));
 
             /// #if USE_WDA_MJPEG_SERVER
@@ -84,6 +91,36 @@ export class HttpServer extends TypedEmitter<HttpServerEvents> implements Servic
             const { MjpegProxyFactory } = await import('../mw/MjpegProxyFactory');
             this.mainApp.get('/mjpeg/:udid', new MjpegProxyFactory().proxyRequest);
             /// #endif
+
+            const { NocoDBApi } = await import('./NocoDBApi');
+            this.mainApp.get('/api/mobile-scrapers', async (_req, res) => {
+                try {
+                    const nocodb = NocoDBApi.getInstance();
+                    const data = await nocodb.getMobileScraperData();
+                    const records = Array.from(data.values());
+                    res.json({ records });
+                } catch (error: any) {
+                    res.status(500).json({ error: error.message });
+                }
+            });
+            this.mainApp.post('/api/mobile-scrapers', async (req, res) => {
+                try {
+                    const { ztnet_ip, regions } = req.body;
+                    if (!ztnet_ip || typeof regions !== 'string') {
+                        return res.status(400).json({ error: 'Invalid request body' });
+                    }
+                    const nocodb = NocoDBApi.getInstance();
+                    const record = nocodb.getRecordByZtnetIp(ztnet_ip);
+                    if (!record) {
+                        return res.status(404).json({ error: 'Device not found' });
+                    }
+                    await nocodb.updateRecord(record.Id, { regions });
+                    return res.json({ success: true });
+                } catch (error: any) {
+                    console.error('Error updating mobile-scrapers:', error);
+                    return res.status(500).json({ error: error.message });
+                }
+            });
         }
         const config = Config.getInstance();
         config.servers.forEach((serverItem) => {

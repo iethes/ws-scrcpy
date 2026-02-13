@@ -545,3 +545,48 @@ Received signal SIGINT
 2026-02-13 09:21:33 +00:00: [10.121.17.149:55555] Screenshot saved to screenshot_10.121.17.149:55555_1770974491997.png
 2026-02-13 09:21:33 +00:00: [10.121.17.149:55555] Screenshots directory: /home/fsd/ws-scrcpy/dist/public/screenshots
 2026-02-13 09:21:33 +00:00: [10.121.17.149:55555] adb process (-s 10.121.17.149:55555 shell screencap -p) exited with code 0
+2026-02-13 09:28:21 +00:00: 
+Received signal SIGINT
+2026-02-13 09:28:21 +00:00: Stopping HTTP(s) Server Service ...
+2026-02-13 09:28:21 +00:00: Stopping WebSocket Server Service ...
+2026-02-13 09:28:21 +00:00: Stopping aDevice Tracker [mobile-orch] ...
+2026-02-13 09:28:23 +00:00: [dotenv@17.3.1] injecting env (3) from .env -- tip: 🔐 prevent building .env in docker: https://dotenvx.com/prebuild
+2026-02-13 09:28:23 +00:00: Listening on:
+	http://mobile-orch:8000/ http://localhost:8000/
+2026-02-13 09:28:23 +00:00: 	http://127.0.0.1:8000/ http://10.1.0.5:8000/ http://10.121.17.222:8000/
+2026-02-13 09:28:23 +00:00: 	http://[::1]:8000/
+2026-02-13 09:28:24 +00:00: [NocoDBApi] Cached 5 records from mobile-scrapers table
+2026-02-13 09:29:42 +00:00: 
+Received signal SIGINT
+2026-02-13 09:29:42 +00:00: Stopping HTTP(s) Server Service ...
+2026-02-13 09:29:42 +00:00: Stopping WebSocket Server Service ...
+2026-02-13 09:29:42 +00:00: Stopping aDevice Tracker [mobile-orch] ...
+2026-02-13 09:29:44 +00:00: [dotenv@17.3.1] injecting env (3) from .env -- tip: ⚙️  suppress all logs with { quiet: true }
+2026-02-13 09:29:45 +00:00: Listening on:
+	http://mobile-orch:8000/ http://localhost:8000/
+2026-02-13 09:29:45 +00:00: 	http://127.0.0.1:8000/ http://10.1.0.5:8000/ http://10.121.17.222:8000/
+2026-02-13 09:29:45 +00:00: 	http://[::1]:8000/
+2026-02-13 09:29:47 +00:00: [NocoDBApi] Cached 5 records from mobile-scrapers table
+2026-02-13 09:30:58 +00:00: [NocoDBApi] Cached 5 records from mobile-scrapers table
+2026-02-13 09:32:20 +00:00: 
+Received signal SIGINT
+2026-02-13 09:32:20 +00:00: Stopping HTTP(s) Server Service ...
+2026-02-13 09:32:20 +00:00: Stopping WebSocket Server Service ...
+2026-02-13 09:32:20 +00:00: Stopping aDevice Tracker [mobile-orch] ...
+2026-02-13 09:32:23 +00:00: [dotenv@17.3.1] injecting env (3) from .env -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit
+2026-02-13 09:32:23 +00:00: Listening on:
+	http://mobile-orch:8000/ http://localhost:8000/
+2026-02-13 09:32:23 +00:00: 	http://127.0.0.1:8000/ http://10.1.0.5:8000/ http://10.121.17.222:8000/
+2026-02-13 09:32:23 +00:00: 	http://[::1]:8000/
+2026-02-13 09:32:24 +00:00: [NocoDBApi] Cached 5 records from mobile-scrapers table
+2026-02-13 09:35:17 +00:00: 
+Received signal SIGINT
+2026-02-13 09:35:17 +00:00: Stopping HTTP(s) Server Service ...
+2026-02-13 09:35:17 +00:00: Stopping WebSocket Server Service ...
+2026-02-13 09:35:17 +00:00: Stopping aDevice Tracker [mobile-orch] ...
+2026-02-13 09:35:19 +00:00: [dotenv@17.3.1] injecting env (3) from .env -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit
+2026-02-13 09:35:19 +00:00: Listening on:
+	http://mobile-orch:8000/ http://localhost:8000/
+2026-02-13 09:35:19 +00:00: 	http://127.0.0.1:8000/ http://10.1.0.5:8000/ http://10.121.17.222:8000/
+2026-02-13 09:35:19 +00:00: 	http://[::1]:8000/
+2026-02-13 09:35:20 +00:00: [NocoDBApi] Cached 5 records from mobile-scrapers table

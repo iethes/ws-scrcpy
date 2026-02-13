@@ -95,6 +95,24 @@ export abstract class BaseDeviceTracker<DD extends BaseDeviceDescriptor, TE exte
         }
         iframe.src = url;
         document.body.classList.add('split-view');
+
+        const closeButton = streamContainer.querySelector('.close-button');
+        if (!closeButton) {
+            const btn = document.createElement('button');
+            btn.className = 'close-button';
+            btn.innerHTML = '×';
+            btn.onclick = () => {
+                document.body.classList.remove('split-view');
+                const container = document.getElementById('stream-view-container');
+                if (container) {
+                    const frame = container.querySelector('iframe') as HTMLIFrameElement;
+                    if (frame) {
+                        frame.src = 'about:blank';
+                    }
+                }
+            };
+            streamContainer.appendChild(btn);
+        }
     }
 
     protected title = 'Device list';

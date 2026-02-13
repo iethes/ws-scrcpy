@@ -18,7 +18,7 @@ function htmlValue(value: unknown): string {
         return 'null';
     }
     const e = document.createElement('dummy');
-    e.innerText = value.toString();
+    e.innerText = String(value);
     return e.innerHTML;
 }
 
@@ -27,6 +27,10 @@ export const html = function html(
     ...values: ReadonlyArray<unknown>
 ): HTMLTemplateElement {
     const template = document.createElement('template') as HTMLTemplateElement;
-    template.innerHTML = values.reduce((acc, v, idx) => acc + htmlValue(v) + strings[idx + 1], strings[0]).toString();
+    const result = values.reduce((acc, v, idx) => {
+        const nextString = strings[idx + 1] ?? '';
+        return acc + htmlValue(v) + nextString;
+    }, strings[0]);
+    template.innerHTML = (result as string).toString();
     return template;
 };

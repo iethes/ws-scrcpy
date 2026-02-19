@@ -144,13 +144,18 @@ export class DeviceTracker extends BaseDeviceTracker<GoogDeviceDescriptor, never
         const udid = button.getAttribute(Attribute.UDID);
         const pidString = button.getAttribute(Attribute.PID) || '';
         const command = button.getAttribute(Attribute.COMMAND) as string;
+        const ipv4 = button.getAttribute(Attribute.IPV4) || '';
+        const portString = button.getAttribute(Attribute.PORT) || '5555';
         const pid = parseInt(pidString, 10);
+        const port = parseInt(portString, 10);
         const data: Message = {
             id: this.getNextId(),
             type: command,
             data: {
                 udid: typeof udid === 'string' ? udid : undefined,
                 pid: isNaN(pid) ? undefined : pid,
+                ipv4: typeof ipv4 === 'string' ? ipv4 : undefined,
+                port: isNaN(port) ? undefined : port,
             },
         };
 
@@ -355,44 +360,60 @@ export class DeviceTracker extends BaseDeviceTracker<GoogDeviceDescriptor, never
         }
 
         const screenshotContainer = row.getElementById(screenshotId);
-        if (screenshotContainer && isActive) {
-            const screenshotTd = document.createElement('div');
-            screenshotTd.classList.add(blockClass);
-            const screenshotButton = document.createElement('button');
-            screenshotButton.className = 'action-button screenshot-button active';
-            screenshotButton.title = 'Take screenshot';
-            screenshotButton.innerText = 'Take screenshot';
-            screenshotButton.setAttribute(Attribute.UDID, device.udid);
-            screenshotButton.setAttribute(Attribute.COMMAND, ControlCenterCommand.SCREENSHOT);
-            screenshotButton.onclick = this.onActionButtonClick;
-            screenshotTd.appendChild(screenshotButton);
-            services.appendChild(screenshotTd);
+        if (screenshotContainer) {
+            if (isActive) {
+                const screenshotTd = document.createElement('div');
+                screenshotTd.classList.add(blockClass);
+                const screenshotButton = document.createElement('button');
+                screenshotButton.className = 'action-button screenshot-button active';
+                screenshotButton.title = 'Take screenshot';
+                screenshotButton.innerText = 'Take screenshot';
+                screenshotButton.setAttribute(Attribute.UDID, device.udid);
+                screenshotButton.setAttribute(Attribute.COMMAND, ControlCenterCommand.SCREENSHOT);
+                screenshotButton.onclick = this.onActionButtonClick;
+                screenshotTd.appendChild(screenshotButton);
+                services.appendChild(screenshotTd);
 
-            if (device['screenshot.path']) {
-                const screenshotDisplay = document.createElement('div');
-                screenshotDisplay.className = 'screenshot-display';
-                const img = document.createElement('img');
-                img.src = device['screenshot.path'];
-                img.alt = `Screenshot of ${device.udid}`;
-                const timestampDisplay = document.createElement('div');
-                timestampDisplay.className = 'screenshot-timestamp';
-                const updateTimestamp = () => {
-                    const elapsed = Math.floor((Date.now() - device['screenshot.timestamp']) / 1000);
-                    if (elapsed < 60) {
-                        timestampDisplay.innerText = `taken ${elapsed}s ago`;
-                    } else if (elapsed < 3600) {
-                        const minutes = Math.floor(elapsed / 60);
-                        timestampDisplay.innerText = `taken ${minutes}m ago`;
-                    } else {
-                        const hours = Math.floor(elapsed / 3600);
-                        timestampDisplay.innerText = `taken ${hours}h ago`;
-                    }
-                };
-                updateTimestamp();
-                setInterval(updateTimestamp, 1000);
-                screenshotDisplay.appendChild(img);
-                screenshotDisplay.appendChild(timestampDisplay);
-                screenshotContainer.appendChild(screenshotDisplay);
+                if (device['screenshot.path']) {
+                    const screenshotDisplay = document.createElement('div');
+                    screenshotDisplay.className = 'screenshot-display';
+                    const img = document.createElement('img');
+                    img.src = device['screenshot.path'];
+                    img.alt = `Screenshot of ${device.udid}`;
+                    const timestampDisplay = document.createElement('div');
+                    timestampDisplay.className = 'screenshot-timestamp';
+                    const updateTimestamp = () => {
+                        const elapsed = Math.floor((Date.now() - device['screenshot.timestamp']) / 1000);
+                        if (elapsed < 60) {
+                            timestampDisplay.innerText = `taken ${elapsed}s ago`;
+                        } else if (elapsed < 3600) {
+                            const minutes = Math.floor(elapsed / 60);
+                            timestampDisplay.innerText = `taken ${minutes}m ago`;
+                        } else {
+                            const hours = Math.floor(elapsed / 3600);
+                            timestampDisplay.innerText = `taken ${hours}h ago`;
+                        }
+                    };
+                    updateTimestamp();
+                    setInterval(updateTimestamp, 1000);
+                    screenshotDisplay.appendChild(img);
+                    screenshotDisplay.appendChild(timestampDisplay);
+                    screenshotContainer.appendChild(screenshotDisplay);
+                }
+            } else if (device.interfaces && device.interfaces.length > 0) {
+                const reconnectTd = document.createElement('div');
+                reconnectTd.classList.add(blockClass);
+                const reconnectButton = document.createElement('button');
+                reconnectButton.className = 'action-button reconnect-button';
+                reconnectButton.title = 'Reconnect device via adb';
+                reconnectButton.innerText = 'Reconnect';
+                reconnectButton.setAttribute(Attribute.UDID, device.udid);
+                reconnectButton.setAttribute(Attribute.COMMAND, ControlCenterCommand.RECONNECT_DEVICE);
+                reconnectButton.setAttribute(Attribute.IPV4, device.interfaces[0].ipv4);
+                reconnectButton.setAttribute(Attribute.PORT, String(device['connection.port'] || 5555));
+                reconnectButton.onclick = this.onActionButtonClick;
+                reconnectTd.appendChild(reconnectButton);
+                services.appendChild(reconnectTd);
             }
         }
 

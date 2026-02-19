@@ -590,3 +590,1401 @@ Received signal SIGINT
 2026-02-13 09:35:19 +00:00: 	http://127.0.0.1:8000/ http://10.1.0.5:8000/ http://10.121.17.222:8000/
 2026-02-13 09:35:19 +00:00: 	http://[::1]:8000/
 2026-02-13 09:35:20 +00:00: [NocoDBApi] Cached 5 records from mobile-scrapers table
+2026-02-13 09:37:16 +00:00: [10.121.17.139:55555] Screenshot saved to screenshot_10.121.17.139:55555_1770975435387.png
+2026-02-13 09:37:16 +00:00: [10.121.17.139:55555] Screenshots directory: /home/fsd/ws-scrcpy/dist/public/screenshots
+2026-02-13 09:37:16 +00:00: [10.121.17.139:55555] adb process (-s 10.121.17.139:55555 shell screencap -p) exited with code 0
+2026-02-13 09:37:18 +00:00: [10.121.17.140:55555] Screenshot saved to screenshot_10.121.17.140:55555_1770975437263.png
+2026-02-13 09:37:18 +00:00: [10.121.17.140:55555] Screenshots directory: /home/fsd/ws-scrcpy/dist/public/screenshots
+2026-02-13 09:37:18 +00:00: [10.121.17.140:55555] adb process (-s 10.121.17.140:55555 shell screencap -p) exited with code 0
+2026-02-13 09:37:20 +00:00: [10.121.17.149:55555] Screenshot saved to screenshot_10.121.17.149:55555_1770975439434.png
+2026-02-13 09:37:20 +00:00: [10.121.17.149:55555] Screenshots directory: /home/fsd/ws-scrcpy/dist/public/screenshots
+2026-02-13 09:37:20 +00:00: [10.121.17.149:55555] adb process (-s 10.121.17.149:55555 shell screencap -p) exited with code 0
+2026-02-13 09:37:22 +00:00: [10.121.17.228:55555] Screenshot saved to screenshot_10.121.17.228:55555_1770975441550.png
+2026-02-13 09:37:22 +00:00: [10.121.17.228:55555] Screenshots directory: /home/fsd/ws-scrcpy/dist/public/screenshots
+2026-02-13 09:37:22 +00:00: [10.121.17.228:55555] adb process (-s 10.121.17.228:55555 shell screencap -p) exited with code 0
+2026-02-13 09:37:23 +00:00: [10.121.17.206:55555] Screenshot saved to screenshot_10.121.17.206:55555_1770975442640.png
+2026-02-13 09:37:23 +00:00: [10.121.17.206:55555] Screenshots directory: /home/fsd/ws-scrcpy/dist/public/screenshots
+2026-02-13 09:37:23 +00:00: [10.121.17.206:55555] adb process (-s 10.121.17.206:55555 shell screencap -p) exited with code 0
+2026-02-13 09:37:34 +00:00: [10.121.17.139:55555] Screenshot saved to screenshot_10.121.17.139:55555_1770975451887.png
+2026-02-13 09:37:34 +00:00: [10.121.17.139:55555] Screenshots directory: /home/fsd/ws-scrcpy/dist/public/screenshots
+2026-02-13 09:37:34 +00:00: [10.121.17.139:55555] adb process (-s 10.121.17.139:55555 shell screencap -p) exited with code 0
+2026-02-13 09:37:43 +00:00: [10.121.17.140:55555] Screenshot saved to screenshot_10.121.17.140:55555_1770975463426.png
+2026-02-13 09:37:43 +00:00: [10.121.17.140:55555] Screenshots directory: /home/fsd/ws-scrcpy/dist/public/screenshots
+2026-02-13 09:37:43 +00:00: [10.121.17.140:55555] adb process (-s 10.121.17.140:55555 shell screencap -p) exited with code 0
+2026-02-13 09:38:00 +00:00: [10.121.17.149:55555] Screenshot saved to screenshot_10.121.17.149:55555_1770975479411.png
+2026-02-13 09:38:00 +00:00: [10.121.17.149:55555] Screenshots directory: /home/fsd/ws-scrcpy/dist/public/screenshots
+2026-02-13 09:38:00 +00:00: [10.121.17.149:55555] adb process (-s 10.121.17.149:55555 shell screencap -p) exited with code 0
+2026-02-13 09:38:38 +00:00: [10.121.17.228:55555] Screenshot saved to screenshot_10.121.17.228:55555_1770975517684.png
+2026-02-13 09:38:38 +00:00: [10.121.17.228:55555] Screenshots directory: /home/fsd/ws-scrcpy/dist/public/screenshots
+2026-02-13 09:38:38 +00:00: [10.121.17.228:55555] adb process (-s 10.121.17.228:55555 shell screencap -p) exited with code 0
+2026-02-13 09:43:11 +00:00: [NocoDBApi] Cached 5 records from mobile-scrapers table
+2026-02-13 09:45:41 +00:00: [NocoDBApi] Cached 5 records from mobile-scrapers table
+2026-02-13 09:47:27 +00:00: [10.121.17.139:55555] Screenshot saved to screenshot_10.121.17.139:55555_1770976046688.png
+2026-02-13 09:47:27 +00:00: [10.121.17.139:55555] Screenshots directory: /home/fsd/ws-scrcpy/dist/public/screenshots
+2026-02-13 09:47:27 +00:00: [10.121.17.139:55555] adb process (-s 10.121.17.139:55555 shell screencap -p) exited with code 0
+2026-02-13 09:47:44 +00:00: [10.121.17.139:55555] Screenshot saved to screenshot_10.121.17.139:55555_1770976063303.png
+2026-02-13 09:47:44 +00:00: [10.121.17.139:55555] Screenshots directory: /home/fsd/ws-scrcpy/dist/public/screenshots
+2026-02-13 09:47:44 +00:00: [10.121.17.139:55555] adb process (-s 10.121.17.139:55555 shell screencap -p) exited with code 0
+2026-02-13 09:50:28 +00:00: [NocoDBApi] Cached 5 records from mobile-scrapers table
+2026-02-13 09:53:40 +00:00: [10.121.17.139:55555] Screenshot saved to screenshot_10.121.17.139:55555_1770976419539.png
+2026-02-13 09:53:40 +00:00: [10.121.17.139:55555] Screenshots directory: /home/fsd/ws-scrcpy/dist/public/screenshots
+2026-02-13 09:53:40 +00:00: [10.121.17.139:55555] adb process (-s 10.121.17.139:55555 shell screencap -p) exited with code 0
+2026-02-13 09:53:46 +00:00: [10.121.17.149:55555] Screenshot saved to screenshot_10.121.17.149:55555_1770976426090.png
+2026-02-13 09:53:46 +00:00: [10.121.17.149:55555] Screenshots directory: /home/fsd/ws-scrcpy/dist/public/screenshots
+2026-02-13 09:53:46 +00:00: [10.121.17.149:55555] adb process (-s 10.121.17.149:55555 shell screencap -p) exited with code 0
+2026-02-13 09:55:54 +00:00: [NocoDBApi] Cached 5 records from mobile-scrapers table
+2026-02-13 10:09:53 +00:00: [NocoDBApi] Cached 5 records from mobile-scrapers table
+2026-02-13 10:15:54 +00:00: [10.121.17.206:55555] Screenshot saved to screenshot_10.121.17.206:55555_1770977752816.png
+2026-02-13 10:15:54 +00:00: [10.121.17.206:55555] Screenshots directory: /home/fsd/ws-scrcpy/dist/public/screenshots
+2026-02-13 10:15:54 +00:00: [10.121.17.206:55555] adb process (-s 10.121.17.206:55555 shell screencap -p) exited with code 0
+2026-02-15 09:59:00 +00:00: [NocoDBApi] Cached 5 records from mobile-scrapers table
+2026-02-16 07:39:28 +00:00: [NocoDBApi] Cached 5 records from mobile-scrapers table
+2026-02-16 07:42:01 +00:00: [10.121.17.206:55555] Screenshot saved to screenshot_10.121.17.206:55555_1771227719442.png
+2026-02-16 07:42:01 +00:00: [10.121.17.206:55555] Screenshots directory: /home/fsd/ws-scrcpy/dist/public/screenshots
+2026-02-16 07:42:01 +00:00: [10.121.17.206:55555] adb process (-s 10.121.17.206:55555 shell screencap -p) exited with code 0
+2026-02-16 21:23:51 +00:00: [NocoDBApi] Cached 5 records from mobile-scrapers table
+2026-02-16 21:25:27 +00:00: [NocoDBApi] Cached 5 records from mobile-scrapers table
+2026-02-18 01:25:24 +00:00: [NocoDBApi] Cached 5 records from mobile-scrapers table
+2026-02-18 01:31:43 +00:00: [NocoDBApi] Cached 5 records from mobile-scrapers table
+2026-02-18 02:07:06 +00:00: [NocoDBApi] Cached 5 records from mobile-scrapers table
+2026-02-18 03:01:20 +00:00: [NocoDBApi] Cached 5 records from mobile-scrapers table
+2026-02-18 03:31:12 +00:00: [10.121.17.206:55555] Screenshot saved to screenshot_10.121.17.206:55555_1771385470693.png
+2026-02-18 03:31:12 +00:00: [10.121.17.206:55555] Screenshots directory: /home/fsd/ws-scrcpy/dist/public/screenshots
+2026-02-18 03:31:12 +00:00: [10.121.17.206:55555] adb process (-s 10.121.17.206:55555 shell screencap -p) exited with code 0
+2026-02-18 04:37:29 +00:00: [NocoDBApi] Cached 5 records from mobile-scrapers table
+2026-02-18 04:38:02 +00:00: [10.121.17.149:55555] start server: "30782"
+2026-02-18 04:41:30 +00:00: [10.121.17.149:55555] Screenshot saved to screenshot_10.121.17.149:55555_1771389689390.png
+2026-02-18 04:41:30 +00:00: [10.121.17.149:55555] Screenshots directory: /home/fsd/ws-scrcpy/dist/public/screenshots
+2026-02-18 04:41:30 +00:00: [10.121.17.149:55555] adb process (-s 10.121.17.149:55555 shell screencap -p) exited with code 0
+2026-02-18 04:41:51 +00:00: [10.121.17.149:55555] stdout: java.lang.NoSuchMethodException: android.content.IClipboard$Stub$Proxy.addPrimaryClipChangedListener [interface android.content.IOnPrimaryClipChangedListener, class java.lang.String, int]
+2026-02-18 04:41:51 +00:00: [10.121.17.149:55555] stdout: 	at java.lang.Class.getMethod(Class.java:2934)
+	at java.lang.Class.getMethod(Class.java:2434)
+	at com.genymobile.scrcpy.wrappers.ClipboardManager.getAddPrimaryClipChangedListener(ClipboardManager.java:104)
+	at com.genymobile.scrcpy.wrappers.ClipboardManager.addPrimaryClipChangedListener(ClipboardManager.java:112)
+	at com.genymobile.scrcpy.Device.<init>(Device.java:110)
+	at com.genymobile.scrcpy.Connection.<init>(Connection.java:37)
+	at com.genymobile.scrcpy.WebSocketConnection.<init>(WebSocketConnection.java:23)
+	at com.genymobile.scrcpy.WSServer.joinStreamForDisplayId(WSServer.java:163)
+	at com.genymobile.scrcpy.WSServer.onMessage(WSServer.java:126)
+	at org.java_websocket.server.WebSocketServer.onWebsocketMessage(WebSocketServer.java:648)
+	at org.java_websocket.drafts.Draft_6455.processFrameBinary(Draft_6455.java:835)
+	at org.java_websocket.drafts.Draft_6455.processFrame(Draft_6455.java:794)
+	at org.java_websocket.WebSocketImpl.decodeFrames(WebSocketImpl.java:381)
+	at org.java_websocket.WebSocketImpl.decode(WebSocketImpl.java:218)
+	at org.java_websocket.server.WebSocketServer$WebSocketWorker.doDecode(WebSocketServer.java:1011)
+	at org.java_websocket.server.WebSocketServer$WebSocketWorker.run(WebSocketServer.java:993)
+2026-02-18 04:42:21 +00:00: [10.121.17.206:55555] Screenshot saved to screenshot_10.121.17.206:55555_1771389740310.png
+2026-02-18 04:42:21 +00:00: [10.121.17.206:55555] Screenshots directory: /home/fsd/ws-scrcpy/dist/public/screenshots
+2026-02-18 04:42:21 +00:00: [10.121.17.206:55555] adb process (-s 10.121.17.206:55555 shell screencap -p) exited with code 0
+2026-02-18 04:42:28 +00:00: [NocoDBApi] Cached 5 records from mobile-scrapers table
+2026-02-18 04:51:07 +00:00: [10.121.17.149:55555] stdout: java.lang.NoSuchMethodException: android.content.IClipboard$Stub$Proxy.addPrimaryClipChangedListener [interface android.content.IOnPrimaryClipChangedListener, class java.lang.String, int]
+2026-02-18 04:51:07 +00:00: [10.121.17.149:55555] stdout: 	at java.lang.Class.getMethod(Class.java:2934)
+2026-02-18 04:51:07 +00:00: [10.121.17.149:55555] stdout: 	at java.lang.Class.getMethod(Class.java:2434)
+	at com.genymobile.scrcpy.wrappers.ClipboardManager.getAddPrimaryClipChangedListener(ClipboardManager.java:104)
+	at com.genymobile.scrcpy.wrappers.ClipboardManager.addPrimaryClipChangedListener(ClipboardManager.java:112)
+	at com.genymobile.scrcpy.Device.<init>(Device.java:110)
+	at com.genymobile.scrcpy.Connection.<init>(Connection.java:37)
+	at com.genymobile.scrcpy.WebSocketConnection.<init>(WebSocketConnection.java:23)
+	at com.genymobile.scrcpy.WSServer.joinStreamForDisplayId(WSServer.java:163)
+	at com.genymobile.scrcpy.WSServer.onMessage(WSServer.java:126)
+	at org.java_websocket.server.WebSocketServer.onWebsocketMessage(WebSocketServer.java:648)
+	at org.java_websocket.drafts.Draft_6455.processFrameBinary(Draft_6455.java:835)
+	at org.java_websocket.drafts.Draft_6455.processFrame(Draft_6455.java:794)
+	at org.java_websocket.WebSocketImpl.decodeFrames(WebSocketImpl.java:381)
+	at org.java_websocket.WebSocketImpl.decode(WebSocketImpl.java:218)
+	at org.java_websocket.server.WebSocketServer$WebSocketWorker.doDecode(WebSocketServer.java:1011)
+	at org.java_websocket.server.WebSocketServer$WebSocketWorker.run(WebSocketServer.java:993)
+2026-02-18 04:55:54 +00:00: [10.121.17.228:55555] start server: "11525"
+2026-02-18 05:03:43 +00:00: [NocoDBApi] Cached 5 records from mobile-scrapers table
+2026-02-18 05:19:34 +00:00: [10.121.17.228:55555] adb process (-s 10.121.17.228:55555 shell CLASSPATH=/data/local/tmp/scrcpy-server.jar nohup app_process / com.genymobile.scrcpy.Server 1.19-ws6 web ERROR 8886 true 2>&1 > /dev/null) exited with code 0
+2026-02-18 05:56:31 +00:00: [NocoDBApi] Cached 5 records from mobile-scrapers table
+2026-02-18 06:01:18 +00:00: [NocoDBApi] Cached 5 records from mobile-scrapers table
+2026-02-18 06:02:01 +00:00: [10.121.17.149:55555] stdout: java.lang.NoSuchMethodException: android.content.IClipboard$Stub$Proxy.addPrimaryClipChangedListener [interface android.content.IOnPrimaryClipChangedListener, class java.lang.String, int]
+	at java.lang.Class.getMethod(Class.java:2934)
+2026-02-18 06:02:01 +00:00: [10.121.17.149:55555] stdout: 	at java.lang.Class.getMethod(Class.java:2434)
+	at com.genymobile.scrcpy.wrappers.ClipboardManager.getAddPrimaryClipChangedListener(ClipboardManager.java:104)
+	at com.genymobile.scrcpy.wrappers.ClipboardManager.addPrimaryClipChangedListener(ClipboardManager.java:112)
+	at com.genymobile.scrcpy.Device.<init>(Device.java:110)
+	at com.genymobile.scrcpy.Connection.<init>(Connection.java:37)
+	at com.genymobile.scrcpy.WebSocketConnection.<init>(WebSocketConnection.java:23)
+	at com.genymobile.scrcpy.WSServer.joinStreamForDisplayId(WSServer.java:163)
+	at com.genymobile.scrcpy.WSServer.onMessage(WSServer.java:126)
+	at org.java_websocket.server.WebSocketServer.onWebsocketMessage(WebSocketServer.java:648)
+	at org.java_websocket.drafts.Draft_6455.processFrameBinary(Draft_6455.java:835)
+	at org.java_websocket.drafts.Draft_6455.processFrame(Draft_6455.java:794)
+	at org.java_websocket.WebSocketImpl.decodeFrames(WebSocketImpl.java:381)
+	at org.java_websocket.WebSocketImpl.decode(WebSocketImpl.java:218)
+	at org.java_websocket.server.WebSocketServer$WebSocketWorker.doDecode(WebSocketServer.java:1011)
+	at org.java_websocket.server.WebSocketServer$WebSocketWorker.run(WebSocketServer.java:993)
+2026-02-18 06:02:32 +00:00: [10.121.17.206:55555] Screenshot saved to screenshot_10.121.17.206:55555_1771394550505.png
+2026-02-18 06:02:32 +00:00: [10.121.17.206:55555] Screenshots directory: /home/fsd/ws-scrcpy/dist/public/screenshots
+2026-02-18 06:02:32 +00:00: [10.121.17.206:55555] adb process (-s 10.121.17.206:55555 shell screencap -p) exited with code 0
+2026-02-18 07:11:02 +00:00: [NocoDBApi] Cached 5 records from mobile-scrapers table
+2026-02-18 07:25:02 +00:00: [10.121.17.149:55555] stdout: java.lang.NoSuchMethodException: android.content.IClipboard$Stub$Proxy.addPrimaryClipChangedListener [interface android.content.IOnPrimaryClipChangedListener, class java.lang.String, int]
+2026-02-18 07:25:02 +00:00: [10.121.17.149:55555] stdout: 	at java.lang.Class.getMethod(Class.java:2934)
+2026-02-18 07:25:02 +00:00: [10.121.17.149:55555] stdout: 	at java.lang.Class.getMethod(Class.java:2434)
+	at com.genymobile.scrcpy.wrappers.ClipboardManager.getAddPrimaryClipChangedListener(ClipboardManager.java:104)
+	at com.genymobile.scrcpy.wrappers.ClipboardManager.addPrimaryClipChangedListener(ClipboardManager.java:112)
+	at com.genymobile.scrcpy.Device.<init>(Device.java:110)
+	at com.genymobile.scrcpy.Connection.<init>(Connection.java:37)
+	at com.genymobile.scrcpy.WebSocketConnection.<init>(WebSocketConnection.java:23)
+	at com.genymobile.scrcpy.WSServer.joinStreamForDisplayId(WSServer.java:163)
+	at com.genymobile.scrcpy.WSServer.onMessage(WSServer.java:126)
+	at org.java_websocket.server.WebSocketServer.onWebsocketMessage(WebSocketServer.java:648)
+	at org.java_websocket.drafts.Draft_6455.processFrameBinary(Draft_6455.java:835)
+	at org.java_websocket.drafts.Draft_6455.processFrame(Draft_6455.java:794)
+	at org.java_websocket.WebSocketImpl.decodeFrames(WebSocketImpl.java:381)
+	at org.java_websocket.WebSocketImpl.decode(WebSocketImpl.java:218)
+	at org.java_websocket.server.WebSocketServer$WebSocketWorker.doDecode(WebSocketServer.java:1011)
+	at org.java_websocket.server.WebSocketServer$WebSocketWorker.run(WebSocketServer.java:993)
+2026-02-18 07:25:20 +00:00: [10.121.17.149:55555] Screenshot saved to screenshot_10.121.17.149:55555_1771399519848.png
+2026-02-18 07:25:20 +00:00: [10.121.17.149:55555] Screenshots directory: /home/fsd/ws-scrcpy/dist/public/screenshots
+2026-02-18 07:25:20 +00:00: [10.121.17.149:55555] adb process (-s 10.121.17.149:55555 shell screencap -p) exited with code 0
+2026-02-18 07:26:57 +00:00: [NocoDBApi] Cached 5 records from mobile-scrapers table
+2026-02-18 07:41:57 +00:00: [NocoDBApi] Record 6 updated successfully
+2026-02-18 07:41:57 +00:00: [NocoDBApi] Cached 5 records from mobile-scrapers table
+2026-02-18 07:42:06 +00:00: [10.121.17.149:55555] stdout: java.lang.NoSuchMethodException: android.content.IClipboard$Stub$Proxy.addPrimaryClipChangedListener [interface android.content.IOnPrimaryClipChangedListener, class java.lang.String, int]
+	at java.lang.Class.getMethod(Class.java:2934)
+	at java.lang.Class.getMethod(Class.java:2434)
+	at com.genymobile.scrcpy.wrappers.ClipboardManager.getAddPrimaryClipChangedListener(ClipboardManager.java:104)
+2026-02-18 07:42:06 +00:00: [10.121.17.149:55555] stdout: 	at com.genymobile.scrcpy.wrappers.ClipboardManager.addPrimaryClipChangedListener(ClipboardManager.java:112)
+2026-02-18 07:42:06 +00:00: [10.121.17.149:55555] stdout: 	at com.genymobile.scrcpy.Device.<init>(Device.java:110)
+	at com.genymobile.scrcpy.Connection.<init>(Connection.java:37)
+	at com.genymobile.scrcpy.WebSocketConnection.<init>(WebSocketConnection.java:23)
+	at com.genymobile.scrcpy.WSServer.joinStreamForDisplayId(WSServer.java:163)
+	at com.genymobile.scrcpy.WSServer.onMessage(WSServer.java:126)
+	at org.java_websocket.server.WebSocketServer.onWebsocketMessage(WebSocketServer.java:648)
+	at org.java_websocket.drafts.Draft_6455.processFrameBinary(Draft_6455.java:835)
+	at org.java_websocket.drafts.Draft_6455.processFrame(Draft_6455.java:794)
+	at org.java_websocket.WebSocketImpl.decodeFrames(WebSocketImpl.java:381)
+	at org.java_websocket.WebSocketImpl.decode(WebSocketImpl.java:218)
+	at org.java_websocket.server.WebSocketServer$WebSocketWorker.doDecode(WebSocketServer.java:1011)
+	at org.java_websocket.server.WebSocketServer$WebSocketWorker.run(WebSocketServer.java:993)
+2026-02-18 07:42:30 +00:00: [NocoDBApi] Record 2 updated successfully
+2026-02-18 07:44:13 +00:00: [NocoDBApi] Cached 5 records from mobile-scrapers table
+2026-02-18 08:17:51 +00:00: [NocoDBApi] Cached 5 records from mobile-scrapers table
+2026-02-18 08:18:37 +00:00: [10.121.17.140:55555] start server: "15935"
+2026-02-18 08:48:41 +00:00: [10.121.17.140:55555] adb process (-s 10.121.17.140:55555 shell CLASSPATH=/data/local/tmp/scrcpy-server.jar nohup app_process / com.genymobile.scrcpy.Server 1.19-ws6 web ERROR 8886 true 2>&1 > /dev/null) exited with code 0
+2026-02-18 08:53:50 +00:00: [NocoDBApi] Cached 5 records from mobile-scrapers table
+2026-02-18 08:53:56 +00:00: [10.121.17.228:55555] stdout: Aborted 
+2026-02-18 08:53:56 +00:00: [10.121.17.228:55555] adb process (-s 10.121.17.228:55555 shell CLASSPATH=/data/local/tmp/scrcpy-server.jar nohup app_process / com.genymobile.scrcpy.Server 1.19-ws6 web ERROR 8886 true 2>&1 > /dev/null) exited with code 134
+2026-02-18 08:53:56 +00:00: [10.121.17.228:55555] Server exited: Aborted 
+
+2026-02-18 08:53:59 +00:00: [10.121.17.228:55555] start server: "16872"
+2026-02-18 08:54:12 +00:00: [10.121.17.228:55555] stdout: java.lang.NoSuchMethodException: android.content.IClipboard$Stub$Proxy.addPrimaryClipChangedListener [interface android.content.IOnPrimaryClipChangedListener, class java.lang.String, int]
+	at java.lang.Class.getMethod(Class.java:2934)
+	at java.lang.Class.getMethod(Class.java:2434)
+	at com.genymobile.scrcpy.wrappers.ClipboardManager.getAddPrimaryClipChangedListener(ClipboardManager.java:104)
+	at com.genymobile.scrcpy.wrappers.ClipboardManager.addPrimaryClipChangedListener(ClipboardManager.java:112)
+	at com.genymobile.scrcpy.Device.<init>(Device.java:110)
+2026-02-18 08:54:12 +00:00: [10.121.17.228:55555] stdout: 	at com.genymobile.scrcpy.Connection.<init>(Connection.java:37)
+2026-02-18 08:54:12 +00:00: [10.121.17.228:55555] stdout: 	at com.genymobile.scrcpy.WebSocketConnection.<init>(WebSocketConnection.java:23)
+	at com.genymobile.scrcpy.WSServer.joinStreamForDisplayId(WSServer.java:163)
+	at com.genymobile.scrcpy.WSServer.onMessage(WSServer.java:126)
+	at org.java_websocket.server.WebSocketServer.onWebsocketMessage(WebSocketServer.java:648)
+	at org.java_websocket.drafts.Draft_6455.processFrameBinary(Draft_6455.java:835)
+	at org.java_websocket.drafts.Draft_6455.processFrame(Draft_6455.java:794)
+	at org.java_websocket.WebSocketImpl.decodeFrames(WebSocketImpl.java:381)
+	at org.java_websocket.WebSocketImpl.decode(WebSocketImpl.java:218)
+	at org.java_websocket.server.WebSocketServer$WebSocketWorker.doDecode(WebSocketServer.java:1011)
+	at org.java_websocket.server.WebSocketServer$WebSocketWorker.run(WebSocketServer.java:993)
+2026-02-18 08:54:43 +00:00: [10.121.17.228:55555] stdout: java.lang.NoSuchMethodException: android.content.IClipboard$Stub$Proxy.addPrimaryClipChangedListener [interface android.content.IOnPrimaryClipChangedListener, class java.lang.String, int]
+	at java.lang.Class.getMethod(Class.java:2934)
+2026-02-18 08:54:43 +00:00: [10.121.17.228:55555] stdout: 	at java.lang.Class.getMethod(Class.java:2434)
+	at com.genymobile.scrcpy.wrappers.ClipboardManager.getAddPrimaryClipChangedListener(ClipboardManager.java:104)
+	at com.genymobile.scrcpy.wrappers.ClipboardManager.addPrimaryClipChangedListener(ClipboardManager.java:112)
+	at com.genymobile.scrcpy.Device.<init>(Device.java:110)
+	at com.genymobile.scrcpy.Connection.<init>(Connection.java:37)
+	at com.genymobile.scrcpy.WebSocketConnection.<init>(WebSocketConnection.java:23)
+	at com.genymobile.scrcpy.WSServer.joinStreamForDisplayId(WSServer.java:163)
+	at com.genymobile.scrcpy.WSServer.onMessage(WSServer.java:126)
+	at org.java_websocket.server.WebSocketServer.onWebsocketMessage(WebSocketServer.java:648)
+	at org.java_websocket.drafts.Draft_6455.processFrameBinary(Draft_6455.java:835)
+	at org.java_websocket.drafts.Draft_6455.processFrame(Draft_6455.java:794)
+	at org.java_websocket.WebSocketImpl.decodeFrames(WebSocketImpl.java:381)
+	at org.java_websocket.WebSocketImpl.decode(WebSocketImpl.java:218)
+	at org.java_websocket.server.WebSocketServer$WebSocketWorker.doDecode(WebSocketServer.java:1011)
+	at org.java_websocket.server.WebSocketServer$WebSocketWorker.run(WebSocketServer.java:993)
+2026-02-18 08:55:47 +00:00: [NocoDBApi] Cached 5 records from mobile-scrapers table
+2026-02-18 10:46:59 +00:00: [10.121.17.228:55555] adb process (-s 10.121.17.228:55555 shell CLASSPATH=/data/local/tmp/scrcpy-server.jar nohup app_process / com.genymobile.scrcpy.Server 1.19-ws6 web ERROR 8886 true 2>&1 > /dev/null) exited with code 0
+2026-02-18 11:47:07 +00:00: [10.121.17.149:55555] adb process (-s 10.121.17.149:55555 shell CLASSPATH=/data/local/tmp/scrcpy-server.jar nohup app_process / com.genymobile.scrcpy.Server 1.19-ws6 web ERROR 8886 true 2>&1 > /dev/null) exited with code 0
+2026-02-19 02:18:37 +00:00: [NocoDBApi] Cached 5 records from mobile-scrapers table
+2026-02-19 02:36:06 +00:00: [10.121.17.206:55555] Screenshot saved to screenshot_10.121.17.206:55555_1771468563758.png
+2026-02-19 02:36:06 +00:00: [10.121.17.206:55555] Screenshots directory: /home/fsd/ws-scrcpy/dist/public/screenshots
+2026-02-19 02:36:06 +00:00: [10.121.17.206:55555] adb process (-s 10.121.17.206:55555 shell screencap -p) exited with code 0
+2026-02-19 02:37:20 +00:00: [NocoDBApi] Cached 5 records from mobile-scrapers table
+2026-02-19 02:47:40 +00:00: [10.121.17.140:55555] Screenshot saved to screenshot_10.121.17.140:55555_1771469260014.png
+2026-02-19 02:47:40 +00:00: [10.121.17.140:55555] Screenshots directory: /home/fsd/ws-scrcpy/dist/public/screenshots
+2026-02-19 02:47:40 +00:00: [10.121.17.140:55555] adb process (-s 10.121.17.140:55555 shell screencap -p) exited with code 0
+2026-02-19 02:58:08 +00:00: [NocoDBApi] Cached 5 records from mobile-scrapers table
+2026-02-19 03:02:56 +00:00: [NocoDBApi] Cached 5 records from mobile-scrapers table
+2026-02-19 03:04:22 +00:00: 
+Received signal SIGINT
+2026-02-19 03:04:22 +00:00: Stopping HTTP(s) Server Service ...
+2026-02-19 03:04:22 +00:00: Stopping WebSocket Server Service ...
+2026-02-19 03:04:22 +00:00: Stopping aDevice Tracker [mobile-orch] ...
+2026-02-19 03:04:24 +00:00: [dotenv@17.3.1] injecting env (3) from .env -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`
+2026-02-19 03:04:25 +00:00: Listening on:
+	http://mobile-orch:8000/ http://localhost:8000/
+2026-02-19 03:04:25 +00:00: 	http://127.0.0.1:8000/ http://10.1.0.5:8000/ http://10.121.17.222:8000/
+2026-02-19 03:04:25 +00:00: 	http://[::1]:8000/
+2026-02-19 03:04:25 +00:00: [NocoDBApi] Cached 5 records from mobile-scrapers table
+2026-02-19 03:13:04 +00:00: 
+Received signal SIGINT
+2026-02-19 03:13:04 +00:00: Stopping HTTP(s) Server Service ...
+2026-02-19 03:13:04 +00:00: Stopping WebSocket Server Service ...
+2026-02-19 03:13:04 +00:00: Stopping aDevice Tracker [mobile-orch] ...
+2026-02-19 03:13:06 +00:00: [dotenv@17.3.1] injecting env (3) from .env -- tip: ⚙️  override existing env vars with { override: true }
+2026-02-19 03:13:06 +00:00: Listening on:
+	http://mobile-orch:8000/ http://localhost:8000/
+2026-02-19 03:13:06 +00:00: 	http://127.0.0.1:8000/ http://10.1.0.5:8000/ http://10.121.17.222:8000/
+2026-02-19 03:13:06 +00:00: 	http://[::1]:8000/
+2026-02-19 03:13:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 03:13:07 +00:00: [NocoDBApi] Cached 5 records from mobile-scrapers table
+2026-02-19 03:14:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 03:15:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 03:16:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 03:17:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 03:18:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 03:19:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 03:20:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 03:21:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 03:22:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 03:23:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 03:24:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 03:25:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 03:26:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 03:27:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 03:28:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 03:29:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 03:30:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 03:31:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 03:32:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 03:33:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 03:34:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 03:35:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 03:36:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 03:37:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 03:38:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 03:39:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 03:40:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 03:41:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 03:42:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 03:43:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 03:44:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 03:45:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 03:46:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 03:47:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 03:48:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 03:49:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 03:50:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 03:51:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 03:52:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 03:53:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 03:54:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 03:55:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 03:56:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 03:57:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 03:58:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 03:59:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 04:00:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 04:01:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 04:02:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 04:03:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 04:04:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 04:05:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 04:06:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 04:07:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 04:08:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 04:09:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 04:10:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 04:11:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 04:12:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 04:13:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 04:14:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 04:15:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 04:16:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 04:17:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 04:18:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 04:19:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 04:20:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 04:21:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 04:22:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 04:23:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 04:24:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 04:25:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 04:26:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 04:27:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 04:28:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 04:29:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 04:30:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 04:31:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 04:32:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 04:33:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 04:34:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 04:35:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 04:36:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 04:37:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 04:38:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 04:39:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 04:40:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 04:41:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 04:42:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 04:43:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 04:44:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 04:45:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 04:46:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 04:47:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 04:48:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 04:49:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 04:50:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 04:51:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 04:52:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 04:53:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 04:54:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 04:55:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 04:56:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 04:57:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 04:58:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 04:59:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 05:00:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 05:01:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 05:02:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 05:03:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 05:04:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 05:05:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 05:06:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 05:07:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 05:08:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 05:09:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 05:10:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 05:11:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 05:12:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 05:13:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 05:14:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 05:15:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 05:16:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 05:17:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 05:18:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 05:19:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 05:20:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 05:21:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 05:22:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 05:23:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 05:24:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 05:25:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 05:26:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 05:27:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 05:28:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 05:29:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 05:30:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 05:31:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 05:32:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 05:33:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 05:34:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 05:35:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 05:36:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 05:37:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 05:38:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 05:39:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 05:40:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 05:41:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 05:42:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 05:43:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 05:44:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 05:45:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 05:46:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 05:47:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 05:48:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 05:49:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 05:50:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 05:51:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 05:52:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 05:53:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 05:54:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 05:55:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 05:56:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 05:57:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 05:58:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 05:59:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 06:00:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 06:01:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 06:02:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 06:03:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 06:04:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 06:05:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 06:06:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 06:07:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 06:08:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 06:09:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 06:10:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 06:11:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 06:12:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 06:13:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 06:14:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 06:15:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 06:16:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 06:17:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 06:18:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 06:19:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 06:20:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 06:21:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 06:22:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 06:23:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 06:24:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 06:25:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 06:26:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 06:27:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 06:28:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 06:28:14 +00:00: [NocoDBApi] Cached 5 records from mobile-scrapers table
+2026-02-19 06:29:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 06:30:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 06:31:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 06:32:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 06:33:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 06:34:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 06:35:06 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 06:35:54 +00:00: [NocoDBApi] Cached 5 records from mobile-scrapers table
+2026-02-19 06:36:01 +00:00: 
+Received signal SIGINT
+2026-02-19 06:36:01 +00:00: Stopping HTTP(s) Server Service ...
+2026-02-19 06:36:01 +00:00: Stopping WebSocket Server Service ...
+2026-02-19 06:36:01 +00:00: Stopping aDevice Tracker [mobile-orch] ...
+2026-02-19 06:36:03 +00:00: [dotenv@17.3.1] injecting env (3) from .env -- tip: ⚙️  write to custom object with { processEnv: myObject }
+2026-02-19 06:36:04 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 06:36:04 +00:00: [aDevice Tracker [mobile-orch]] Fetched 0 devices from NocoDB
+2026-02-19 06:36:04 +00:00: [aDevice Tracker [mobile-orch]] Known devices: 
+2026-02-19 06:36:04 +00:00: [aDevice Tracker [mobile-orch]] Updating device list. Current descriptors: 0, Known devices: 0
+2026-02-19 06:36:04 +00:00: [aDevice Tracker [mobile-orch]] Device list updated. Total descriptors: 0
+2026-02-19 06:36:04 +00:00: Listening on:
+	http://mobile-orch:8000/ http://localhost:8000/
+2026-02-19 06:36:04 +00:00: 	http://127.0.0.1:8000/ http://10.1.0.5:8000/ http://10.121.17.222:8000/
+2026-02-19 06:36:04 +00:00: 	http://[::1]:8000/
+2026-02-19 06:36:04 +00:00: [aDevice Tracker [mobile-orch]] Found 3 ADB devices: 10.121.17.139:55555, 10.121.17.149:55555, 10.121.17.206:55555
+2026-02-19 06:36:05 +00:00: [DeviceTracker] Sending initial device list with 3 devices: 10.121.17.139:55555, 10.121.17.149:55555, 10.121.17.206:55555
+2026-02-19 06:36:05 +00:00: [DeviceTracker] Sending initial device list with 3 devices: 10.121.17.139:55555, 10.121.17.149:55555, 10.121.17.206:55555
+2026-02-19 06:36:05 +00:00: [NocoDBApi] Cached 5 records from mobile-scrapers table
+2026-02-19 06:36:06 +00:00: [DeviceTracker] Sending initial device list with 3 devices: 10.121.17.139:55555, 10.121.17.149:55555, 10.121.17.206:55555
+2026-02-19 06:36:06 +00:00: [DeviceTracker] Sending initial device list with 3 devices: 10.121.17.139:55555, 10.121.17.149:55555, 10.121.17.206:55555
+2026-02-19 06:36:07 +00:00: [DeviceTracker] Sending initial device list with 3 devices: 10.121.17.139:55555, 10.121.17.149:55555, 10.121.17.206:55555
+2026-02-19 06:37:04 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 06:37:04 +00:00: [aDevice Tracker [mobile-orch]] Fetched 0 devices from NocoDB
+2026-02-19 06:37:04 +00:00: [aDevice Tracker [mobile-orch]] Known devices: 
+2026-02-19 06:37:04 +00:00: [aDevice Tracker [mobile-orch]] Updating device list. Current descriptors: 3, Known devices: 0
+2026-02-19 06:37:04 +00:00: [aDevice Tracker [mobile-orch]] Device list updated. Total descriptors: 3
+2026-02-19 06:37:12 +00:00: 
+Received signal SIGINT
+2026-02-19 06:37:12 +00:00: Stopping HTTP(s) Server Service ...
+2026-02-19 06:37:12 +00:00: Stopping WebSocket Server Service ...
+2026-02-19 06:37:12 +00:00: Stopping aDevice Tracker [mobile-orch] ...
+2026-02-19 06:37:14 +00:00: [dotenv@17.3.1] injecting env (3) from .env -- tip: ⚡️ secrets for agents: https://dotenvx.com/as2
+2026-02-19 06:37:14 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 06:37:14 +00:00: [aDevice Tracker [mobile-orch]] Fetched 0 devices from NocoDB
+2026-02-19 06:37:14 +00:00: [aDevice Tracker [mobile-orch]] Known devices: 
+2026-02-19 06:37:14 +00:00: [aDevice Tracker [mobile-orch]] Updating device list. Current descriptors: 0, Known devices: 0
+2026-02-19 06:37:14 +00:00: [aDevice Tracker [mobile-orch]] Device list updated. Total descriptors: 0
+2026-02-19 06:37:14 +00:00: Listening on:
+	http://mobile-orch:8000/ http://localhost:8000/
+2026-02-19 06:37:14 +00:00: 	http://127.0.0.1:8000/ http://10.1.0.5:8000/ http://10.121.17.222:8000/
+2026-02-19 06:37:14 +00:00: 	http://[::1]:8000/
+2026-02-19 06:37:14 +00:00: [aDevice Tracker [mobile-orch]] Found 3 ADB devices: 10.121.17.139:55555, 10.121.17.149:55555, 10.121.17.206:55555
+2026-02-19 06:37:15 +00:00: [DeviceTracker] Sending initial device list with 0 devices: 
+2026-02-19 06:37:15 +00:00: [DeviceTracker] Sending device update for 10.121.17.139:55555 (state: device)
+2026-02-19 06:37:15 +00:00: [DeviceTracker] Sending device update for 10.121.17.206:55555 (state: device)
+2026-02-19 06:37:15 +00:00: [DeviceTracker] Sending device update for 10.121.17.149:55555 (state: device)
+2026-02-19 06:37:15 +00:00: [NocoDBApi] Cached 5 records from mobile-scrapers table
+2026-02-19 06:37:15 +00:00: [DeviceTracker] Sending device update for 10.121.17.139:55555 (state: device)
+2026-02-19 06:37:15 +00:00: [DeviceTracker] Sending device update for 10.121.17.149:55555 (state: device)
+2026-02-19 06:37:15 +00:00: [DeviceTracker] Sending device update for 10.121.17.206:55555 (state: device)
+2026-02-19 06:37:16 +00:00: [DeviceTracker] Sending initial device list with 3 devices: 10.121.17.139:55555, 10.121.17.206:55555, 10.121.17.149:55555
+2026-02-19 06:38:14 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 06:38:14 +00:00: [aDevice Tracker [mobile-orch]] Fetched 0 devices from NocoDB
+2026-02-19 06:38:14 +00:00: [aDevice Tracker [mobile-orch]] Known devices: 
+2026-02-19 06:38:14 +00:00: [aDevice Tracker [mobile-orch]] Updating device list. Current descriptors: 3, Known devices: 0
+2026-02-19 06:38:14 +00:00: [aDevice Tracker [mobile-orch]] Device list updated. Total descriptors: 3
+2026-02-19 06:39:14 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 06:39:14 +00:00: [aDevice Tracker [mobile-orch]] Fetched 0 devices from NocoDB
+2026-02-19 06:39:14 +00:00: [aDevice Tracker [mobile-orch]] Known devices: 
+2026-02-19 06:39:14 +00:00: [aDevice Tracker [mobile-orch]] Updating device list. Current descriptors: 3, Known devices: 0
+2026-02-19 06:39:14 +00:00: [aDevice Tracker [mobile-orch]] Device list updated. Total descriptors: 3
+2026-02-19 06:40:14 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 06:40:14 +00:00: [aDevice Tracker [mobile-orch]] Fetched 0 devices from NocoDB
+2026-02-19 06:40:14 +00:00: [aDevice Tracker [mobile-orch]] Known devices: 
+2026-02-19 06:40:14 +00:00: [aDevice Tracker [mobile-orch]] Updating device list. Current descriptors: 3, Known devices: 0
+2026-02-19 06:40:14 +00:00: [aDevice Tracker [mobile-orch]] Device list updated. Total descriptors: 3
+2026-02-19 06:40:37 +00:00: [DeviceTracker] Sending initial device list with 3 devices: 10.121.17.139:55555, 10.121.17.206:55555, 10.121.17.149:55555
+2026-02-19 06:40:37 +00:00: [NocoDBApi] Cached 5 records from mobile-scrapers table
+2026-02-19 06:40:42 +00:00: 
+Received signal SIGINT
+2026-02-19 06:40:42 +00:00: Stopping HTTP(s) Server Service ...
+2026-02-19 06:40:42 +00:00: Stopping WebSocket Server Service ...
+2026-02-19 06:40:42 +00:00: Stopping aDevice Tracker [mobile-orch] ...
+2026-02-19 06:40:44 +00:00: [dotenv@17.3.1] injecting env (3) from .env -- tip: ⚙️  specify custom .env file path with { path: '/custom/path/.env' }
+2026-02-19 06:40:44 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 06:40:44 +00:00: [aDevice Tracker [mobile-orch]] Fetched 0 devices from NocoDB
+2026-02-19 06:40:44 +00:00: [aDevice Tracker [mobile-orch]] Known devices: 
+2026-02-19 06:40:44 +00:00: [aDevice Tracker [mobile-orch]] Updating device list. Current descriptors: 0, Known devices: 0
+2026-02-19 06:40:44 +00:00: [aDevice Tracker [mobile-orch]] Device list updated. Total descriptors: 0
+2026-02-19 06:40:44 +00:00: Listening on:
+	http://mobile-orch:8000/ http://localhost:8000/
+2026-02-19 06:40:44 +00:00: 	http://127.0.0.1:8000/ http://10.1.0.5:8000/ http://10.121.17.222:8000/
+2026-02-19 06:40:44 +00:00: 	http://[::1]:8000/
+2026-02-19 06:40:44 +00:00: [aDevice Tracker [mobile-orch]] Found 3 ADB devices: 10.121.17.139:55555, 10.121.17.149:55555, 10.121.17.206:55555
+2026-02-19 06:40:44 +00:00: [DeviceTracker] Sending initial device list with 3 devices: 10.121.17.149:55555, 10.121.17.206:55555, 10.121.17.139:55555
+2026-02-19 06:40:45 +00:00: [NocoDBApi] Fetched page 1: 5 records (totalRows: 5)
+2026-02-19 06:40:45 +00:00: [NocoDBApi] Total records fetched: 5
+2026-02-19 06:40:45 +00:00: [NocoDBApi] Caching: 10.121.17.228:55555 -> magpie-infinix-zt-1 (active: true)
+2026-02-19 06:40:45 +00:00: [NocoDBApi] Caching: 10.121.17.149:55555 -> magpie-motorola-zt-1 (active: true)
+2026-02-19 06:40:45 +00:00: [NocoDBApi] Caching: 10.121.17.140:55555 -> magpie-infinix-zt-2 (active: true)
+2026-02-19 06:40:45 +00:00: [NocoDBApi] Caching: 10.121.17.139:55555 -> magpie-samsung-1 (active: true)
+2026-02-19 06:40:45 +00:00: [NocoDBApi] Caching: 10.121.17.206:55555 -> magpie-infinix-zt-3 (active: true)
+2026-02-19 06:40:45 +00:00: [NocoDBApi] Cached 5 records from mobile-scrapers table
+2026-02-19 06:40:45 +00:00: [DeviceTracker] Sending device update for 10.121.17.149:55555 (state: device)
+2026-02-19 06:40:45 +00:00: [DeviceTracker] Sending device update for 10.121.17.139:55555 (state: device)
+2026-02-19 06:40:45 +00:00: [DeviceTracker] Sending device update for 10.121.17.206:55555 (state: device)
+2026-02-19 06:40:46 +00:00: [DeviceTracker] Sending initial device list with 3 devices: 10.121.17.149:55555, 10.121.17.206:55555, 10.121.17.139:55555
+2026-02-19 06:40:46 +00:00: [NocoDBApi] Returning cached data with 5 devices: 10.121.17.228:55555, 10.121.17.149:55555, 10.121.17.140:55555, 10.121.17.139:55555, 10.121.17.206:55555
+2026-02-19 06:40:46 +00:00: [DeviceTracker] Sending initial device list with 3 devices: 10.121.17.149:55555, 10.121.17.206:55555, 10.121.17.139:55555
+2026-02-19 06:41:38 +00:00: [DeviceTracker] Sending initial device list with 3 devices: 10.121.17.149:55555, 10.121.17.206:55555, 10.121.17.139:55555
+2026-02-19 06:41:38 +00:00: [NocoDBApi] Returning cached data with 5 devices: 10.121.17.228:55555, 10.121.17.149:55555, 10.121.17.140:55555, 10.121.17.139:55555, 10.121.17.206:55555
+2026-02-19 06:41:44 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 06:41:44 +00:00: [aDevice Tracker [mobile-orch]] Fetched 0 devices from NocoDB
+2026-02-19 06:41:44 +00:00: [aDevice Tracker [mobile-orch]] Known devices: 
+2026-02-19 06:41:44 +00:00: [aDevice Tracker [mobile-orch]] Updating device list. Current descriptors: 3, Known devices: 0
+2026-02-19 06:41:44 +00:00: [aDevice Tracker [mobile-orch]] Device list updated. Total descriptors: 3
+2026-02-19 06:41:47 +00:00: [DeviceTracker] Sending initial device list with 3 devices: 10.121.17.149:55555, 10.121.17.206:55555, 10.121.17.139:55555
+2026-02-19 06:41:47 +00:00: [NocoDBApi] Fetched page 1: 5 records (totalRows: 5)
+2026-02-19 06:41:47 +00:00: [NocoDBApi] Total records fetched: 5
+2026-02-19 06:41:47 +00:00: [NocoDBApi] Caching: 10.121.17.228:55555 -> magpie-infinix-zt-1 (active: true)
+2026-02-19 06:41:47 +00:00: [NocoDBApi] Caching: 10.121.17.149:55555 -> magpie-motorola-zt-1 (active: true)
+2026-02-19 06:41:47 +00:00: [NocoDBApi] Caching: 10.121.17.140:55555 -> magpie-infinix-zt-2 (active: true)
+2026-02-19 06:41:47 +00:00: [NocoDBApi] Caching: 10.121.17.139:55555 -> magpie-samsung-1 (active: true)
+2026-02-19 06:41:47 +00:00: [NocoDBApi] Caching: 10.121.17.206:55555 -> magpie-infinix-zt-3 (active: true)
+2026-02-19 06:41:47 +00:00: [NocoDBApi] Cached 5 records from mobile-scrapers table
+2026-02-19 06:42:44 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 06:42:44 +00:00: [aDevice Tracker [mobile-orch]] Fetched 0 devices from NocoDB
+2026-02-19 06:42:44 +00:00: [aDevice Tracker [mobile-orch]] Known devices: 
+2026-02-19 06:42:44 +00:00: [aDevice Tracker [mobile-orch]] Updating device list. Current descriptors: 3, Known devices: 0
+2026-02-19 06:42:44 +00:00: [aDevice Tracker [mobile-orch]] Device list updated. Total descriptors: 3
+2026-02-19 06:43:44 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 06:43:44 +00:00: [aDevice Tracker [mobile-orch]] Fetched 0 devices from NocoDB
+2026-02-19 06:43:44 +00:00: [aDevice Tracker [mobile-orch]] Known devices: 
+2026-02-19 06:43:44 +00:00: [aDevice Tracker [mobile-orch]] Updating device list. Current descriptors: 3, Known devices: 0
+2026-02-19 06:43:44 +00:00: [aDevice Tracker [mobile-orch]] Device list updated. Total descriptors: 3
+2026-02-19 06:44:44 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 06:44:44 +00:00: [aDevice Tracker [mobile-orch]] Fetched 0 devices from NocoDB
+2026-02-19 06:44:44 +00:00: [aDevice Tracker [mobile-orch]] Known devices: 
+2026-02-19 06:44:44 +00:00: [aDevice Tracker [mobile-orch]] Updating device list. Current descriptors: 3, Known devices: 0
+2026-02-19 06:44:44 +00:00: [aDevice Tracker [mobile-orch]] Device list updated. Total descriptors: 3
+2026-02-19 06:45:44 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 06:45:44 +00:00: [aDevice Tracker [mobile-orch]] Fetched 0 devices from NocoDB
+2026-02-19 06:45:44 +00:00: [aDevice Tracker [mobile-orch]] Known devices: 
+2026-02-19 06:45:44 +00:00: [aDevice Tracker [mobile-orch]] Updating device list. Current descriptors: 3, Known devices: 0
+2026-02-19 06:45:44 +00:00: [aDevice Tracker [mobile-orch]] Device list updated. Total descriptors: 3
+2026-02-19 06:46:44 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 06:46:44 +00:00: [aDevice Tracker [mobile-orch]] Fetched 0 devices from NocoDB
+2026-02-19 06:46:44 +00:00: [aDevice Tracker [mobile-orch]] Known devices: 
+2026-02-19 06:46:44 +00:00: [aDevice Tracker [mobile-orch]] Updating device list. Current descriptors: 3, Known devices: 0
+2026-02-19 06:46:44 +00:00: [aDevice Tracker [mobile-orch]] Device list updated. Total descriptors: 3
+2026-02-19 06:47:44 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 06:47:44 +00:00: [aDevice Tracker [mobile-orch]] Fetched 0 devices from NocoDB
+2026-02-19 06:47:44 +00:00: [aDevice Tracker [mobile-orch]] Known devices: 
+2026-02-19 06:47:44 +00:00: [aDevice Tracker [mobile-orch]] Updating device list. Current descriptors: 3, Known devices: 0
+2026-02-19 06:47:44 +00:00: [aDevice Tracker [mobile-orch]] Device list updated. Total descriptors: 3
+2026-02-19 06:48:44 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 06:48:44 +00:00: [aDevice Tracker [mobile-orch]] Fetched 0 devices from NocoDB
+2026-02-19 06:48:44 +00:00: [aDevice Tracker [mobile-orch]] Known devices: 
+2026-02-19 06:48:44 +00:00: [aDevice Tracker [mobile-orch]] Updating device list. Current descriptors: 3, Known devices: 0
+2026-02-19 06:48:44 +00:00: [aDevice Tracker [mobile-orch]] Device list updated. Total descriptors: 3
+2026-02-19 06:49:44 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 06:49:44 +00:00: [aDevice Tracker [mobile-orch]] Fetched 0 devices from NocoDB
+2026-02-19 06:49:44 +00:00: [aDevice Tracker [mobile-orch]] Known devices: 
+2026-02-19 06:49:44 +00:00: [aDevice Tracker [mobile-orch]] Updating device list. Current descriptors: 3, Known devices: 0
+2026-02-19 06:49:44 +00:00: [aDevice Tracker [mobile-orch]] Device list updated. Total descriptors: 3
+2026-02-19 06:50:44 +00:00: [NocoDBClient] Fetching from /api/mobile-scrapers
+2026-02-19 06:50:44 +00:00: [aDevice Tracker [mobile-orch]] Fetched 0 devices from NocoDB
+2026-02-19 06:50:44 +00:00: [aDevice Tracker [mobile-orch]] Known devices: 
+2026-02-19 06:50:44 +00:00: [aDevice Tracker [mobile-orch]] Updating device list. Current descriptors: 3, Known devices: 0
+2026-02-19 06:50:44 +00:00: [aDevice Tracker [mobile-orch]] Device list updated. Total descriptors: 3
+2026-02-19 06:51:19 +00:00: 
+Received signal SIGINT
+2026-02-19 06:51:19 +00:00: Stopping HTTP(s) Server Service ...
+2026-02-19 06:51:19 +00:00: Stopping WebSocket Server Service ...
+2026-02-19 06:51:19 +00:00: Stopping aDevice Tracker [mobile-orch] ...
+2026-02-19 06:51:22 +00:00: [dotenv@17.3.1] injecting env (3) from .env -- tip: ⚙️  override existing env vars with { override: true }
+2026-02-19 06:51:22 +00:00: Listening on:
+	http://mobile-orch:8000/ http://localhost:8000/
+2026-02-19 06:51:22 +00:00: 	http://127.0.0.1:8000/ http://10.1.0.5:8000/ http://10.121.17.222:8000/
+2026-02-19 06:51:22 +00:00: 	http://[::1]:8000/
+2026-02-19 06:51:22 +00:00: [NocoDBApi] Fetched page 1: 5 records (totalRows: 5)
+2026-02-19 06:51:22 +00:00: [NocoDBApi] Total records fetched: 5
+2026-02-19 06:51:22 +00:00: [NocoDBApi] Caching: 10.121.17.228:55555 -> magpie-infinix-zt-1 (active: true)
+2026-02-19 06:51:22 +00:00: [NocoDBApi] Caching: 10.121.17.149:55555 -> magpie-motorola-zt-1 (active: true)
+2026-02-19 06:51:22 +00:00: [NocoDBApi] Caching: 10.121.17.140:55555 -> magpie-infinix-zt-2 (active: true)
+2026-02-19 06:51:22 +00:00: [NocoDBApi] Caching: 10.121.17.139:55555 -> magpie-samsung-1 (active: true)
+2026-02-19 06:51:22 +00:00: [NocoDBApi] Caching: 10.121.17.206:55555 -> magpie-infinix-zt-3 (active: true)
+2026-02-19 06:51:22 +00:00: [NocoDBApi] Cached 5 records from mobile-scrapers table
+2026-02-19 06:51:22 +00:00: [aDevice Tracker [mobile-orch]] Fetched 5 devices from NocoDB
+2026-02-19 06:51:22 +00:00: [aDevice Tracker [mobile-orch]] Known devices: 10.121.17.228:55555, 10.121.17.149:55555, 10.121.17.140:55555, 10.121.17.139:55555, 10.121.17.206:55555
+2026-02-19 06:51:22 +00:00: [aDevice Tracker [mobile-orch]] Updating device list. Current descriptors: 0, Known devices: 5
+2026-02-19 06:51:22 +00:00: [aDevice Tracker [mobile-orch]] Creating new descriptor for 10.121.17.228:55555 (ADB connected: false)
+2026-02-19 06:51:22 +00:00: [aDevice Tracker [mobile-orch]] Created descriptor for device: 10.121.17.228:55555 (magpie-infinix-zt-1)
+2026-02-19 06:51:22 +00:00: [aDevice Tracker [mobile-orch]] Emitting new device: 10.121.17.228:55555
+2026-02-19 06:51:22 +00:00: [aDevice Tracker [mobile-orch]] Creating new descriptor for 10.121.17.149:55555 (ADB connected: false)
+2026-02-19 06:51:22 +00:00: [aDevice Tracker [mobile-orch]] Created descriptor for device: 10.121.17.149:55555 (magpie-motorola-zt-1)
+2026-02-19 06:51:22 +00:00: [aDevice Tracker [mobile-orch]] Emitting new device: 10.121.17.149:55555
+2026-02-19 06:51:22 +00:00: [aDevice Tracker [mobile-orch]] Creating new descriptor for 10.121.17.140:55555 (ADB connected: false)
+2026-02-19 06:51:22 +00:00: [aDevice Tracker [mobile-orch]] Created descriptor for device: 10.121.17.140:55555 (magpie-infinix-zt-2)
+2026-02-19 06:51:22 +00:00: [aDevice Tracker [mobile-orch]] Emitting new device: 10.121.17.140:55555
+2026-02-19 06:51:22 +00:00: [aDevice Tracker [mobile-orch]] Creating new descriptor for 10.121.17.139:55555 (ADB connected: false)
+2026-02-19 06:51:22 +00:00: [aDevice Tracker [mobile-orch]] Created descriptor for device: 10.121.17.139:55555 (magpie-samsung-1)
+2026-02-19 06:51:22 +00:00: [aDevice Tracker [mobile-orch]] Emitting new device: 10.121.17.139:55555
+2026-02-19 06:51:22 +00:00: [aDevice Tracker [mobile-orch]] Creating new descriptor for 10.121.17.206:55555 (ADB connected: false)
+2026-02-19 06:51:22 +00:00: [aDevice Tracker [mobile-orch]] Created descriptor for device: 10.121.17.206:55555 (magpie-infinix-zt-3)
+2026-02-19 06:51:22 +00:00: [aDevice Tracker [mobile-orch]] Emitting new device: 10.121.17.206:55555
+2026-02-19 06:51:22 +00:00: [aDevice Tracker [mobile-orch]] Device list updated. Total descriptors: 5
+2026-02-19 06:51:22 +00:00: [aDevice Tracker [mobile-orch]] Found 3 ADB devices: 10.121.17.139:55555, 10.121.17.149:55555, 10.121.17.206:55555
+2026-02-19 06:51:23 +00:00: [DeviceTracker] Sending initial device list with 5 devices: 10.121.17.228:55555, 10.121.17.149:55555, 10.121.17.140:55555, 10.121.17.139:55555, 10.121.17.206:55555
+2026-02-19 06:51:24 +00:00: [DeviceTracker] Sending initial device list with 5 devices: 10.121.17.228:55555, 10.121.17.149:55555, 10.121.17.140:55555, 10.121.17.139:55555, 10.121.17.206:55555
+2026-02-19 06:52:22 +00:00: [NocoDBApi] Fetched page 1: 5 records (totalRows: 5)
+2026-02-19 06:52:22 +00:00: [NocoDBApi] Total records fetched: 5
+2026-02-19 06:52:22 +00:00: [NocoDBApi] Caching: 10.121.17.228:55555 -> magpie-infinix-zt-1 (active: true)
+2026-02-19 06:52:22 +00:00: [NocoDBApi] Caching: 10.121.17.149:55555 -> magpie-motorola-zt-1 (active: true)
+2026-02-19 06:52:22 +00:00: [NocoDBApi] Caching: 10.121.17.140:55555 -> magpie-infinix-zt-2 (active: true)
+2026-02-19 06:52:22 +00:00: [NocoDBApi] Caching: 10.121.17.139:55555 -> magpie-samsung-1 (active: true)
+2026-02-19 06:52:22 +00:00: [NocoDBApi] Caching: 10.121.17.206:55555 -> magpie-infinix-zt-3 (active: true)
+2026-02-19 06:52:22 +00:00: [NocoDBApi] Cached 5 records from mobile-scrapers table
+2026-02-19 06:52:22 +00:00: [aDevice Tracker [mobile-orch]] Fetched 5 devices from NocoDB
+2026-02-19 06:52:22 +00:00: [aDevice Tracker [mobile-orch]] Known devices: 10.121.17.228:55555, 10.121.17.149:55555, 10.121.17.140:55555, 10.121.17.139:55555, 10.121.17.206:55555
+2026-02-19 06:52:22 +00:00: [aDevice Tracker [mobile-orch]] Updating device list. Current descriptors: 5, Known devices: 5
+2026-02-19 06:52:22 +00:00: [aDevice Tracker [mobile-orch]] Device list updated. Total descriptors: 5
+2026-02-19 06:53:22 +00:00: [NocoDBApi] Returning cached data with 5 devices: 10.121.17.228:55555, 10.121.17.149:55555, 10.121.17.140:55555, 10.121.17.139:55555, 10.121.17.206:55555
+2026-02-19 06:53:22 +00:00: [aDevice Tracker [mobile-orch]] Fetched 5 devices from NocoDB
+2026-02-19 06:53:22 +00:00: [aDevice Tracker [mobile-orch]] Known devices: 10.121.17.228:55555, 10.121.17.149:55555, 10.121.17.140:55555, 10.121.17.139:55555, 10.121.17.206:55555
+2026-02-19 06:53:22 +00:00: [aDevice Tracker [mobile-orch]] Updating device list. Current descriptors: 5, Known devices: 5
+2026-02-19 06:53:22 +00:00: [aDevice Tracker [mobile-orch]] Device list updated. Total descriptors: 5
+2026-02-19 06:54:22 +00:00: [NocoDBApi] Fetched page 1: 5 records (totalRows: 5)
+2026-02-19 06:54:22 +00:00: [NocoDBApi] Total records fetched: 5
+2026-02-19 06:54:22 +00:00: [NocoDBApi] Caching: 10.121.17.228:55555 -> magpie-infinix-zt-1 (active: true)
+2026-02-19 06:54:22 +00:00: [NocoDBApi] Caching: 10.121.17.149:55555 -> magpie-motorola-zt-1 (active: true)
+2026-02-19 06:54:22 +00:00: [NocoDBApi] Caching: 10.121.17.140:55555 -> magpie-infinix-zt-2 (active: true)
+2026-02-19 06:54:22 +00:00: [NocoDBApi] Caching: 10.121.17.139:55555 -> magpie-samsung-1 (active: true)
+2026-02-19 06:54:22 +00:00: [NocoDBApi] Caching: 10.121.17.206:55555 -> magpie-infinix-zt-3 (active: true)
+2026-02-19 06:54:22 +00:00: [NocoDBApi] Cached 5 records from mobile-scrapers table
+2026-02-19 06:54:22 +00:00: [aDevice Tracker [mobile-orch]] Fetched 5 devices from NocoDB
+2026-02-19 06:54:22 +00:00: [aDevice Tracker [mobile-orch]] Known devices: 10.121.17.228:55555, 10.121.17.149:55555, 10.121.17.140:55555, 10.121.17.139:55555, 10.121.17.206:55555
+2026-02-19 06:54:22 +00:00: [aDevice Tracker [mobile-orch]] Updating device list. Current descriptors: 5, Known devices: 5
+2026-02-19 06:54:22 +00:00: [aDevice Tracker [mobile-orch]] Device list updated. Total descriptors: 5
+2026-02-19 06:55:22 +00:00: [NocoDBApi] Returning cached data with 5 devices: 10.121.17.228:55555, 10.121.17.149:55555, 10.121.17.140:55555, 10.121.17.139:55555, 10.121.17.206:55555
+2026-02-19 06:55:22 +00:00: [aDevice Tracker [mobile-orch]] Fetched 5 devices from NocoDB
+2026-02-19 06:55:22 +00:00: [aDevice Tracker [mobile-orch]] Known devices: 10.121.17.228:55555, 10.121.17.149:55555, 10.121.17.140:55555, 10.121.17.139:55555, 10.121.17.206:55555
+2026-02-19 06:55:22 +00:00: [aDevice Tracker [mobile-orch]] Updating device list. Current descriptors: 5, Known devices: 5
+2026-02-19 06:55:22 +00:00: [aDevice Tracker [mobile-orch]] Device list updated. Total descriptors: 5
+2026-02-19 06:55:24 +00:00: [DeviceTracker] Sending initial device list with 5 devices: 10.121.17.228:55555, 10.121.17.149:55555, 10.121.17.140:55555, 10.121.17.139:55555, 10.121.17.206:55555
+2026-02-19 06:55:24 +00:00: [NocoDBApi] Fetched page 1: 5 records (totalRows: 5)
+2026-02-19 06:55:24 +00:00: [NocoDBApi] Total records fetched: 5
+2026-02-19 06:55:24 +00:00: [NocoDBApi] Caching: 10.121.17.228:55555 -> magpie-infinix-zt-1 (active: true)
+2026-02-19 06:55:24 +00:00: [NocoDBApi] Caching: 10.121.17.149:55555 -> magpie-motorola-zt-1 (active: true)
+2026-02-19 06:55:24 +00:00: [NocoDBApi] Caching: 10.121.17.140:55555 -> magpie-infinix-zt-2 (active: true)
+2026-02-19 06:55:24 +00:00: [NocoDBApi] Caching: 10.121.17.139:55555 -> magpie-samsung-1 (active: true)
+2026-02-19 06:55:24 +00:00: [NocoDBApi] Caching: 10.121.17.206:55555 -> magpie-infinix-zt-3 (active: true)
+2026-02-19 06:55:24 +00:00: [NocoDBApi] Cached 5 records from mobile-scrapers table
+2026-02-19 06:55:33 +00:00: [DeviceTracker] Sending initial device list with 5 devices: 10.121.17.228:55555, 10.121.17.149:55555, 10.121.17.140:55555, 10.121.17.139:55555, 10.121.17.206:55555
+2026-02-19 06:55:33 +00:00: [NocoDBApi] Returning cached data with 5 devices: 10.121.17.228:55555, 10.121.17.149:55555, 10.121.17.140:55555, 10.121.17.139:55555, 10.121.17.206:55555
+2026-02-19 06:56:22 +00:00: [NocoDBApi] Returning cached data with 5 devices: 10.121.17.228:55555, 10.121.17.149:55555, 10.121.17.140:55555, 10.121.17.139:55555, 10.121.17.206:55555
+2026-02-19 06:56:22 +00:00: [aDevice Tracker [mobile-orch]] Fetched 5 devices from NocoDB
+2026-02-19 06:56:22 +00:00: [aDevice Tracker [mobile-orch]] Known devices: 10.121.17.228:55555, 10.121.17.149:55555, 10.121.17.140:55555, 10.121.17.139:55555, 10.121.17.206:55555
+2026-02-19 06:56:22 +00:00: [aDevice Tracker [mobile-orch]] Updating device list. Current descriptors: 5, Known devices: 5
+2026-02-19 06:56:22 +00:00: [aDevice Tracker [mobile-orch]] Device list updated. Total descriptors: 5
+2026-02-19 06:57:22 +00:00: [NocoDBApi] Fetched page 1: 5 records (totalRows: 5)
+2026-02-19 06:57:22 +00:00: [NocoDBApi] Total records fetched: 5
+2026-02-19 06:57:22 +00:00: [NocoDBApi] Caching: 10.121.17.228:55555 -> magpie-infinix-zt-1 (active: true)
+2026-02-19 06:57:22 +00:00: [NocoDBApi] Caching: 10.121.17.149:55555 -> magpie-motorola-zt-1 (active: true)
+2026-02-19 06:57:22 +00:00: [NocoDBApi] Caching: 10.121.17.140:55555 -> magpie-infinix-zt-2 (active: true)
+2026-02-19 06:57:22 +00:00: [NocoDBApi] Caching: 10.121.17.139:55555 -> magpie-samsung-1 (active: true)
+2026-02-19 06:57:22 +00:00: [NocoDBApi] Caching: 10.121.17.206:55555 -> magpie-infinix-zt-3 (active: true)
+2026-02-19 06:57:22 +00:00: [NocoDBApi] Cached 5 records from mobile-scrapers table
+2026-02-19 06:57:22 +00:00: [aDevice Tracker [mobile-orch]] Fetched 5 devices from NocoDB
+2026-02-19 06:57:22 +00:00: [aDevice Tracker [mobile-orch]] Known devices: 10.121.17.228:55555, 10.121.17.149:55555, 10.121.17.140:55555, 10.121.17.139:55555, 10.121.17.206:55555
+2026-02-19 06:57:22 +00:00: [aDevice Tracker [mobile-orch]] Updating device list. Current descriptors: 5, Known devices: 5
+2026-02-19 06:57:22 +00:00: [aDevice Tracker [mobile-orch]] Device list updated. Total descriptors: 5
+2026-02-19 06:57:58 +00:00: 
+Received signal SIGINT
+2026-02-19 06:57:58 +00:00: Stopping HTTP(s) Server Service ...
+2026-02-19 06:57:58 +00:00: Stopping WebSocket Server Service ...
+2026-02-19 06:57:58 +00:00: Stopping aDevice Tracker [mobile-orch] ...
+2026-02-19 06:58:00 +00:00: [dotenv@17.3.1] injecting env (3) from .env -- tip: 🛡️ auth for agents: https://vestauth.com
+2026-02-19 06:58:00 +00:00: Listening on:
+	http://mobile-orch:8000/ http://localhost:8000/
+2026-02-19 06:58:00 +00:00: 	http://127.0.0.1:8000/ http://10.1.0.5:8000/ http://10.121.17.222:8000/
+2026-02-19 06:58:00 +00:00: 	http://[::1]:8000/
+2026-02-19 06:58:00 +00:00: [NocoDBApi] Fetched page 1: 5 records (totalRows: 5)
+2026-02-19 06:58:00 +00:00: [NocoDBApi] Total records fetched: 5
+2026-02-19 06:58:00 +00:00: [NocoDBApi] Caching: 10.121.17.228:55555 -> magpie-infinix-zt-1 (active: true)
+2026-02-19 06:58:00 +00:00: [NocoDBApi] Caching: 10.121.17.149:55555 -> magpie-motorola-zt-1 (active: true)
+2026-02-19 06:58:00 +00:00: [NocoDBApi] Caching: 10.121.17.140:55555 -> magpie-infinix-zt-2 (active: true)
+2026-02-19 06:58:00 +00:00: [NocoDBApi] Caching: 10.121.17.139:55555 -> magpie-samsung-1 (active: true)
+2026-02-19 06:58:00 +00:00: [NocoDBApi] Caching: 10.121.17.206:55555 -> magpie-infinix-zt-3 (active: true)
+2026-02-19 06:58:00 +00:00: [NocoDBApi] Cached 5 records from mobile-scrapers table
+2026-02-19 06:58:00 +00:00: [aDevice Tracker [mobile-orch]] Fetched 5 devices from NocoDB
+2026-02-19 06:58:00 +00:00: [aDevice Tracker [mobile-orch]] Known devices: 10.121.17.228:55555, 10.121.17.149:55555, 10.121.17.140:55555, 10.121.17.139:55555, 10.121.17.206:55555
+2026-02-19 06:58:00 +00:00: [aDevice Tracker [mobile-orch]] Updating device list. Current descriptors: 0, Known devices: 5
+2026-02-19 06:58:00 +00:00: [aDevice Tracker [mobile-orch]] Creating new descriptor for 10.121.17.228:55555 (ADB connected: false)
+2026-02-19 06:58:00 +00:00: [aDevice Tracker [mobile-orch]] Created descriptor for device: 10.121.17.228:55555 (magpie-infinix-zt-1)
+2026-02-19 06:58:00 +00:00: [aDevice Tracker [mobile-orch]] Emitting new device: 10.121.17.228:55555
+2026-02-19 06:58:00 +00:00: [aDevice Tracker [mobile-orch]] Creating new descriptor for 10.121.17.149:55555 (ADB connected: false)
+2026-02-19 06:58:00 +00:00: [aDevice Tracker [mobile-orch]] Created descriptor for device: 10.121.17.149:55555 (magpie-motorola-zt-1)
+2026-02-19 06:58:00 +00:00: [aDevice Tracker [mobile-orch]] Emitting new device: 10.121.17.149:55555
+2026-02-19 06:58:00 +00:00: [aDevice Tracker [mobile-orch]] Creating new descriptor for 10.121.17.140:55555 (ADB connected: false)
+2026-02-19 06:58:00 +00:00: [aDevice Tracker [mobile-orch]] Created descriptor for device: 10.121.17.140:55555 (magpie-infinix-zt-2)
+2026-02-19 06:58:00 +00:00: [aDevice Tracker [mobile-orch]] Emitting new device: 10.121.17.140:55555
+2026-02-19 06:58:00 +00:00: [aDevice Tracker [mobile-orch]] Creating new descriptor for 10.121.17.139:55555 (ADB connected: false)
+2026-02-19 06:58:00 +00:00: [aDevice Tracker [mobile-orch]] Created descriptor for device: 10.121.17.139:55555 (magpie-samsung-1)
+2026-02-19 06:58:00 +00:00: [aDevice Tracker [mobile-orch]] Emitting new device: 10.121.17.139:55555
+2026-02-19 06:58:00 +00:00: [aDevice Tracker [mobile-orch]] Creating new descriptor for 10.121.17.206:55555 (ADB connected: false)
+2026-02-19 06:58:00 +00:00: [aDevice Tracker [mobile-orch]] Created descriptor for device: 10.121.17.206:55555 (magpie-infinix-zt-3)
+2026-02-19 06:58:00 +00:00: [aDevice Tracker [mobile-orch]] Emitting new device: 10.121.17.206:55555
+2026-02-19 06:58:00 +00:00: [aDevice Tracker [mobile-orch]] Device list updated. Total descriptors: 5
+2026-02-19 06:58:01 +00:00: [aDevice Tracker [mobile-orch]] Found 3 ADB devices: 10.121.17.139:55555, 10.121.17.149:55555, 10.121.17.206:55555
+2026-02-19 06:58:01 +00:00: [DeviceTracker] Sending initial device list with 5 devices: 10.121.17.228:55555, 10.121.17.149:55555, 10.121.17.140:55555, 10.121.17.139:55555, 10.121.17.206:55555
+2026-02-19 06:58:01 +00:00: [DeviceTracker] Sending initial device list with 5 devices: 10.121.17.228:55555, 10.121.17.149:55555, 10.121.17.140:55555, 10.121.17.139:55555, 10.121.17.206:55555
+2026-02-19 06:58:52 +00:00: [DeviceTracker] Sending initial device list with 5 devices: 10.121.17.228:55555, 10.121.17.149:55555, 10.121.17.140:55555, 10.121.17.139:55555, 10.121.17.206:55555
+2026-02-19 06:58:52 +00:00: [NocoDBApi] Returning cached data with 5 devices: 10.121.17.228:55555, 10.121.17.149:55555, 10.121.17.140:55555, 10.121.17.139:55555, 10.121.17.206:55555
+2026-02-19 06:58:56 +00:00: [aDevice Tracker [mobile-orch]] Created device instance for reconnection: 10.121.17.140:55555
+2026-02-19 06:58:56 +00:00: [10.121.17.140:55555] stdout: no host in '10.121.17.140:55555:5555'
+2026-02-19 06:58:56 +00:00: [10.121.17.140:55555] adb process (connect 10.121.17.140:55555:5555) exited with code 0
+2026-02-19 06:58:57 +00:00: [DeviceTracker] Sending device update for 10.121.17.140:55555 (state: disconnected)
+2026-02-19 06:58:57 +00:00: [DeviceTracker] Sending device update for 10.121.17.140:55555 (state: disconnected)
+2026-02-19 06:58:59 +00:00: [DeviceTracker] Sending initial device list with 5 devices: 10.121.17.228:55555, 10.121.17.149:55555, 10.121.17.140:55555, 10.121.17.139:55555, 10.121.17.206:55555
+2026-02-19 06:58:59 +00:00: [NocoDBApi] Returning cached data with 5 devices: 10.121.17.228:55555, 10.121.17.149:55555, 10.121.17.140:55555, 10.121.17.139:55555, 10.121.17.206:55555
+2026-02-19 06:59:01 +00:00: [NocoDBApi] Fetched page 1: 5 records (totalRows: 5)
+2026-02-19 06:59:01 +00:00: [NocoDBApi] Total records fetched: 5
+2026-02-19 06:59:01 +00:00: [NocoDBApi] Caching: 10.121.17.228:55555 -> magpie-infinix-zt-1 (active: true)
+2026-02-19 06:59:01 +00:00: [NocoDBApi] Caching: 10.121.17.149:55555 -> magpie-motorola-zt-1 (active: true)
+2026-02-19 06:59:01 +00:00: [NocoDBApi] Caching: 10.121.17.140:55555 -> magpie-infinix-zt-2 (active: true)
+2026-02-19 06:59:01 +00:00: [NocoDBApi] Caching: 10.121.17.139:55555 -> magpie-samsung-1 (active: true)
+2026-02-19 06:59:01 +00:00: [NocoDBApi] Caching: 10.121.17.206:55555 -> magpie-infinix-zt-3 (active: true)
+2026-02-19 06:59:01 +00:00: [NocoDBApi] Cached 5 records from mobile-scrapers table
+2026-02-19 06:59:01 +00:00: [aDevice Tracker [mobile-orch]] Fetched 5 devices from NocoDB
+2026-02-19 06:59:01 +00:00: [aDevice Tracker [mobile-orch]] Known devices: 10.121.17.228:55555, 10.121.17.149:55555, 10.121.17.140:55555, 10.121.17.139:55555, 10.121.17.206:55555
+2026-02-19 06:59:01 +00:00: [aDevice Tracker [mobile-orch]] Updating device list. Current descriptors: 5, Known devices: 5
+2026-02-19 06:59:01 +00:00: [aDevice Tracker [mobile-orch]] Device list updated. Total descriptors: 5
+2026-02-19 06:59:06 +00:00: [DeviceTracker] Sending initial device list with 5 devices: 10.121.17.228:55555, 10.121.17.149:55555, 10.121.17.140:55555, 10.121.17.139:55555, 10.121.17.206:55555
+2026-02-19 06:59:06 +00:00: [NocoDBApi] Returning cached data with 5 devices: 10.121.17.228:55555, 10.121.17.149:55555, 10.121.17.140:55555, 10.121.17.139:55555, 10.121.17.206:55555
+2026-02-19 06:59:07 +00:00: [DeviceTracker] Sending initial device list with 5 devices: 10.121.17.228:55555, 10.121.17.149:55555, 10.121.17.140:55555, 10.121.17.139:55555, 10.121.17.206:55555
+2026-02-19 06:59:07 +00:00: [NocoDBApi] Returning cached data with 5 devices: 10.121.17.228:55555, 10.121.17.149:55555, 10.121.17.140:55555, 10.121.17.139:55555, 10.121.17.206:55555
+2026-02-19 06:59:11 +00:00: [10.121.17.139:55555] Screenshot saved to screenshot_10.121.17.139:55555_1771484350210.png
+2026-02-19 06:59:11 +00:00: [10.121.17.139:55555] Screenshots directory: /home/fsd/ws-scrcpy/dist/public/screenshots
+2026-02-19 06:59:11 +00:00: [DeviceTracker] Sending device update for 10.121.17.139:55555 (state: device)
+2026-02-19 06:59:11 +00:00: [DeviceTracker] Sending device update for 10.121.17.139:55555 (state: device)
+2026-02-19 06:59:11 +00:00: [10.121.17.139:55555] adb process (-s 10.121.17.139:55555 shell screencap -p) exited with code 0
+2026-02-19 07:00:01 +00:00: [NocoDBApi] Returning cached data with 5 devices: 10.121.17.228:55555, 10.121.17.149:55555, 10.121.17.140:55555, 10.121.17.139:55555, 10.121.17.206:55555
+2026-02-19 07:00:01 +00:00: [aDevice Tracker [mobile-orch]] Fetched 5 devices from NocoDB
+2026-02-19 07:00:01 +00:00: [aDevice Tracker [mobile-orch]] Known devices: 10.121.17.228:55555, 10.121.17.149:55555, 10.121.17.140:55555, 10.121.17.139:55555, 10.121.17.206:55555
+2026-02-19 07:00:01 +00:00: [aDevice Tracker [mobile-orch]] Updating device list. Current descriptors: 5, Known devices: 5
+2026-02-19 07:00:01 +00:00: [aDevice Tracker [mobile-orch]] Device list updated. Total descriptors: 5
+2026-02-19 07:00:03 +00:00: 
+Received signal SIGINT
+2026-02-19 07:00:03 +00:00: Stopping HTTP(s) Server Service ...
+2026-02-19 07:00:03 +00:00: Stopping WebSocket Server Service ...
+2026-02-19 07:00:03 +00:00: Stopping aDevice Tracker [mobile-orch] ...
+2026-02-19 07:00:06 +00:00: [dotenv@17.3.1] injecting env (3) from .env -- tip: ⚙️  suppress all logs with { quiet: true }
+2026-02-19 07:00:06 +00:00: Listening on:
+	http://mobile-orch:8000/ http://localhost:8000/
+2026-02-19 07:00:06 +00:00: 	http://127.0.0.1:8000/ http://10.1.0.5:8000/ http://10.121.17.222:8000/
+2026-02-19 07:00:06 +00:00: 	http://[::1]:8000/
+2026-02-19 07:00:06 +00:00: [NocoDBApi] Fetched page 1: 5 records (totalRows: 5)
+2026-02-19 07:00:06 +00:00: [NocoDBApi] Total records fetched: 5
+2026-02-19 07:00:06 +00:00: [NocoDBApi] Caching: 10.121.17.228:55555 -> magpie-infinix-zt-1 (active: true)
+2026-02-19 07:00:06 +00:00: [NocoDBApi] Caching: 10.121.17.149:55555 -> magpie-motorola-zt-1 (active: true)
+2026-02-19 07:00:06 +00:00: [NocoDBApi] Caching: 10.121.17.140:55555 -> magpie-infinix-zt-2 (active: true)
+2026-02-19 07:00:06 +00:00: [NocoDBApi] Caching: 10.121.17.139:55555 -> magpie-samsung-1 (active: true)
+2026-02-19 07:00:06 +00:00: [NocoDBApi] Caching: 10.121.17.206:55555 -> magpie-infinix-zt-3 (active: true)
+2026-02-19 07:00:06 +00:00: [NocoDBApi] Cached 5 records from mobile-scrapers table
+2026-02-19 07:00:06 +00:00: [aDevice Tracker [mobile-orch]] Fetched 5 devices from NocoDB
+2026-02-19 07:00:06 +00:00: [aDevice Tracker [mobile-orch]] Known devices: 10.121.17.228:55555, 10.121.17.149:55555, 10.121.17.140:55555, 10.121.17.139:55555, 10.121.17.206:55555
+2026-02-19 07:00:06 +00:00: [aDevice Tracker [mobile-orch]] Updating device list. Current descriptors: 0, Known devices: 5
+2026-02-19 07:00:06 +00:00: [aDevice Tracker [mobile-orch]] Creating new descriptor for 10.121.17.228:55555 (ADB connected: false)
+2026-02-19 07:00:06 +00:00: [aDevice Tracker [mobile-orch]] Created descriptor for device: 10.121.17.228:55555 (magpie-infinix-zt-1)
+2026-02-19 07:00:06 +00:00: [aDevice Tracker [mobile-orch]] Emitting new device: 10.121.17.228:55555
+2026-02-19 07:00:06 +00:00: [aDevice Tracker [mobile-orch]] Creating new descriptor for 10.121.17.149:55555 (ADB connected: false)
+2026-02-19 07:00:06 +00:00: [aDevice Tracker [mobile-orch]] Created descriptor for device: 10.121.17.149:55555 (magpie-motorola-zt-1)
+2026-02-19 07:00:06 +00:00: [aDevice Tracker [mobile-orch]] Emitting new device: 10.121.17.149:55555
+2026-02-19 07:00:06 +00:00: [aDevice Tracker [mobile-orch]] Creating new descriptor for 10.121.17.140:55555 (ADB connected: false)
+2026-02-19 07:00:06 +00:00: [aDevice Tracker [mobile-orch]] Created descriptor for device: 10.121.17.140:55555 (magpie-infinix-zt-2)
+2026-02-19 07:00:06 +00:00: [aDevice Tracker [mobile-orch]] Emitting new device: 10.121.17.140:55555
+2026-02-19 07:00:06 +00:00: [aDevice Tracker [mobile-orch]] Creating new descriptor for 10.121.17.139:55555 (ADB connected: false)
+2026-02-19 07:00:06 +00:00: [aDevice Tracker [mobile-orch]] Created descriptor for device: 10.121.17.139:55555 (magpie-samsung-1)
+2026-02-19 07:00:06 +00:00: [aDevice Tracker [mobile-orch]] Emitting new device: 10.121.17.139:55555
+2026-02-19 07:00:06 +00:00: [aDevice Tracker [mobile-orch]] Creating new descriptor for 10.121.17.206:55555 (ADB connected: false)
+2026-02-19 07:00:06 +00:00: [aDevice Tracker [mobile-orch]] Created descriptor for device: 10.121.17.206:55555 (magpie-infinix-zt-3)
+2026-02-19 07:00:06 +00:00: [aDevice Tracker [mobile-orch]] Emitting new device: 10.121.17.206:55555
+2026-02-19 07:00:06 +00:00: [aDevice Tracker [mobile-orch]] Device list updated. Total descriptors: 5
+2026-02-19 07:00:06 +00:00: [aDevice Tracker [mobile-orch]] Found 3 ADB devices: 10.121.17.139:55555, 10.121.17.149:55555, 10.121.17.206:55555
+2026-02-19 07:00:07 +00:00: [DeviceTracker] Sending initial device list with 5 devices: 10.121.17.228:55555, 10.121.17.149:55555, 10.121.17.140:55555, 10.121.17.139:55555, 10.121.17.206:55555
+2026-02-19 07:00:07 +00:00: [DeviceTracker] Sending initial device list with 5 devices: 10.121.17.228:55555, 10.121.17.149:55555, 10.121.17.140:55555, 10.121.17.139:55555, 10.121.17.206:55555
+2026-02-19 07:00:41 +00:00: 
+Received signal SIGINT
+2026-02-19 07:00:41 +00:00: Stopping HTTP(s) Server Service ...
+2026-02-19 07:00:41 +00:00: Stopping WebSocket Server Service ...
+2026-02-19 07:00:41 +00:00: Stopping aDevice Tracker [mobile-orch] ...
+2026-02-19 07:00:43 +00:00: [dotenv@17.3.1] injecting env (3) from .env -- tip: 🛡️ auth for agents: https://vestauth.com
+2026-02-19 07:00:43 +00:00: Listening on:
+	http://mobile-orch:8000/ http://localhost:8000/
+2026-02-19 07:00:43 +00:00: 	http://127.0.0.1:8000/ http://10.1.0.5:8000/ http://10.121.17.222:8000/
+2026-02-19 07:00:43 +00:00: 	http://[::1]:8000/
+2026-02-19 07:00:43 +00:00: [NocoDBApi] Fetched page 1: 5 records (totalRows: 5)
+2026-02-19 07:00:43 +00:00: [NocoDBApi] Total records fetched: 5
+2026-02-19 07:00:43 +00:00: [NocoDBApi] Caching: 10.121.17.228:55555 -> magpie-infinix-zt-1 (active: true)
+2026-02-19 07:00:43 +00:00: [NocoDBApi] Caching: 10.121.17.149:55555 -> magpie-motorola-zt-1 (active: true)
+2026-02-19 07:00:43 +00:00: [NocoDBApi] Caching: 10.121.17.140:55555 -> magpie-infinix-zt-2 (active: true)
+2026-02-19 07:00:43 +00:00: [NocoDBApi] Caching: 10.121.17.139:55555 -> magpie-samsung-1 (active: true)
+2026-02-19 07:00:43 +00:00: [NocoDBApi] Caching: 10.121.17.206:55555 -> magpie-infinix-zt-3 (active: true)
+2026-02-19 07:00:43 +00:00: [NocoDBApi] Cached 5 records from mobile-scrapers table
+2026-02-19 07:00:43 +00:00: [aDevice Tracker [mobile-orch]] Fetched 5 devices from NocoDB
+2026-02-19 07:00:43 +00:00: [aDevice Tracker [mobile-orch]] Known devices: 10.121.17.228:55555, 10.121.17.149:55555, 10.121.17.140:55555, 10.121.17.139:55555, 10.121.17.206:55555
+2026-02-19 07:00:43 +00:00: [aDevice Tracker [mobile-orch]] Updating device list. Current descriptors: 0, Known devices: 5
+2026-02-19 07:00:43 +00:00: [aDevice Tracker [mobile-orch]] Creating new descriptor for 10.121.17.228:55555 (ADB connected: false)
+2026-02-19 07:00:43 +00:00: [aDevice Tracker [mobile-orch]] Created descriptor for device: 10.121.17.228:55555 (magpie-infinix-zt-1)
+2026-02-19 07:00:43 +00:00: [aDevice Tracker [mobile-orch]] Emitting new device: 10.121.17.228:55555
+2026-02-19 07:00:43 +00:00: [aDevice Tracker [mobile-orch]] Creating new descriptor for 10.121.17.149:55555 (ADB connected: false)
+2026-02-19 07:00:43 +00:00: [aDevice Tracker [mobile-orch]] Created descriptor for device: 10.121.17.149:55555 (magpie-motorola-zt-1)
+2026-02-19 07:00:43 +00:00: [aDevice Tracker [mobile-orch]] Emitting new device: 10.121.17.149:55555
+2026-02-19 07:00:43 +00:00: [aDevice Tracker [mobile-orch]] Creating new descriptor for 10.121.17.140:55555 (ADB connected: false)
+2026-02-19 07:00:43 +00:00: [aDevice Tracker [mobile-orch]] Created descriptor for device: 10.121.17.140:55555 (magpie-infinix-zt-2)
+2026-02-19 07:00:43 +00:00: [aDevice Tracker [mobile-orch]] Emitting new device: 10.121.17.140:55555
+2026-02-19 07:00:43 +00:00: [aDevice Tracker [mobile-orch]] Creating new descriptor for 10.121.17.139:55555 (ADB connected: false)
+2026-02-19 07:00:43 +00:00: [aDevice Tracker [mobile-orch]] Created descriptor for device: 10.121.17.139:55555 (magpie-samsung-1)
+2026-02-19 07:00:43 +00:00: [aDevice Tracker [mobile-orch]] Emitting new device: 10.121.17.139:55555
+2026-02-19 07:00:43 +00:00: [aDevice Tracker [mobile-orch]] Creating new descriptor for 10.121.17.206:55555 (ADB connected: false)
+2026-02-19 07:00:43 +00:00: [aDevice Tracker [mobile-orch]] Created descriptor for device: 10.121.17.206:55555 (magpie-infinix-zt-3)
+2026-02-19 07:00:43 +00:00: [aDevice Tracker [mobile-orch]] Emitting new device: 10.121.17.206:55555
+2026-02-19 07:00:43 +00:00: [aDevice Tracker [mobile-orch]] Device list updated. Total descriptors: 5
+2026-02-19 07:00:43 +00:00: [aDevice Tracker [mobile-orch]] Found 3 ADB devices: 10.121.17.139:55555, 10.121.17.149:55555, 10.121.17.206:55555
+2026-02-19 07:00:44 +00:00: [DeviceTracker] Sending initial device list with 5 devices: 10.121.17.228:55555, 10.121.17.149:55555, 10.121.17.140:55555, 10.121.17.139:55555, 10.121.17.206:55555
+2026-02-19 07:00:44 +00:00: [DeviceTracker] Sending initial device list with 5 devices: 10.121.17.228:55555, 10.121.17.149:55555, 10.121.17.140:55555, 10.121.17.139:55555, 10.121.17.206:55555
+2026-02-19 07:01:08 +00:00: [DeviceTracker] Sending initial device list with 5 devices: 10.121.17.228:55555, 10.121.17.149:55555, 10.121.17.140:55555, 10.121.17.139:55555, 10.121.17.206:55555
+2026-02-19 07:01:08 +00:00: [NocoDBApi] Returning cached data with 5 devices: 10.121.17.228:55555, 10.121.17.149:55555, 10.121.17.140:55555, 10.121.17.139:55555, 10.121.17.206:55555
+2026-02-19 07:01:11 +00:00: [aDevice Tracker [mobile-orch]] Created device instance for reconnection: 10.121.17.140:55555
+2026-02-19 07:01:11 +00:00: [DeviceTracker] Sending device update for 10.121.17.140:55555 (state: disconnected)
+2026-02-19 07:01:11 +00:00: [DeviceTracker] Sending device update for 10.121.17.140:55555 (state: disconnected)
+2026-02-19 07:01:12 +00:00: [10.121.17.140:55555] stdout: failed to connect to '10.121.17.140:5555': Connection refused
+2026-02-19 07:01:12 +00:00: [10.121.17.140:55555] adb process (connect 10.121.17.140:5555) exited with code 0
+2026-02-19 07:01:17 +00:00: [aDevice Tracker [mobile-orch]] Created device instance for reconnection: 10.121.17.228:55555
+2026-02-19 07:01:17 +00:00: [DeviceTracker] Sending device update for 10.121.17.228:55555 (state: disconnected)
+2026-02-19 07:01:17 +00:00: [DeviceTracker] Sending device update for 10.121.17.228:55555 (state: disconnected)
+2026-02-19 07:01:17 +00:00: [10.121.17.228:55555] stdout: failed to connect to '10.121.17.228:5555': Connection refused
+2026-02-19 07:01:17 +00:00: [10.121.17.228:55555] adb process (connect 10.121.17.228:5555) exited with code 0
+2026-02-19 07:01:43 +00:00: [NocoDBApi] Fetched page 1: 5 records (totalRows: 5)
+2026-02-19 07:01:43 +00:00: [NocoDBApi] Total records fetched: 5
+2026-02-19 07:01:43 +00:00: [NocoDBApi] Caching: 10.121.17.228:55555 -> magpie-infinix-zt-1 (active: true)
+2026-02-19 07:01:43 +00:00: [NocoDBApi] Caching: 10.121.17.149:55555 -> magpie-motorola-zt-1 (active: true)
+2026-02-19 07:01:43 +00:00: [NocoDBApi] Caching: 10.121.17.140:55555 -> magpie-infinix-zt-2 (active: true)
+2026-02-19 07:01:43 +00:00: [NocoDBApi] Caching: 10.121.17.139:55555 -> magpie-samsung-1 (active: true)
+2026-02-19 07:01:43 +00:00: [NocoDBApi] Caching: 10.121.17.206:55555 -> magpie-infinix-zt-3 (active: true)
+2026-02-19 07:01:43 +00:00: [NocoDBApi] Cached 5 records from mobile-scrapers table
+2026-02-19 07:01:43 +00:00: [aDevice Tracker [mobile-orch]] Fetched 5 devices from NocoDB
+2026-02-19 07:01:43 +00:00: [aDevice Tracker [mobile-orch]] Known devices: 10.121.17.228:55555, 10.121.17.149:55555, 10.121.17.140:55555, 10.121.17.139:55555, 10.121.17.206:55555
+2026-02-19 07:01:43 +00:00: [aDevice Tracker [mobile-orch]] Updating device list. Current descriptors: 5, Known devices: 5
+2026-02-19 07:01:43 +00:00: [aDevice Tracker [mobile-orch]] Device list updated. Total descriptors: 5
+2026-02-19 07:02:43 +00:00: [NocoDBApi] Returning cached data with 5 devices: 10.121.17.228:55555, 10.121.17.149:55555, 10.121.17.140:55555, 10.121.17.139:55555, 10.121.17.206:55555
+2026-02-19 07:02:43 +00:00: [aDevice Tracker [mobile-orch]] Fetched 5 devices from NocoDB
+2026-02-19 07:02:43 +00:00: [aDevice Tracker [mobile-orch]] Known devices: 10.121.17.228:55555, 10.121.17.149:55555, 10.121.17.140:55555, 10.121.17.139:55555, 10.121.17.206:55555
+2026-02-19 07:02:43 +00:00: [aDevice Tracker [mobile-orch]] Updating device list. Current descriptors: 5, Known devices: 5
+2026-02-19 07:02:43 +00:00: [aDevice Tracker [mobile-orch]] Device list updated. Total descriptors: 5
+2026-02-19 07:03:43 +00:00: [NocoDBApi] Fetched page 1: 5 records (totalRows: 5)
+2026-02-19 07:03:43 +00:00: [NocoDBApi] Total records fetched: 5
+2026-02-19 07:03:43 +00:00: [NocoDBApi] Caching: 10.121.17.228:55555 -> magpie-infinix-zt-1 (active: true)
+2026-02-19 07:03:43 +00:00: [NocoDBApi] Caching: 10.121.17.149:55555 -> magpie-motorola-zt-1 (active: true)
+2026-02-19 07:03:43 +00:00: [NocoDBApi] Caching: 10.121.17.140:55555 -> magpie-infinix-zt-2 (active: true)
+2026-02-19 07:03:43 +00:00: [NocoDBApi] Caching: 10.121.17.139:55555 -> magpie-samsung-1 (active: true)
+2026-02-19 07:03:43 +00:00: [NocoDBApi] Caching: 10.121.17.206:55555 -> magpie-infinix-zt-3 (active: true)
+2026-02-19 07:03:43 +00:00: [NocoDBApi] Cached 5 records from mobile-scrapers table
+2026-02-19 07:03:43 +00:00: [aDevice Tracker [mobile-orch]] Fetched 5 devices from NocoDB
+2026-02-19 07:03:43 +00:00: [aDevice Tracker [mobile-orch]] Known devices: 10.121.17.228:55555, 10.121.17.149:55555, 10.121.17.140:55555, 10.121.17.139:55555, 10.121.17.206:55555
+2026-02-19 07:03:43 +00:00: [aDevice Tracker [mobile-orch]] Updating device list. Current descriptors: 5, Known devices: 5
+2026-02-19 07:03:43 +00:00: [aDevice Tracker [mobile-orch]] Device list updated. Total descriptors: 5
+2026-02-19 07:04:43 +00:00: [NocoDBApi] Returning cached data with 5 devices: 10.121.17.228:55555, 10.121.17.149:55555, 10.121.17.140:55555, 10.121.17.139:55555, 10.121.17.206:55555
+2026-02-19 07:04:43 +00:00: [aDevice Tracker [mobile-orch]] Fetched 5 devices from NocoDB
+2026-02-19 07:04:43 +00:00: [aDevice Tracker [mobile-orch]] Known devices: 10.121.17.228:55555, 10.121.17.149:55555, 10.121.17.140:55555, 10.121.17.139:55555, 10.121.17.206:55555
+2026-02-19 07:04:43 +00:00: [aDevice Tracker [mobile-orch]] Updating device list. Current descriptors: 5, Known devices: 5
+2026-02-19 07:04:43 +00:00: [aDevice Tracker [mobile-orch]] Device list updated. Total descriptors: 5
+2026-02-19 07:05:08 +00:00: 
+Received signal SIGINT
+2026-02-19 07:05:08 +00:00: Stopping HTTP(s) Server Service ...
+2026-02-19 07:05:08 +00:00: Stopping WebSocket Server Service ...
+2026-02-19 07:05:08 +00:00: Stopping aDevice Tracker [mobile-orch] ...
+2026-02-19 07:05:10 +00:00: [dotenv@17.3.1] injecting env (3) from .env -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit
+2026-02-19 07:05:11 +00:00: Listening on:
+	http://mobile-orch:8000/ http://localhost:8000/
+2026-02-19 07:05:11 +00:00: 	http://127.0.0.1:8000/ http://10.1.0.5:8000/ http://10.121.17.222:8000/
+2026-02-19 07:05:11 +00:00: 	http://[::1]:8000/
+2026-02-19 07:05:11 +00:00: [NocoDBApi] Fetched page 1: 5 records (totalRows: 5)
+2026-02-19 07:05:11 +00:00: [NocoDBApi] Total records fetched: 5
+2026-02-19 07:05:11 +00:00: [NocoDBApi] Caching: 10.121.17.228:55555 -> magpie-infinix-zt-1 (active: true)
+2026-02-19 07:05:11 +00:00: [NocoDBApi] Caching: 10.121.17.149:55555 -> magpie-motorola-zt-1 (active: true)
+2026-02-19 07:05:11 +00:00: [NocoDBApi] Caching: 10.121.17.140:55555 -> magpie-infinix-zt-2 (active: true)
+2026-02-19 07:05:11 +00:00: [NocoDBApi] Caching: 10.121.17.139:55555 -> magpie-samsung-1 (active: true)
+2026-02-19 07:05:11 +00:00: [NocoDBApi] Caching: 10.121.17.206:55555 -> magpie-infinix-zt-3 (active: true)
+2026-02-19 07:05:11 +00:00: [NocoDBApi] Cached 5 records from mobile-scrapers table
+2026-02-19 07:05:11 +00:00: [aDevice Tracker [mobile-orch]] Fetched 5 devices from NocoDB
+2026-02-19 07:05:11 +00:00: [aDevice Tracker [mobile-orch]] Known devices: 10.121.17.228:55555, 10.121.17.149:55555, 10.121.17.140:55555, 10.121.17.139:55555, 10.121.17.206:55555
+2026-02-19 07:05:11 +00:00: [aDevice Tracker [mobile-orch]] Updating device list. Current descriptors: 0, Known devices: 5
+2026-02-19 07:05:11 +00:00: [aDevice Tracker [mobile-orch]] Creating new descriptor for 10.121.17.228:55555 (ADB connected: false)
+2026-02-19 07:05:11 +00:00: [aDevice Tracker [mobile-orch]] Created descriptor for device: 10.121.17.228:55555 (magpie-infinix-zt-1)
+2026-02-19 07:05:11 +00:00: [aDevice Tracker [mobile-orch]] Emitting new device: 10.121.17.228:55555
+2026-02-19 07:05:11 +00:00: [aDevice Tracker [mobile-orch]] Creating new descriptor for 10.121.17.149:55555 (ADB connected: false)
+2026-02-19 07:05:11 +00:00: [aDevice Tracker [mobile-orch]] Created descriptor for device: 10.121.17.149:55555 (magpie-motorola-zt-1)
+2026-02-19 07:05:11 +00:00: [aDevice Tracker [mobile-orch]] Emitting new device: 10.121.17.149:55555
+2026-02-19 07:05:11 +00:00: [aDevice Tracker [mobile-orch]] Creating new descriptor for 10.121.17.140:55555 (ADB connected: false)
+2026-02-19 07:05:11 +00:00: [aDevice Tracker [mobile-orch]] Created descriptor for device: 10.121.17.140:55555 (magpie-infinix-zt-2)
+2026-02-19 07:05:11 +00:00: [aDevice Tracker [mobile-orch]] Emitting new device: 10.121.17.140:55555
+2026-02-19 07:05:11 +00:00: [aDevice Tracker [mobile-orch]] Creating new descriptor for 10.121.17.139:55555 (ADB connected: false)
+2026-02-19 07:05:11 +00:00: [aDevice Tracker [mobile-orch]] Created descriptor for device: 10.121.17.139:55555 (magpie-samsung-1)
+2026-02-19 07:05:11 +00:00: [aDevice Tracker [mobile-orch]] Emitting new device: 10.121.17.139:55555
+2026-02-19 07:05:11 +00:00: [aDevice Tracker [mobile-orch]] Creating new descriptor for 10.121.17.206:55555 (ADB connected: false)
+2026-02-19 07:05:11 +00:00: [aDevice Tracker [mobile-orch]] Created descriptor for device: 10.121.17.206:55555 (magpie-infinix-zt-3)
+2026-02-19 07:05:11 +00:00: [aDevice Tracker [mobile-orch]] Emitting new device: 10.121.17.206:55555
+2026-02-19 07:05:11 +00:00: [aDevice Tracker [mobile-orch]] Device list updated. Total descriptors: 5
+2026-02-19 07:05:11 +00:00: [aDevice Tracker [mobile-orch]] Found 3 ADB devices: 10.121.17.139:55555, 10.121.17.149:55555, 10.121.17.206:55555
+2026-02-19 07:05:12 +00:00: [DeviceTracker] Sending initial device list with 5 devices: 10.121.17.228:55555, 10.121.17.149:55555, 10.121.17.140:55555, 10.121.17.139:55555, 10.121.17.206:55555
+2026-02-19 07:05:12 +00:00: [DeviceTracker] Sending initial device list with 5 devices: 10.121.17.228:55555, 10.121.17.149:55555, 10.121.17.140:55555, 10.121.17.139:55555, 10.121.17.206:55555
+2026-02-19 07:05:14 +00:00: [DeviceTracker] Sending device update for 10.121.17.206:55555 (state: device)
+2026-02-19 07:05:14 +00:00: [DeviceTracker] Sending device update for 10.121.17.206:55555 (state: device)
+2026-02-19 07:05:14 +00:00: [DeviceTracker] Sending device update for 10.121.17.206:55555 (state: device)
+2026-02-19 07:05:14 +00:00: [DeviceTracker] Sending device update for 10.121.17.206:55555 (state: device)
+2026-02-19 07:06:11 +00:00: [NocoDBApi] Fetched page 1: 5 records (totalRows: 5)
+2026-02-19 07:06:11 +00:00: [NocoDBApi] Total records fetched: 5
+2026-02-19 07:06:11 +00:00: [NocoDBApi] Caching: 10.121.17.228:55555 -> magpie-infinix-zt-1 (active: true)
+2026-02-19 07:06:11 +00:00: [NocoDBApi] Caching: 10.121.17.149:55555 -> magpie-motorola-zt-1 (active: true)
+2026-02-19 07:06:11 +00:00: [NocoDBApi] Caching: 10.121.17.140:55555 -> magpie-infinix-zt-2 (active: true)
+2026-02-19 07:06:11 +00:00: [NocoDBApi] Caching: 10.121.17.139:55555 -> magpie-samsung-1 (active: true)
+2026-02-19 07:06:11 +00:00: [NocoDBApi] Caching: 10.121.17.206:55555 -> magpie-infinix-zt-3 (active: true)
+2026-02-19 07:06:11 +00:00: [NocoDBApi] Cached 5 records from mobile-scrapers table
+2026-02-19 07:06:11 +00:00: [aDevice Tracker [mobile-orch]] Fetched 5 devices from NocoDB
+2026-02-19 07:06:11 +00:00: [aDevice Tracker [mobile-orch]] Known devices: 10.121.17.228:55555, 10.121.17.149:55555, 10.121.17.140:55555, 10.121.17.139:55555, 10.121.17.206:55555
+2026-02-19 07:06:11 +00:00: [aDevice Tracker [mobile-orch]] Updating device list. Current descriptors: 5, Known devices: 5
+2026-02-19 07:06:11 +00:00: [aDevice Tracker [mobile-orch]] Device list updated. Total descriptors: 5
+2026-02-19 07:07:11 +00:00: [NocoDBApi] Returning cached data with 5 devices: 10.121.17.228:55555, 10.121.17.149:55555, 10.121.17.140:55555, 10.121.17.139:55555, 10.121.17.206:55555
+2026-02-19 07:07:11 +00:00: [aDevice Tracker [mobile-orch]] Fetched 5 devices from NocoDB
+2026-02-19 07:07:11 +00:00: [aDevice Tracker [mobile-orch]] Known devices: 10.121.17.228:55555, 10.121.17.149:55555, 10.121.17.140:55555, 10.121.17.139:55555, 10.121.17.206:55555
+2026-02-19 07:07:11 +00:00: [aDevice Tracker [mobile-orch]] Updating device list. Current descriptors: 5, Known devices: 5
+2026-02-19 07:07:11 +00:00: [aDevice Tracker [mobile-orch]] Device list updated. Total descriptors: 5
+2026-02-19 07:08:11 +00:00: [NocoDBApi] Fetched page 1: 5 records (totalRows: 5)
+2026-02-19 07:08:11 +00:00: [NocoDBApi] Total records fetched: 5
+2026-02-19 07:08:11 +00:00: [NocoDBApi] Caching: 10.121.17.228:55555 -> magpie-infinix-zt-1 (active: true)
+2026-02-19 07:08:11 +00:00: [NocoDBApi] Caching: 10.121.17.149:55555 -> magpie-motorola-zt-1 (active: true)
+2026-02-19 07:08:11 +00:00: [NocoDBApi] Caching: 10.121.17.140:55555 -> magpie-infinix-zt-2 (active: true)
+2026-02-19 07:08:11 +00:00: [NocoDBApi] Caching: 10.121.17.139:55555 -> magpie-samsung-1 (active: true)
+2026-02-19 07:08:11 +00:00: [NocoDBApi] Caching: 10.121.17.206:55555 -> magpie-infinix-zt-3 (active: true)
+2026-02-19 07:08:11 +00:00: [NocoDBApi] Cached 5 records from mobile-scrapers table
+2026-02-19 07:08:11 +00:00: [aDevice Tracker [mobile-orch]] Fetched 5 devices from NocoDB
+2026-02-19 07:08:11 +00:00: [aDevice Tracker [mobile-orch]] Known devices: 10.121.17.228:55555, 10.121.17.149:55555, 10.121.17.140:55555, 10.121.17.139:55555, 10.121.17.206:55555
+2026-02-19 07:08:11 +00:00: [aDevice Tracker [mobile-orch]] Updating device list. Current descriptors: 5, Known devices: 5
+2026-02-19 07:08:11 +00:00: [aDevice Tracker [mobile-orch]] Device list updated. Total descriptors: 5
+2026-02-19 07:09:11 +00:00: [NocoDBApi] Returning cached data with 5 devices: 10.121.17.228:55555, 10.121.17.149:55555, 10.121.17.140:55555, 10.121.17.139:55555, 10.121.17.206:55555
+2026-02-19 07:09:11 +00:00: [aDevice Tracker [mobile-orch]] Fetched 5 devices from NocoDB
+2026-02-19 07:09:11 +00:00: [aDevice Tracker [mobile-orch]] Known devices: 10.121.17.228:55555, 10.121.17.149:55555, 10.121.17.140:55555, 10.121.17.139:55555, 10.121.17.206:55555
+2026-02-19 07:09:11 +00:00: [aDevice Tracker [mobile-orch]] Updating device list. Current descriptors: 5, Known devices: 5
+2026-02-19 07:09:11 +00:00: [aDevice Tracker [mobile-orch]] Device list updated. Total descriptors: 5
+2026-02-19 07:10:11 +00:00: [NocoDBApi] Fetched page 1: 5 records (totalRows: 5)
+2026-02-19 07:10:11 +00:00: [NocoDBApi] Total records fetched: 5
+2026-02-19 07:10:11 +00:00: [NocoDBApi] Caching: 10.121.17.228:55555 -> magpie-infinix-zt-1 (active: true)
+2026-02-19 07:10:11 +00:00: [NocoDBApi] Caching: 10.121.17.149:55555 -> magpie-motorola-zt-1 (active: true)
+2026-02-19 07:10:11 +00:00: [NocoDBApi] Caching: 10.121.17.140:55555 -> magpie-infinix-zt-2 (active: true)
+2026-02-19 07:10:11 +00:00: [NocoDBApi] Caching: 10.121.17.139:55555 -> magpie-samsung-1 (active: true)
+2026-02-19 07:10:11 +00:00: [NocoDBApi] Caching: 10.121.17.206:55555 -> magpie-infinix-zt-3 (active: true)
+2026-02-19 07:10:11 +00:00: [NocoDBApi] Cached 5 records from mobile-scrapers table
+2026-02-19 07:10:11 +00:00: [aDevice Tracker [mobile-orch]] Fetched 5 devices from NocoDB
+2026-02-19 07:10:11 +00:00: [aDevice Tracker [mobile-orch]] Known devices: 10.121.17.228:55555, 10.121.17.149:55555, 10.121.17.140:55555, 10.121.17.139:55555, 10.121.17.206:55555
+2026-02-19 07:10:11 +00:00: [aDevice Tracker [mobile-orch]] Updating device list. Current descriptors: 5, Known devices: 5
+2026-02-19 07:10:11 +00:00: [aDevice Tracker [mobile-orch]] Device list updated. Total descriptors: 5
+2026-02-19 07:11:11 +00:00: [NocoDBApi] Returning cached data with 5 devices: 10.121.17.228:55555, 10.121.17.149:55555, 10.121.17.140:55555, 10.121.17.139:55555, 10.121.17.206:55555
+2026-02-19 07:11:11 +00:00: [aDevice Tracker [mobile-orch]] Fetched 5 devices from NocoDB
+2026-02-19 07:11:11 +00:00: [aDevice Tracker [mobile-orch]] Known devices: 10.121.17.228:55555, 10.121.17.149:55555, 10.121.17.140:55555, 10.121.17.139:55555, 10.121.17.206:55555
+2026-02-19 07:11:11 +00:00: [aDevice Tracker [mobile-orch]] Updating device list. Current descriptors: 5, Known devices: 5
+2026-02-19 07:11:11 +00:00: [aDevice Tracker [mobile-orch]] Device list updated. Total descriptors: 5
+2026-02-19 07:12:11 +00:00: [NocoDBApi] Fetched page 1: 5 records (totalRows: 5)
+2026-02-19 07:12:11 +00:00: [NocoDBApi] Total records fetched: 5
+2026-02-19 07:12:11 +00:00: [NocoDBApi] Caching: 10.121.17.228:55555 -> magpie-infinix-zt-1 (active: true)
+2026-02-19 07:12:11 +00:00: [NocoDBApi] Caching: 10.121.17.149:55555 -> magpie-motorola-zt-1 (active: true)
+2026-02-19 07:12:11 +00:00: [NocoDBApi] Caching: 10.121.17.140:55555 -> magpie-infinix-zt-2 (active: true)
+2026-02-19 07:12:11 +00:00: [NocoDBApi] Caching: 10.121.17.139:55555 -> magpie-samsung-1 (active: true)
+2026-02-19 07:12:11 +00:00: [NocoDBApi] Caching: 10.121.17.206:55555 -> magpie-infinix-zt-3 (active: true)
+2026-02-19 07:12:11 +00:00: [NocoDBApi] Cached 5 records from mobile-scrapers table
+2026-02-19 07:12:11 +00:00: [aDevice Tracker [mobile-orch]] Fetched 5 devices from NocoDB
+2026-02-19 07:12:11 +00:00: [aDevice Tracker [mobile-orch]] Known devices: 10.121.17.228:55555, 10.121.17.149:55555, 10.121.17.140:55555, 10.121.17.139:55555, 10.121.17.206:55555
+2026-02-19 07:12:11 +00:00: [aDevice Tracker [mobile-orch]] Updating device list. Current descriptors: 5, Known devices: 5
+2026-02-19 07:12:11 +00:00: [aDevice Tracker [mobile-orch]] Device list updated. Total descriptors: 5
+2026-02-19 07:13:11 +00:00: [NocoDBApi] Returning cached data with 5 devices: 10.121.17.228:55555, 10.121.17.149:55555, 10.121.17.140:55555, 10.121.17.139:55555, 10.121.17.206:55555
+2026-02-19 07:13:11 +00:00: [aDevice Tracker [mobile-orch]] Fetched 5 devices from NocoDB
+2026-02-19 07:13:11 +00:00: [aDevice Tracker [mobile-orch]] Known devices: 10.121.17.228:55555, 10.121.17.149:55555, 10.121.17.140:55555, 10.121.17.139:55555, 10.121.17.206:55555
+2026-02-19 07:13:11 +00:00: [aDevice Tracker [mobile-orch]] Updating device list. Current descriptors: 5, Known devices: 5
+2026-02-19 07:13:11 +00:00: [aDevice Tracker [mobile-orch]] Device list updated. Total descriptors: 5
+2026-02-19 07:14:11 +00:00: [NocoDBApi] Fetched page 1: 5 records (totalRows: 5)
+2026-02-19 07:14:11 +00:00: [NocoDBApi] Total records fetched: 5
+2026-02-19 07:14:11 +00:00: [NocoDBApi] Caching: 10.121.17.228:55555 -> magpie-infinix-zt-1 (active: true)
+2026-02-19 07:14:11 +00:00: [NocoDBApi] Caching: 10.121.17.149:55555 -> magpie-motorola-zt-1 (active: true)
+2026-02-19 07:14:11 +00:00: [NocoDBApi] Caching: 10.121.17.140:55555 -> magpie-infinix-zt-2 (active: true)
+2026-02-19 07:14:11 +00:00: [NocoDBApi] Caching: 10.121.17.139:55555 -> magpie-samsung-1 (active: true)
+2026-02-19 07:14:11 +00:00: [NocoDBApi] Caching: 10.121.17.206:55555 -> magpie-infinix-zt-3 (active: true)
+2026-02-19 07:14:11 +00:00: [NocoDBApi] Cached 5 records from mobile-scrapers table
+2026-02-19 07:14:11 +00:00: [aDevice Tracker [mobile-orch]] Fetched 5 devices from NocoDB
+2026-02-19 07:14:11 +00:00: [aDevice Tracker [mobile-orch]] Known devices: 10.121.17.228:55555, 10.121.17.149:55555, 10.121.17.140:55555, 10.121.17.139:55555, 10.121.17.206:55555
+2026-02-19 07:14:11 +00:00: [aDevice Tracker [mobile-orch]] Updating device list. Current descriptors: 5, Known devices: 5
+2026-02-19 07:14:11 +00:00: [aDevice Tracker [mobile-orch]] Device list updated. Total descriptors: 5
+2026-02-19 07:15:11 +00:00: [NocoDBApi] Returning cached data with 5 devices: 10.121.17.228:55555, 10.121.17.149:55555, 10.121.17.140:55555, 10.121.17.139:55555, 10.121.17.206:55555
+2026-02-19 07:15:11 +00:00: [aDevice Tracker [mobile-orch]] Fetched 5 devices from NocoDB
+2026-02-19 07:15:11 +00:00: [aDevice Tracker [mobile-orch]] Known devices: 10.121.17.228:55555, 10.121.17.149:55555, 10.121.17.140:55555, 10.121.17.139:55555, 10.121.17.206:55555
+2026-02-19 07:15:11 +00:00: [aDevice Tracker [mobile-orch]] Updating device list. Current descriptors: 5, Known devices: 5
+2026-02-19 07:15:11 +00:00: [aDevice Tracker [mobile-orch]] Device list updated. Total descriptors: 5
+2026-02-19 07:16:11 +00:00: [NocoDBApi] Fetched page 1: 5 records (totalRows: 5)
+2026-02-19 07:16:11 +00:00: [NocoDBApi] Total records fetched: 5
+2026-02-19 07:16:11 +00:00: [NocoDBApi] Caching: 10.121.17.228:55555 -> magpie-infinix-zt-1 (active: true)
+2026-02-19 07:16:11 +00:00: [NocoDBApi] Caching: 10.121.17.149:55555 -> magpie-motorola-zt-1 (active: true)
+2026-02-19 07:16:11 +00:00: [NocoDBApi] Caching: 10.121.17.140:55555 -> magpie-infinix-zt-2 (active: true)
+2026-02-19 07:16:11 +00:00: [NocoDBApi] Caching: 10.121.17.139:55555 -> magpie-samsung-1 (active: true)
+2026-02-19 07:16:11 +00:00: [NocoDBApi] Caching: 10.121.17.206:55555 -> magpie-infinix-zt-3 (active: true)
+2026-02-19 07:16:11 +00:00: [NocoDBApi] Cached 5 records from mobile-scrapers table
+2026-02-19 07:16:11 +00:00: [aDevice Tracker [mobile-orch]] Fetched 5 devices from NocoDB
+2026-02-19 07:16:11 +00:00: [aDevice Tracker [mobile-orch]] Known devices: 10.121.17.228:55555, 10.121.17.149:55555, 10.121.17.140:55555, 10.121.17.139:55555, 10.121.17.206:55555
+2026-02-19 07:16:11 +00:00: [aDevice Tracker [mobile-orch]] Updating device list. Current descriptors: 5, Known devices: 5
+2026-02-19 07:16:11 +00:00: [aDevice Tracker [mobile-orch]] Device list updated. Total descriptors: 5
+2026-02-19 07:17:11 +00:00: [NocoDBApi] Returning cached data with 5 devices: 10.121.17.228:55555, 10.121.17.149:55555, 10.121.17.140:55555, 10.121.17.139:55555, 10.121.17.206:55555
+2026-02-19 07:17:11 +00:00: [aDevice Tracker [mobile-orch]] Fetched 5 devices from NocoDB
+2026-02-19 07:17:11 +00:00: [aDevice Tracker [mobile-orch]] Known devices: 10.121.17.228:55555, 10.121.17.149:55555, 10.121.17.140:55555, 10.121.17.139:55555, 10.121.17.206:55555
+2026-02-19 07:17:11 +00:00: [aDevice Tracker [mobile-orch]] Updating device list. Current descriptors: 5, Known devices: 5
+2026-02-19 07:17:11 +00:00: [aDevice Tracker [mobile-orch]] Device list updated. Total descriptors: 5
+2026-02-19 07:18:11 +00:00: [NocoDBApi] Fetched page 1: 5 records (totalRows: 5)
+2026-02-19 07:18:11 +00:00: [NocoDBApi] Total records fetched: 5
+2026-02-19 07:18:11 +00:00: [NocoDBApi] Caching: 10.121.17.228:55555 -> magpie-infinix-zt-1 (active: true)
+2026-02-19 07:18:11 +00:00: [NocoDBApi] Caching: 10.121.17.149:55555 -> magpie-motorola-zt-1 (active: true)
+2026-02-19 07:18:11 +00:00: [NocoDBApi] Caching: 10.121.17.140:55555 -> magpie-infinix-zt-2 (active: true)
+2026-02-19 07:18:11 +00:00: [NocoDBApi] Caching: 10.121.17.139:55555 -> magpie-samsung-1 (active: true)
+2026-02-19 07:18:11 +00:00: [NocoDBApi] Caching: 10.121.17.206:55555 -> magpie-infinix-zt-3 (active: true)
+2026-02-19 07:18:11 +00:00: [NocoDBApi] Cached 5 records from mobile-scrapers table
+2026-02-19 07:18:11 +00:00: [aDevice Tracker [mobile-orch]] Fetched 5 devices from NocoDB
+2026-02-19 07:18:11 +00:00: [aDevice Tracker [mobile-orch]] Known devices: 10.121.17.228:55555, 10.121.17.149:55555, 10.121.17.140:55555, 10.121.17.139:55555, 10.121.17.206:55555
+2026-02-19 07:18:11 +00:00: [aDevice Tracker [mobile-orch]] Updating device list. Current descriptors: 5, Known devices: 5
+2026-02-19 07:18:11 +00:00: [aDevice Tracker [mobile-orch]] Device list updated. Total descriptors: 5
+2026-02-19 07:19:11 +00:00: [NocoDBApi] Returning cached data with 5 devices: 10.121.17.228:55555, 10.121.17.149:55555, 10.121.17.140:55555, 10.121.17.139:55555, 10.121.17.206:55555
+2026-02-19 07:19:11 +00:00: [aDevice Tracker [mobile-orch]] Fetched 5 devices from NocoDB
+2026-02-19 07:19:11 +00:00: [aDevice Tracker [mobile-orch]] Known devices: 10.121.17.228:55555, 10.121.17.149:55555, 10.121.17.140:55555, 10.121.17.139:55555, 10.121.17.206:55555
+2026-02-19 07:19:11 +00:00: [aDevice Tracker [mobile-orch]] Updating device list. Current descriptors: 5, Known devices: 5
+2026-02-19 07:19:11 +00:00: [aDevice Tracker [mobile-orch]] Device list updated. Total descriptors: 5
+2026-02-19 07:20:11 +00:00: [NocoDBApi] Fetched page 1: 5 records (totalRows: 5)
+2026-02-19 07:20:11 +00:00: [NocoDBApi] Total records fetched: 5
+2026-02-19 07:20:11 +00:00: [NocoDBApi] Caching: 10.121.17.228:55555 -> magpie-infinix-zt-1 (active: true)
+2026-02-19 07:20:11 +00:00: [NocoDBApi] Caching: 10.121.17.149:55555 -> magpie-motorola-zt-1 (active: true)
+2026-02-19 07:20:11 +00:00: [NocoDBApi] Caching: 10.121.17.140:55555 -> magpie-infinix-zt-2 (active: true)
+2026-02-19 07:20:11 +00:00: [NocoDBApi] Caching: 10.121.17.139:55555 -> magpie-samsung-1 (active: true)
+2026-02-19 07:20:11 +00:00: [NocoDBApi] Caching: 10.121.17.206:55555 -> magpie-infinix-zt-3 (active: true)
+2026-02-19 07:20:11 +00:00: [NocoDBApi] Cached 5 records from mobile-scrapers table
+2026-02-19 07:20:11 +00:00: [aDevice Tracker [mobile-orch]] Fetched 5 devices from NocoDB
+2026-02-19 07:20:11 +00:00: [aDevice Tracker [mobile-orch]] Known devices: 10.121.17.228:55555, 10.121.17.149:55555, 10.121.17.140:55555, 10.121.17.139:55555, 10.121.17.206:55555
+2026-02-19 07:20:11 +00:00: [aDevice Tracker [mobile-orch]] Updating device list. Current descriptors: 5, Known devices: 5
+2026-02-19 07:20:11 +00:00: [aDevice Tracker [mobile-orch]] Device list updated. Total descriptors: 5
+2026-02-19 07:21:11 +00:00: [NocoDBApi] Returning cached data with 5 devices: 10.121.17.228:55555, 10.121.17.149:55555, 10.121.17.140:55555, 10.121.17.139:55555, 10.121.17.206:55555
+2026-02-19 07:21:11 +00:00: [aDevice Tracker [mobile-orch]] Fetched 5 devices from NocoDB
+2026-02-19 07:21:11 +00:00: [aDevice Tracker [mobile-orch]] Known devices: 10.121.17.228:55555, 10.121.17.149:55555, 10.121.17.140:55555, 10.121.17.139:55555, 10.121.17.206:55555
+2026-02-19 07:21:11 +00:00: [aDevice Tracker [mobile-orch]] Updating device list. Current descriptors: 5, Known devices: 5
+2026-02-19 07:21:11 +00:00: [aDevice Tracker [mobile-orch]] Device list updated. Total descriptors: 5
+2026-02-19 07:22:11 +00:00: [NocoDBApi] Fetched page 1: 5 records (totalRows: 5)
+2026-02-19 07:22:11 +00:00: [NocoDBApi] Total records fetched: 5
+2026-02-19 07:22:11 +00:00: [NocoDBApi] Caching: 10.121.17.228:55555 -> magpie-infinix-zt-1 (active: true)
+2026-02-19 07:22:11 +00:00: [NocoDBApi] Caching: 10.121.17.149:55555 -> magpie-motorola-zt-1 (active: true)
+2026-02-19 07:22:11 +00:00: [NocoDBApi] Caching: 10.121.17.140:55555 -> magpie-infinix-zt-2 (active: true)
+2026-02-19 07:22:11 +00:00: [NocoDBApi] Caching: 10.121.17.139:55555 -> magpie-samsung-1 (active: true)
+2026-02-19 07:22:11 +00:00: [NocoDBApi] Caching: 10.121.17.206:55555 -> magpie-infinix-zt-3 (active: true)
+2026-02-19 07:22:11 +00:00: [NocoDBApi] Cached 5 records from mobile-scrapers table
+2026-02-19 07:22:11 +00:00: [aDevice Tracker [mobile-orch]] Fetched 5 devices from NocoDB
+2026-02-19 07:22:11 +00:00: [aDevice Tracker [mobile-orch]] Known devices: 10.121.17.228:55555, 10.121.17.149:55555, 10.121.17.140:55555, 10.121.17.139:55555, 10.121.17.206:55555
+2026-02-19 07:22:11 +00:00: [aDevice Tracker [mobile-orch]] Updating device list. Current descriptors: 5, Known devices: 5
+2026-02-19 07:22:11 +00:00: [aDevice Tracker [mobile-orch]] Device list updated. Total descriptors: 5
+2026-02-19 07:23:11 +00:00: [NocoDBApi] Returning cached data with 5 devices: 10.121.17.228:55555, 10.121.17.149:55555, 10.121.17.140:55555, 10.121.17.139:55555, 10.121.17.206:55555
+2026-02-19 07:23:11 +00:00: [aDevice Tracker [mobile-orch]] Fetched 5 devices from NocoDB
+2026-02-19 07:23:11 +00:00: [aDevice Tracker [mobile-orch]] Known devices: 10.121.17.228:55555, 10.121.17.149:55555, 10.121.17.140:55555, 10.121.17.139:55555, 10.121.17.206:55555
+2026-02-19 07:23:11 +00:00: [aDevice Tracker [mobile-orch]] Updating device list. Current descriptors: 5, Known devices: 5
+2026-02-19 07:23:11 +00:00: [aDevice Tracker [mobile-orch]] Device list updated. Total descriptors: 5
+2026-02-19 07:24:11 +00:00: [NocoDBApi] Fetched page 1: 5 records (totalRows: 5)
+2026-02-19 07:24:11 +00:00: [NocoDBApi] Total records fetched: 5
+2026-02-19 07:24:11 +00:00: [NocoDBApi] Caching: 10.121.17.228:55555 -> magpie-infinix-zt-1 (active: true)
+2026-02-19 07:24:11 +00:00: [NocoDBApi] Caching: 10.121.17.149:55555 -> magpie-motorola-zt-1 (active: true)
+2026-02-19 07:24:11 +00:00: [NocoDBApi] Caching: 10.121.17.140:55555 -> magpie-infinix-zt-2 (active: true)
+2026-02-19 07:24:11 +00:00: [NocoDBApi] Caching: 10.121.17.139:55555 -> magpie-samsung-1 (active: true)
+2026-02-19 07:24:11 +00:00: [NocoDBApi] Caching: 10.121.17.206:55555 -> magpie-infinix-zt-3 (active: true)
+2026-02-19 07:24:11 +00:00: [NocoDBApi] Cached 5 records from mobile-scrapers table
+2026-02-19 07:24:11 +00:00: [aDevice Tracker [mobile-orch]] Fetched 5 devices from NocoDB
+2026-02-19 07:24:11 +00:00: [aDevice Tracker [mobile-orch]] Known devices: 10.121.17.228:55555, 10.121.17.149:55555, 10.121.17.140:55555, 10.121.17.139:55555, 10.121.17.206:55555
+2026-02-19 07:24:11 +00:00: [aDevice Tracker [mobile-orch]] Updating device list. Current descriptors: 5, Known devices: 5
+2026-02-19 07:24:11 +00:00: [aDevice Tracker [mobile-orch]] Device list updated. Total descriptors: 5
+2026-02-19 07:25:11 +00:00: [NocoDBApi] Returning cached data with 5 devices: 10.121.17.228:55555, 10.121.17.149:55555, 10.121.17.140:55555, 10.121.17.139:55555, 10.121.17.206:55555
+2026-02-19 07:25:11 +00:00: [aDevice Tracker [mobile-orch]] Fetched 5 devices from NocoDB
+2026-02-19 07:25:11 +00:00: [aDevice Tracker [mobile-orch]] Known devices: 10.121.17.228:55555, 10.121.17.149:55555, 10.121.17.140:55555, 10.121.17.139:55555, 10.121.17.206:55555
+2026-02-19 07:25:11 +00:00: [aDevice Tracker [mobile-orch]] Updating device list. Current descriptors: 5, Known devices: 5
+2026-02-19 07:25:11 +00:00: [aDevice Tracker [mobile-orch]] Device list updated. Total descriptors: 5
+2026-02-19 07:26:11 +00:00: [NocoDBApi] Fetched page 1: 5 records (totalRows: 5)
+2026-02-19 07:26:11 +00:00: [NocoDBApi] Total records fetched: 5
+2026-02-19 07:26:11 +00:00: [NocoDBApi] Caching: 10.121.17.228:55555 -> magpie-infinix-zt-1 (active: true)
+2026-02-19 07:26:11 +00:00: [NocoDBApi] Caching: 10.121.17.149:55555 -> magpie-motorola-zt-1 (active: true)
+2026-02-19 07:26:11 +00:00: [NocoDBApi] Caching: 10.121.17.140:55555 -> magpie-infinix-zt-2 (active: true)
+2026-02-19 07:26:11 +00:00: [NocoDBApi] Caching: 10.121.17.139:55555 -> magpie-samsung-1 (active: true)
+2026-02-19 07:26:11 +00:00: [NocoDBApi] Caching: 10.121.17.206:55555 -> magpie-infinix-zt-3 (active: true)
+2026-02-19 07:26:11 +00:00: [NocoDBApi] Cached 5 records from mobile-scrapers table
+2026-02-19 07:26:11 +00:00: [aDevice Tracker [mobile-orch]] Fetched 5 devices from NocoDB
+2026-02-19 07:26:11 +00:00: [aDevice Tracker [mobile-orch]] Known devices: 10.121.17.228:55555, 10.121.17.149:55555, 10.121.17.140:55555, 10.121.17.139:55555, 10.121.17.206:55555
+2026-02-19 07:26:11 +00:00: [aDevice Tracker [mobile-orch]] Updating device list. Current descriptors: 5, Known devices: 5
+2026-02-19 07:26:11 +00:00: [aDevice Tracker [mobile-orch]] Device list updated. Total descriptors: 5
+2026-02-19 07:27:11 +00:00: [NocoDBApi] Returning cached data with 5 devices: 10.121.17.228:55555, 10.121.17.149:55555, 10.121.17.140:55555, 10.121.17.139:55555, 10.121.17.206:55555
+2026-02-19 07:27:11 +00:00: [aDevice Tracker [mobile-orch]] Fetched 5 devices from NocoDB
+2026-02-19 07:27:11 +00:00: [aDevice Tracker [mobile-orch]] Known devices: 10.121.17.228:55555, 10.121.17.149:55555, 10.121.17.140:55555, 10.121.17.139:55555, 10.121.17.206:55555
+2026-02-19 07:27:11 +00:00: [aDevice Tracker [mobile-orch]] Updating device list. Current descriptors: 5, Known devices: 5
+2026-02-19 07:27:11 +00:00: [aDevice Tracker [mobile-orch]] Device list updated. Total descriptors: 5
+2026-02-19 07:28:11 +00:00: [NocoDBApi] Fetched page 1: 5 records (totalRows: 5)
+2026-02-19 07:28:11 +00:00: [NocoDBApi] Total records fetched: 5
+2026-02-19 07:28:11 +00:00: [NocoDBApi] Caching: 10.121.17.228:55555 -> magpie-infinix-zt-1 (active: true)
+2026-02-19 07:28:11 +00:00: [NocoDBApi] Caching: 10.121.17.149:55555 -> magpie-motorola-zt-1 (active: true)
+2026-02-19 07:28:11 +00:00: [NocoDBApi] Caching: 10.121.17.140:55555 -> magpie-infinix-zt-2 (active: true)
+2026-02-19 07:28:11 +00:00: [NocoDBApi] Caching: 10.121.17.139:55555 -> magpie-samsung-1 (active: true)
+2026-02-19 07:28:11 +00:00: [NocoDBApi] Caching: 10.121.17.206:55555 -> magpie-infinix-zt-3 (active: true)
+2026-02-19 07:28:11 +00:00: [NocoDBApi] Cached 5 records from mobile-scrapers table
+2026-02-19 07:28:11 +00:00: [aDevice Tracker [mobile-orch]] Fetched 5 devices from NocoDB
+2026-02-19 07:28:11 +00:00: [aDevice Tracker [mobile-orch]] Known devices: 10.121.17.228:55555, 10.121.17.149:55555, 10.121.17.140:55555, 10.121.17.139:55555, 10.121.17.206:55555
+2026-02-19 07:28:11 +00:00: [aDevice Tracker [mobile-orch]] Updating device list. Current descriptors: 5, Known devices: 5
+2026-02-19 07:28:11 +00:00: [aDevice Tracker [mobile-orch]] Device list updated. Total descriptors: 5
+2026-02-19 07:29:11 +00:00: [NocoDBApi] Returning cached data with 5 devices: 10.121.17.228:55555, 10.121.17.149:55555, 10.121.17.140:55555, 10.121.17.139:55555, 10.121.17.206:55555
+2026-02-19 07:29:11 +00:00: [aDevice Tracker [mobile-orch]] Fetched 5 devices from NocoDB
+2026-02-19 07:29:11 +00:00: [aDevice Tracker [mobile-orch]] Known devices: 10.121.17.228:55555, 10.121.17.149:55555, 10.121.17.140:55555, 10.121.17.139:55555, 10.121.17.206:55555
+2026-02-19 07:29:11 +00:00: [aDevice Tracker [mobile-orch]] Updating device list. Current descriptors: 5, Known devices: 5
+2026-02-19 07:29:11 +00:00: [aDevice Tracker [mobile-orch]] Device list updated. Total descriptors: 5
+2026-02-19 07:30:11 +00:00: [NocoDBApi] Fetched page 1: 5 records (totalRows: 5)
+2026-02-19 07:30:11 +00:00: [NocoDBApi] Total records fetched: 5
+2026-02-19 07:30:11 +00:00: [NocoDBApi] Caching: 10.121.17.228:55555 -> magpie-infinix-zt-1 (active: true)
+2026-02-19 07:30:11 +00:00: [NocoDBApi] Caching: 10.121.17.149:55555 -> magpie-motorola-zt-1 (active: true)
+2026-02-19 07:30:11 +00:00: [NocoDBApi] Caching: 10.121.17.140:55555 -> magpie-infinix-zt-2 (active: true)
+2026-02-19 07:30:11 +00:00: [NocoDBApi] Caching: 10.121.17.139:55555 -> magpie-samsung-1 (active: true)
+2026-02-19 07:30:11 +00:00: [NocoDBApi] Caching: 10.121.17.206:55555 -> magpie-infinix-zt-3 (active: true)
+2026-02-19 07:30:11 +00:00: [NocoDBApi] Cached 5 records from mobile-scrapers table
+2026-02-19 07:30:11 +00:00: [aDevice Tracker [mobile-orch]] Fetched 5 devices from NocoDB
+2026-02-19 07:30:11 +00:00: [aDevice Tracker [mobile-orch]] Known devices: 10.121.17.228:55555, 10.121.17.149:55555, 10.121.17.140:55555, 10.121.17.139:55555, 10.121.17.206:55555
+2026-02-19 07:30:11 +00:00: [aDevice Tracker [mobile-orch]] Updating device list. Current descriptors: 5, Known devices: 5
+2026-02-19 07:30:11 +00:00: [aDevice Tracker [mobile-orch]] Device list updated. Total descriptors: 5
+2026-02-19 07:31:11 +00:00: [NocoDBApi] Returning cached data with 5 devices: 10.121.17.228:55555, 10.121.17.149:55555, 10.121.17.140:55555, 10.121.17.139:55555, 10.121.17.206:55555
+2026-02-19 07:31:11 +00:00: [aDevice Tracker [mobile-orch]] Fetched 5 devices from NocoDB
+2026-02-19 07:31:11 +00:00: [aDevice Tracker [mobile-orch]] Known devices: 10.121.17.228:55555, 10.121.17.149:55555, 10.121.17.140:55555, 10.121.17.139:55555, 10.121.17.206:55555
+2026-02-19 07:31:11 +00:00: [aDevice Tracker [mobile-orch]] Updating device list. Current descriptors: 5, Known devices: 5
+2026-02-19 07:31:11 +00:00: [aDevice Tracker [mobile-orch]] Device list updated. Total descriptors: 5
+2026-02-19 07:32:11 +00:00: [NocoDBApi] Fetched page 1: 5 records (totalRows: 5)
+2026-02-19 07:32:11 +00:00: [NocoDBApi] Total records fetched: 5
+2026-02-19 07:32:11 +00:00: [NocoDBApi] Caching: 10.121.17.228:55555 -> magpie-infinix-zt-1 (active: true)
+2026-02-19 07:32:11 +00:00: [NocoDBApi] Caching: 10.121.17.149:55555 -> magpie-motorola-zt-1 (active: true)
+2026-02-19 07:32:11 +00:00: [NocoDBApi] Caching: 10.121.17.140:55555 -> magpie-infinix-zt-2 (active: true)
+2026-02-19 07:32:11 +00:00: [NocoDBApi] Caching: 10.121.17.139:55555 -> magpie-samsung-1 (active: true)
+2026-02-19 07:32:11 +00:00: [NocoDBApi] Caching: 10.121.17.206:55555 -> magpie-infinix-zt-3 (active: true)
+2026-02-19 07:32:11 +00:00: [NocoDBApi] Cached 5 records from mobile-scrapers table
+2026-02-19 07:32:11 +00:00: [aDevice Tracker [mobile-orch]] Fetched 5 devices from NocoDB
+2026-02-19 07:32:11 +00:00: [aDevice Tracker [mobile-orch]] Known devices: 10.121.17.228:55555, 10.121.17.149:55555, 10.121.17.140:55555, 10.121.17.139:55555, 10.121.17.206:55555
+2026-02-19 07:32:11 +00:00: [aDevice Tracker [mobile-orch]] Updating device list. Current descriptors: 5, Known devices: 5
+2026-02-19 07:32:11 +00:00: [aDevice Tracker [mobile-orch]] Device list updated. Total descriptors: 5
+2026-02-19 07:33:11 +00:00: [NocoDBApi] Returning cached data with 5 devices: 10.121.17.228:55555, 10.121.17.149:55555, 10.121.17.140:55555, 10.121.17.139:55555, 10.121.17.206:55555
+2026-02-19 07:33:11 +00:00: [aDevice Tracker [mobile-orch]] Fetched 5 devices from NocoDB
+2026-02-19 07:33:11 +00:00: [aDevice Tracker [mobile-orch]] Known devices: 10.121.17.228:55555, 10.121.17.149:55555, 10.121.17.140:55555, 10.121.17.139:55555, 10.121.17.206:55555
+2026-02-19 07:33:11 +00:00: [aDevice Tracker [mobile-orch]] Updating device list. Current descriptors: 5, Known devices: 5
+2026-02-19 07:33:11 +00:00: [aDevice Tracker [mobile-orch]] Device list updated. Total descriptors: 5
+2026-02-19 07:34:11 +00:00: [NocoDBApi] Fetched page 1: 5 records (totalRows: 5)
+2026-02-19 07:34:11 +00:00: [NocoDBApi] Total records fetched: 5
+2026-02-19 07:34:11 +00:00: [NocoDBApi] Caching: 10.121.17.228:55555 -> magpie-infinix-zt-1 (active: true)
+2026-02-19 07:34:11 +00:00: [NocoDBApi] Caching: 10.121.17.149:55555 -> magpie-motorola-zt-1 (active: true)
+2026-02-19 07:34:11 +00:00: [NocoDBApi] Caching: 10.121.17.140:55555 -> magpie-infinix-zt-2 (active: true)
+2026-02-19 07:34:11 +00:00: [NocoDBApi] Caching: 10.121.17.139:55555 -> magpie-samsung-1 (active: true)
+2026-02-19 07:34:11 +00:00: [NocoDBApi] Caching: 10.121.17.206:55555 -> magpie-infinix-zt-3 (active: true)
+2026-02-19 07:34:11 +00:00: [NocoDBApi] Cached 5 records from mobile-scrapers table
+2026-02-19 07:34:11 +00:00: [aDevice Tracker [mobile-orch]] Fetched 5 devices from NocoDB
+2026-02-19 07:34:11 +00:00: [aDevice Tracker [mobile-orch]] Known devices: 10.121.17.228:55555, 10.121.17.149:55555, 10.121.17.140:55555, 10.121.17.139:55555, 10.121.17.206:55555
+2026-02-19 07:34:11 +00:00: [aDevice Tracker [mobile-orch]] Updating device list. Current descriptors: 5, Known devices: 5
+2026-02-19 07:34:11 +00:00: [aDevice Tracker [mobile-orch]] Device list updated. Total descriptors: 5
+2026-02-19 07:35:11 +00:00: [NocoDBApi] Returning cached data with 5 devices: 10.121.17.228:55555, 10.121.17.149:55555, 10.121.17.140:55555, 10.121.17.139:55555, 10.121.17.206:55555
+2026-02-19 07:35:11 +00:00: [aDevice Tracker [mobile-orch]] Fetched 5 devices from NocoDB
+2026-02-19 07:35:11 +00:00: [aDevice Tracker [mobile-orch]] Known devices: 10.121.17.228:55555, 10.121.17.149:55555, 10.121.17.140:55555, 10.121.17.139:55555, 10.121.17.206:55555
+2026-02-19 07:35:11 +00:00: [aDevice Tracker [mobile-orch]] Updating device list. Current descriptors: 5, Known devices: 5
+2026-02-19 07:35:11 +00:00: [aDevice Tracker [mobile-orch]] Device list updated. Total descriptors: 5
+2026-02-19 07:36:11 +00:00: [NocoDBApi] Fetched page 1: 5 records (totalRows: 5)
+2026-02-19 07:36:11 +00:00: [NocoDBApi] Total records fetched: 5
+2026-02-19 07:36:11 +00:00: [NocoDBApi] Caching: 10.121.17.228:55555 -> magpie-infinix-zt-1 (active: true)
+2026-02-19 07:36:11 +00:00: [NocoDBApi] Caching: 10.121.17.149:55555 -> magpie-motorola-zt-1 (active: true)
+2026-02-19 07:36:11 +00:00: [NocoDBApi] Caching: 10.121.17.140:55555 -> magpie-infinix-zt-2 (active: true)
+2026-02-19 07:36:11 +00:00: [NocoDBApi] Caching: 10.121.17.139:55555 -> magpie-samsung-1 (active: true)
+2026-02-19 07:36:11 +00:00: [NocoDBApi] Caching: 10.121.17.206:55555 -> magpie-infinix-zt-3 (active: true)
+2026-02-19 07:36:11 +00:00: [NocoDBApi] Cached 5 records from mobile-scrapers table
+2026-02-19 07:36:11 +00:00: [aDevice Tracker [mobile-orch]] Fetched 5 devices from NocoDB
+2026-02-19 07:36:11 +00:00: [aDevice Tracker [mobile-orch]] Known devices: 10.121.17.228:55555, 10.121.17.149:55555, 10.121.17.140:55555, 10.121.17.139:55555, 10.121.17.206:55555
+2026-02-19 07:36:11 +00:00: [aDevice Tracker [mobile-orch]] Updating device list. Current descriptors: 5, Known devices: 5
+2026-02-19 07:36:11 +00:00: [aDevice Tracker [mobile-orch]] Device list updated. Total descriptors: 5
+2026-02-19 07:37:11 +00:00: [NocoDBApi] Returning cached data with 5 devices: 10.121.17.228:55555, 10.121.17.149:55555, 10.121.17.140:55555, 10.121.17.139:55555, 10.121.17.206:55555
+2026-02-19 07:37:11 +00:00: [aDevice Tracker [mobile-orch]] Fetched 5 devices from NocoDB
+2026-02-19 07:37:11 +00:00: [aDevice Tracker [mobile-orch]] Known devices: 10.121.17.228:55555, 10.121.17.149:55555, 10.121.17.140:55555, 10.121.17.139:55555, 10.121.17.206:55555
+2026-02-19 07:37:11 +00:00: [aDevice Tracker [mobile-orch]] Updating device list. Current descriptors: 5, Known devices: 5
+2026-02-19 07:37:11 +00:00: [aDevice Tracker [mobile-orch]] Device list updated. Total descriptors: 5
+2026-02-19 07:38:11 +00:00: [NocoDBApi] Fetched page 1: 5 records (totalRows: 5)
+2026-02-19 07:38:11 +00:00: [NocoDBApi] Total records fetched: 5
+2026-02-19 07:38:11 +00:00: [NocoDBApi] Caching: 10.121.17.228:55555 -> magpie-infinix-zt-1 (active: true)
+2026-02-19 07:38:11 +00:00: [NocoDBApi] Caching: 10.121.17.149:55555 -> magpie-motorola-zt-1 (active: true)
+2026-02-19 07:38:11 +00:00: [NocoDBApi] Caching: 10.121.17.140:55555 -> magpie-infinix-zt-2 (active: true)
+2026-02-19 07:38:11 +00:00: [NocoDBApi] Caching: 10.121.17.139:55555 -> magpie-samsung-1 (active: true)
+2026-02-19 07:38:11 +00:00: [NocoDBApi] Caching: 10.121.17.206:55555 -> magpie-infinix-zt-3 (active: true)
+2026-02-19 07:38:11 +00:00: [NocoDBApi] Cached 5 records from mobile-scrapers table
+2026-02-19 07:38:11 +00:00: [aDevice Tracker [mobile-orch]] Fetched 5 devices from NocoDB
+2026-02-19 07:38:11 +00:00: [aDevice Tracker [mobile-orch]] Known devices: 10.121.17.228:55555, 10.121.17.149:55555, 10.121.17.140:55555, 10.121.17.139:55555, 10.121.17.206:55555
+2026-02-19 07:38:11 +00:00: [aDevice Tracker [mobile-orch]] Updating device list. Current descriptors: 5, Known devices: 5
+2026-02-19 07:38:11 +00:00: [aDevice Tracker [mobile-orch]] Device list updated. Total descriptors: 5
+2026-02-19 07:39:11 +00:00: [NocoDBApi] Returning cached data with 5 devices: 10.121.17.228:55555, 10.121.17.149:55555, 10.121.17.140:55555, 10.121.17.139:55555, 10.121.17.206:55555
+2026-02-19 07:39:11 +00:00: [aDevice Tracker [mobile-orch]] Fetched 5 devices from NocoDB
+2026-02-19 07:39:11 +00:00: [aDevice Tracker [mobile-orch]] Known devices: 10.121.17.228:55555, 10.121.17.149:55555, 10.121.17.140:55555, 10.121.17.139:55555, 10.121.17.206:55555
+2026-02-19 07:39:11 +00:00: [aDevice Tracker [mobile-orch]] Updating device list. Current descriptors: 5, Known devices: 5
+2026-02-19 07:39:11 +00:00: [aDevice Tracker [mobile-orch]] Device list updated. Total descriptors: 5
+2026-02-19 07:39:25 +00:00: [aDevice Tracker [mobile-orch]] Created device instance for reconnection: 10.121.17.140:55555
+2026-02-19 07:39:26 +00:00: [10.121.17.140:55555] stdout: failed to connect to '10.121.17.140:5555': Connection refused
+2026-02-19 07:39:26 +00:00: [10.121.17.140:55555] adb process (connect 10.121.17.140:5555) exited with code 0
+2026-02-19 07:39:26 +00:00: [DeviceTracker] Sending device update for 10.121.17.140:55555 (state: disconnected)
+2026-02-19 07:39:26 +00:00: [DeviceTracker] Sending device update for 10.121.17.140:55555 (state: disconnected)
+2026-02-19 07:40:11 +00:00: [NocoDBApi] Fetched page 1: 5 records (totalRows: 5)
+2026-02-19 07:40:11 +00:00: [NocoDBApi] Total records fetched: 5
+2026-02-19 07:40:11 +00:00: [NocoDBApi] Caching: 10.121.17.228:55555 -> magpie-infinix-zt-1 (active: true)
+2026-02-19 07:40:11 +00:00: [NocoDBApi] Caching: 10.121.17.149:55555 -> magpie-motorola-zt-1 (active: true)
+2026-02-19 07:40:11 +00:00: [NocoDBApi] Caching: 10.121.17.140:55555 -> magpie-infinix-zt-2 (active: true)
+2026-02-19 07:40:11 +00:00: [NocoDBApi] Caching: 10.121.17.139:55555 -> magpie-samsung-1 (active: true)
+2026-02-19 07:40:11 +00:00: [NocoDBApi] Caching: 10.121.17.206:55555 -> magpie-infinix-zt-3 (active: true)
+2026-02-19 07:40:11 +00:00: [NocoDBApi] Cached 5 records from mobile-scrapers table
+2026-02-19 07:40:11 +00:00: [aDevice Tracker [mobile-orch]] Fetched 5 devices from NocoDB
+2026-02-19 07:40:11 +00:00: [aDevice Tracker [mobile-orch]] Known devices: 10.121.17.228:55555, 10.121.17.149:55555, 10.121.17.140:55555, 10.121.17.139:55555, 10.121.17.206:55555
+2026-02-19 07:40:11 +00:00: [aDevice Tracker [mobile-orch]] Updating device list. Current descriptors: 5, Known devices: 5
+2026-02-19 07:40:11 +00:00: [aDevice Tracker [mobile-orch]] Device list updated. Total descriptors: 5
+2026-02-19 07:40:16 +00:00: [DeviceTracker] Sending initial device list with 5 devices: 10.121.17.228:55555, 10.121.17.149:55555, 10.121.17.140:55555, 10.121.17.139:55555, 10.121.17.206:55555
+2026-02-19 07:40:16 +00:00: [NocoDBApi] Returning cached data with 5 devices: 10.121.17.228:55555, 10.121.17.149:55555, 10.121.17.140:55555, 10.121.17.139:55555, 10.121.17.206:55555
+2026-02-19 07:40:17 +00:00: [DeviceTracker] Sending initial device list with 5 devices: 10.121.17.228:55555, 10.121.17.149:55555, 10.121.17.140:55555, 10.121.17.139:55555, 10.121.17.206:55555
+2026-02-19 07:40:17 +00:00: [NocoDBApi] Returning cached data with 5 devices: 10.121.17.228:55555, 10.121.17.149:55555, 10.121.17.140:55555, 10.121.17.139:55555, 10.121.17.206:55555
+2026-02-19 07:40:24 +00:00: 
+Received signal SIGINT
+2026-02-19 07:40:24 +00:00: Stopping HTTP(s) Server Service ...
+2026-02-19 07:40:24 +00:00: Stopping WebSocket Server Service ...
+2026-02-19 07:40:24 +00:00: Stopping aDevice Tracker [mobile-orch] ...
+2026-02-19 07:40:26 +00:00: [dotenv@17.3.1] injecting env (3) from .env -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }
+2026-02-19 07:40:26 +00:00: Listening on:
+	http://mobile-orch:8000/ http://localhost:8000/
+2026-02-19 07:40:26 +00:00: 	http://127.0.0.1:8000/ http://10.1.0.5:8000/ http://10.121.17.222:8000/
+2026-02-19 07:40:26 +00:00: 	http://[::1]:8000/
+2026-02-19 07:40:26 +00:00: [NocoDBApi] Fetched page 1: 5 records (totalRows: 5)
+2026-02-19 07:40:26 +00:00: [NocoDBApi] Total records fetched: 5
+2026-02-19 07:40:26 +00:00: [NocoDBApi] Caching: 10.121.17.228:55555 -> magpie-infinix-zt-1 (active: true)
+2026-02-19 07:40:26 +00:00: [NocoDBApi] Caching: 10.121.17.149:55555 -> magpie-motorola-zt-1 (active: true)
+2026-02-19 07:40:26 +00:00: [NocoDBApi] Caching: 10.121.17.140:55555 -> magpie-infinix-zt-2 (active: true)
+2026-02-19 07:40:26 +00:00: [NocoDBApi] Caching: 10.121.17.139:55555 -> magpie-samsung-1 (active: true)
+2026-02-19 07:40:26 +00:00: [NocoDBApi] Caching: 10.121.17.206:55555 -> magpie-infinix-zt-3 (active: true)
+2026-02-19 07:40:26 +00:00: [NocoDBApi] Cached 5 records from mobile-scrapers table
+2026-02-19 07:40:26 +00:00: [aDevice Tracker [mobile-orch]] Fetched 5 devices from NocoDB
+2026-02-19 07:40:26 +00:00: [aDevice Tracker [mobile-orch]] Known devices: 10.121.17.228:55555, 10.121.17.149:55555, 10.121.17.140:55555, 10.121.17.139:55555, 10.121.17.206:55555
+2026-02-19 07:40:26 +00:00: [aDevice Tracker [mobile-orch]] Updating device list. Current descriptors: 0, Known devices: 5
+2026-02-19 07:40:26 +00:00: [aDevice Tracker [mobile-orch]] Creating new descriptor for 10.121.17.228:55555 (ADB connected: false)
+2026-02-19 07:40:26 +00:00: [aDevice Tracker [mobile-orch]] Created descriptor for device: 10.121.17.228:55555 (magpie-infinix-zt-1)
+2026-02-19 07:40:26 +00:00: [aDevice Tracker [mobile-orch]] Emitting new device: 10.121.17.228:55555
+2026-02-19 07:40:26 +00:00: [aDevice Tracker [mobile-orch]] Creating new descriptor for 10.121.17.149:55555 (ADB connected: false)
+2026-02-19 07:40:26 +00:00: [aDevice Tracker [mobile-orch]] Created descriptor for device: 10.121.17.149:55555 (magpie-motorola-zt-1)
+2026-02-19 07:40:26 +00:00: [aDevice Tracker [mobile-orch]] Emitting new device: 10.121.17.149:55555
+2026-02-19 07:40:26 +00:00: [aDevice Tracker [mobile-orch]] Creating new descriptor for 10.121.17.140:55555 (ADB connected: false)
+2026-02-19 07:40:26 +00:00: [aDevice Tracker [mobile-orch]] Created descriptor for device: 10.121.17.140:55555 (magpie-infinix-zt-2)
+2026-02-19 07:40:26 +00:00: [aDevice Tracker [mobile-orch]] Emitting new device: 10.121.17.140:55555
+2026-02-19 07:40:26 +00:00: [aDevice Tracker [mobile-orch]] Creating new descriptor for 10.121.17.139:55555 (ADB connected: false)
+2026-02-19 07:40:26 +00:00: [aDevice Tracker [mobile-orch]] Created descriptor for device: 10.121.17.139:55555 (magpie-samsung-1)
+2026-02-19 07:40:26 +00:00: [aDevice Tracker [mobile-orch]] Emitting new device: 10.121.17.139:55555
+2026-02-19 07:40:26 +00:00: [aDevice Tracker [mobile-orch]] Creating new descriptor for 10.121.17.206:55555 (ADB connected: false)
+2026-02-19 07:40:26 +00:00: [aDevice Tracker [mobile-orch]] Created descriptor for device: 10.121.17.206:55555 (magpie-infinix-zt-3)
+2026-02-19 07:40:26 +00:00: [aDevice Tracker [mobile-orch]] Emitting new device: 10.121.17.206:55555
+2026-02-19 07:40:26 +00:00: [aDevice Tracker [mobile-orch]] Device list updated. Total descriptors: 5
+2026-02-19 07:40:26 +00:00: [aDevice Tracker [mobile-orch]] Found 3 ADB devices: 10.121.17.139:55555, 10.121.17.149:55555, 10.121.17.206:55555
+2026-02-19 07:40:27 +00:00: [DeviceTracker] Sending initial device list with 5 devices: 10.121.17.228:55555, 10.121.17.149:55555, 10.121.17.140:55555, 10.121.17.139:55555, 10.121.17.206:55555
+2026-02-19 07:40:27 +00:00: [DeviceTracker] Sending initial device list with 5 devices: 10.121.17.228:55555, 10.121.17.149:55555, 10.121.17.140:55555, 10.121.17.139:55555, 10.121.17.206:55555
+2026-02-19 07:40:29 +00:00: [DeviceTracker] Sending initial device list with 5 devices: 10.121.17.228:55555, 10.121.17.149:55555, 10.121.17.140:55555, 10.121.17.139:55555, 10.121.17.206:55555
+2026-02-19 07:40:29 +00:00: [NocoDBApi] Returning cached data with 5 devices: 10.121.17.228:55555, 10.121.17.149:55555, 10.121.17.140:55555, 10.121.17.139:55555, 10.121.17.206:55555
+2026-02-19 07:40:32 +00:00: [aDevice Tracker [mobile-orch]] Created device instance for reconnection: 10.121.17.140:55555
+2026-02-19 07:40:32 +00:00: [DeviceTracker] Sending device update for 10.121.17.140:55555 (state: offline)
+2026-02-19 07:40:32 +00:00: [DeviceTracker] Sending device update for 10.121.17.140:55555 (state: offline)
+2026-02-19 07:40:32 +00:00: [10.121.17.140:55555] stdout: connected to 10.121.17.140:55555
+2026-02-19 07:40:32 +00:00: [10.121.17.140:55555] adb process (connect 10.121.17.140:55555) exited with code 0
+2026-02-19 07:40:33 +00:00: [DeviceTracker] Sending device update for 10.121.17.140:55555 (state: device)
+2026-02-19 07:40:33 +00:00: [DeviceTracker] Sending device update for 10.121.17.140:55555 (state: device)
+2026-02-19 07:40:33 +00:00: [DeviceTracker] Sending device update for 10.121.17.140:55555 (state: device)
+2026-02-19 07:40:33 +00:00: [DeviceTracker] Sending device update for 10.121.17.140:55555 (state: device)
+2026-02-19 07:40:40 +00:00: [aDevice Tracker [mobile-orch]] Created device instance for reconnection: 10.121.17.228:55555
+2026-02-19 07:40:40 +00:00: [DeviceTracker] Sending device update for 10.121.17.228:55555 (state: offline)
+2026-02-19 07:40:40 +00:00: [DeviceTracker] Sending device update for 10.121.17.228:55555 (state: offline)
+2026-02-19 07:40:40 +00:00: [10.121.17.228:55555] stdout: connected to 10.121.17.228:55555
+2026-02-19 07:40:40 +00:00: [10.121.17.228:55555] adb process (connect 10.121.17.228:55555) exited with code 0
+2026-02-19 07:40:40 +00:00: [DeviceTracker] Sending device update for 10.121.17.228:55555 (state: device)
+2026-02-19 07:40:40 +00:00: [DeviceTracker] Sending device update for 10.121.17.228:55555 (state: device)
+2026-02-19 07:40:40 +00:00: [DeviceTracker] Sending device update for 10.121.17.228:55555 (state: device)
+2026-02-19 07:40:40 +00:00: [DeviceTracker] Sending device update for 10.121.17.228:55555 (state: device)
+2026-02-19 07:40:41 +00:00: [DeviceTracker] Sending device update for 10.121.17.228:55555 (state: device)
+2026-02-19 07:40:41 +00:00: [DeviceTracker] Sending device update for 10.121.17.228:55555 (state: device)
+2026-02-19 07:41:26 +00:00: [NocoDBApi] Fetched page 1: 5 records (totalRows: 5)
+2026-02-19 07:41:26 +00:00: [NocoDBApi] Total records fetched: 5
+2026-02-19 07:41:26 +00:00: [NocoDBApi] Caching: 10.121.17.228:55555 -> magpie-infinix-zt-1 (active: true)
+2026-02-19 07:41:26 +00:00: [NocoDBApi] Caching: 10.121.17.149:55555 -> magpie-motorola-zt-1 (active: true)
+2026-02-19 07:41:26 +00:00: [NocoDBApi] Caching: 10.121.17.140:55555 -> magpie-infinix-zt-2 (active: true)
+2026-02-19 07:41:26 +00:00: [NocoDBApi] Caching: 10.121.17.139:55555 -> magpie-samsung-1 (active: true)
+2026-02-19 07:41:26 +00:00: [NocoDBApi] Caching: 10.121.17.206:55555 -> magpie-infinix-zt-3 (active: true)
+2026-02-19 07:41:26 +00:00: [NocoDBApi] Cached 5 records from mobile-scrapers table
+2026-02-19 07:41:26 +00:00: [aDevice Tracker [mobile-orch]] Fetched 5 devices from NocoDB
+2026-02-19 07:41:26 +00:00: [aDevice Tracker [mobile-orch]] Known devices: 10.121.17.228:55555, 10.121.17.149:55555, 10.121.17.140:55555, 10.121.17.139:55555, 10.121.17.206:55555
+2026-02-19 07:41:26 +00:00: [aDevice Tracker [mobile-orch]] Updating device list. Current descriptors: 5, Known devices: 5
+2026-02-19 07:41:26 +00:00: [aDevice Tracker [mobile-orch]] Device list updated. Total descriptors: 5
+2026-02-19 07:42:26 +00:00: [NocoDBApi] Returning cached data with 5 devices: 10.121.17.228:55555, 10.121.17.149:55555, 10.121.17.140:55555, 10.121.17.139:55555, 10.121.17.206:55555
+2026-02-19 07:42:26 +00:00: [aDevice Tracker [mobile-orch]] Fetched 5 devices from NocoDB
+2026-02-19 07:42:26 +00:00: [aDevice Tracker [mobile-orch]] Known devices: 10.121.17.228:55555, 10.121.17.149:55555, 10.121.17.140:55555, 10.121.17.139:55555, 10.121.17.206:55555
+2026-02-19 07:42:26 +00:00: [aDevice Tracker [mobile-orch]] Updating device list. Current descriptors: 5, Known devices: 5
+2026-02-19 07:42:26 +00:00: [aDevice Tracker [mobile-orch]] Device list updated. Total descriptors: 5
+2026-02-19 07:43:26 +00:00: [NocoDBApi] Fetched page 1: 5 records (totalRows: 5)
+2026-02-19 07:43:26 +00:00: [NocoDBApi] Total records fetched: 5
+2026-02-19 07:43:26 +00:00: [NocoDBApi] Caching: 10.121.17.228:55555 -> magpie-infinix-zt-1 (active: true)
+2026-02-19 07:43:26 +00:00: [NocoDBApi] Caching: 10.121.17.149:55555 -> magpie-motorola-zt-1 (active: true)
+2026-02-19 07:43:26 +00:00: [NocoDBApi] Caching: 10.121.17.140:55555 -> magpie-infinix-zt-2 (active: true)
+2026-02-19 07:43:26 +00:00: [NocoDBApi] Caching: 10.121.17.139:55555 -> magpie-samsung-1 (active: true)
+2026-02-19 07:43:26 +00:00: [NocoDBApi] Caching: 10.121.17.206:55555 -> magpie-infinix-zt-3 (active: true)
+2026-02-19 07:43:26 +00:00: [NocoDBApi] Cached 5 records from mobile-scrapers table
+2026-02-19 07:43:26 +00:00: [aDevice Tracker [mobile-orch]] Fetched 5 devices from NocoDB
+2026-02-19 07:43:26 +00:00: [aDevice Tracker [mobile-orch]] Known devices: 10.121.17.228:55555, 10.121.17.149:55555, 10.121.17.140:55555, 10.121.17.139:55555, 10.121.17.206:55555
+2026-02-19 07:43:26 +00:00: [aDevice Tracker [mobile-orch]] Updating device list. Current descriptors: 5, Known devices: 5
+2026-02-19 07:43:26 +00:00: [aDevice Tracker [mobile-orch]] Device list updated. Total descriptors: 5
+2026-02-19 07:44:26 +00:00: [NocoDBApi] Returning cached data with 5 devices: 10.121.17.228:55555, 10.121.17.149:55555, 10.121.17.140:55555, 10.121.17.139:55555, 10.121.17.206:55555
+2026-02-19 07:44:26 +00:00: [aDevice Tracker [mobile-orch]] Fetched 5 devices from NocoDB
+2026-02-19 07:44:26 +00:00: [aDevice Tracker [mobile-orch]] Known devices: 10.121.17.228:55555, 10.121.17.149:55555, 10.121.17.140:55555, 10.121.17.139:55555, 10.121.17.206:55555
+2026-02-19 07:44:26 +00:00: [aDevice Tracker [mobile-orch]] Updating device list. Current descriptors: 5, Known devices: 5
+2026-02-19 07:44:26 +00:00: [aDevice Tracker [mobile-orch]] Device list updated. Total descriptors: 5
+2026-02-19 07:45:26 +00:00: [NocoDBApi] Fetched page 1: 5 records (totalRows: 5)
+2026-02-19 07:45:26 +00:00: [NocoDBApi] Total records fetched: 5
+2026-02-19 07:45:26 +00:00: [NocoDBApi] Caching: 10.121.17.228:55555 -> magpie-infinix-zt-1 (active: true)
+2026-02-19 07:45:26 +00:00: [NocoDBApi] Caching: 10.121.17.149:55555 -> magpie-motorola-zt-1 (active: true)
+2026-02-19 07:45:26 +00:00: [NocoDBApi] Caching: 10.121.17.140:55555 -> magpie-infinix-zt-2 (active: true)
+2026-02-19 07:45:26 +00:00: [NocoDBApi] Caching: 10.121.17.139:55555 -> magpie-samsung-1 (active: true)
+2026-02-19 07:45:26 +00:00: [NocoDBApi] Caching: 10.121.17.206:55555 -> magpie-infinix-zt-3 (active: true)
+2026-02-19 07:45:26 +00:00: [NocoDBApi] Cached 5 records from mobile-scrapers table
+2026-02-19 07:45:26 +00:00: [aDevice Tracker [mobile-orch]] Fetched 5 devices from NocoDB
+2026-02-19 07:45:26 +00:00: [aDevice Tracker [mobile-orch]] Known devices: 10.121.17.228:55555, 10.121.17.149:55555, 10.121.17.140:55555, 10.121.17.139:55555, 10.121.17.206:55555
+2026-02-19 07:45:26 +00:00: [aDevice Tracker [mobile-orch]] Updating device list. Current descriptors: 5, Known devices: 5
+2026-02-19 07:45:26 +00:00: [aDevice Tracker [mobile-orch]] Device list updated. Total descriptors: 5
+2026-02-19 07:46:26 +00:00: [NocoDBApi] Returning cached data with 5 devices: 10.121.17.228:55555, 10.121.17.149:55555, 10.121.17.140:55555, 10.121.17.139:55555, 10.121.17.206:55555
+2026-02-19 07:46:26 +00:00: [aDevice Tracker [mobile-orch]] Fetched 5 devices from NocoDB
+2026-02-19 07:46:26 +00:00: [aDevice Tracker [mobile-orch]] Known devices: 10.121.17.228:55555, 10.121.17.149:55555, 10.121.17.140:55555, 10.121.17.139:55555, 10.121.17.206:55555
+2026-02-19 07:46:26 +00:00: [aDevice Tracker [mobile-orch]] Updating device list. Current descriptors: 5, Known devices: 5
+2026-02-19 07:46:26 +00:00: [aDevice Tracker [mobile-orch]] Device list updated. Total descriptors: 5
+2026-02-19 07:47:26 +00:00: [NocoDBApi] Fetched page 1: 5 records (totalRows: 5)
+2026-02-19 07:47:26 +00:00: [NocoDBApi] Total records fetched: 5
+2026-02-19 07:47:26 +00:00: [NocoDBApi] Caching: 10.121.17.228:55555 -> magpie-infinix-zt-1 (active: true)
+2026-02-19 07:47:26 +00:00: [NocoDBApi] Caching: 10.121.17.149:55555 -> magpie-motorola-zt-1 (active: true)
+2026-02-19 07:47:26 +00:00: [NocoDBApi] Caching: 10.121.17.140:55555 -> magpie-infinix-zt-2 (active: true)
+2026-02-19 07:47:26 +00:00: [NocoDBApi] Caching: 10.121.17.139:55555 -> magpie-samsung-1 (active: true)
+2026-02-19 07:47:26 +00:00: [NocoDBApi] Caching: 10.121.17.206:55555 -> magpie-infinix-zt-3 (active: true)
+2026-02-19 07:47:26 +00:00: [NocoDBApi] Cached 5 records from mobile-scrapers table
+2026-02-19 07:47:26 +00:00: [aDevice Tracker [mobile-orch]] Fetched 5 devices from NocoDB
+2026-02-19 07:47:26 +00:00: [aDevice Tracker [mobile-orch]] Known devices: 10.121.17.228:55555, 10.121.17.149:55555, 10.121.17.140:55555, 10.121.17.139:55555, 10.121.17.206:55555
+2026-02-19 07:47:26 +00:00: [aDevice Tracker [mobile-orch]] Updating device list. Current descriptors: 5, Known devices: 5
+2026-02-19 07:47:26 +00:00: [aDevice Tracker [mobile-orch]] Device list updated. Total descriptors: 5

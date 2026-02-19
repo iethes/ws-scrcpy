@@ -255,6 +255,14 @@ body.list #device_list_menu {
     margin-right: 0;
 }
 
+#devices .device-list div.device div.desc-block .action-button.reconnect-button {
+    color: var(--link-color);
+}
+
+#devices .device-list div.device div.desc-block .action-button.reconnect-button:hover {
+    color: var(--link-color-hover);
+}
+
 #devices .device-list div.device div.desc-block .action-button.active {
     cursor: pointer;
 }

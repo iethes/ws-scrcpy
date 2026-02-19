@@ -55,15 +55,20 @@ export class NocoDBClient {
 
     public async getMobileScraperData(): Promise<Map<string, MobileScraperRecord>> {
         if (this.isCacheValid()) {
+            console.log(
+                TAG,
+                `Returning cached data with ${this.cache.size} devices: ${Array.from(this.cache.keys()).join(', ')}`,
+            );
             return this.cache;
         }
 
         try {
             const records = await this.fetchRecords();
+            console.log(TAG, `Received ${records.length} records from API`);
             this.cache.clear();
             records.forEach((record) => {
                 const ztnetIp = record.ztnet_ip;
-                console.log(TAG, `Caching: ${ztnetIp} -> ${record.label}`);
+                console.log(TAG, `Caching: ${ztnetIp} -> ${record.label} (active: ${record.active})`);
                 this.cache.set(ztnetIp, record);
             });
             this.cacheTimestamp = Date.now();

@@ -56,6 +56,7 @@ export class Device extends TypedEmitter<DeviceEvents> {
             'last.update.timestamp': 0,
             'screenshot.path': '',
             'screenshot.timestamp': 0,
+            'connection.port': 5555,
         };
         this.client = AdbExtended.createClient();
         this.setState(state);
@@ -514,6 +515,36 @@ export class Device extends TypedEmitter<DeviceEvents> {
 
             adb.on('close', (code) => {
                 console.log(this.TAG, `adb process (${args.join(' ')}) exited with code ${code}`);
+            });
+        });
+    }
+
+    public async reconnect(ipv4: string, port = 5555): Promise<void> {
+        return new Promise<void>((resolve, reject) => {
+            const cmd = 'adb';
+            const args = ['connect', `${ipv4}:${port}`];
+            const adb = spawn(cmd, args, { stdio: ['ignore', 'pipe', 'pipe'] });
+
+            adb.stdout.on('data', (data) => {
+                console.log(this.TAG, `stdout: ${data.toString().replace(/\n$/, '')}`);
+            });
+
+            adb.stderr.on('data', (data) => {
+                console.error(this.TAG, `stderr: ${data}`);
+            });
+
+            adb.on('error', (error: Error) => {
+                console.error(this.TAG, `failed to spawn adb process.\n${error.stack}`);
+                reject(error);
+            });
+
+            adb.on('close', (code) => {
+                console.log(this.TAG, `adb process (${args.join(' ')}) exited with code ${code}`);
+                if (code === 0) {
+                    resolve();
+                } else {
+                    reject(new Error(`adb connect failed with code ${code}`));
+                }
             });
         });
     }

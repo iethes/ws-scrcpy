@@ -13,4 +13,5 @@ export default interface GoogDeviceDescriptor extends BaseDeviceDescriptor {
     'last.update.timestamp': number;
     'screenshot.path': string;
     'screenshot.timestamp': number;
+    'connection.port': number;
 }

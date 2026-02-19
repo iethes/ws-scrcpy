@@ -37,7 +37,13 @@ export class DeviceTracker extends Mw {
             .init()
             .then(() => {
                 this.adt.on('device', this.sendDeviceMessage);
-                this.buildAndSendMessage(this.adt.getDevices());
+                const devices = this.adt.getDevices();
+                console.log(
+                    `[${DeviceTracker.TAG}] Sending initial device list with ${devices.length} devices: ${devices
+                        .map((d) => d.udid)
+                        .join(', ')}`,
+                );
+                this.buildAndSendMessage(devices);
             })
             .catch((error: Error) => {
                 console.error(`[${DeviceTracker.TAG}] Error: ${error.message}`);
@@ -45,6 +51,7 @@ export class DeviceTracker extends Mw {
     }
 
     private sendDeviceMessage = (device: GoogDeviceDescriptor): void => {
+        console.log(`[${DeviceTracker.TAG}] Sending device update for ${device.udid} (state: ${device.state})`);
         const data: DeviceTrackerEvent<GoogDeviceDescriptor> = {
             device,
             id: this.id,

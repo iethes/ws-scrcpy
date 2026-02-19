@@ -8,6 +8,7 @@ export class ControlCenterCommand {
     public static RUN_WDA = 'run-wda';
     public static REQUEST_WDA = 'request-wda';
     public static SCREENSHOT = 'screenshot';
+    public static RECONNECT_DEVICE = 'reconnect_device';
 
     private id = -1;
     private type = '';
@@ -16,6 +17,8 @@ export class ControlCenterCommand {
     private method = '';
     private args?: any;
     private data?: any;
+    private ipv4 = '';
+    private port = 5555;
 
     public static fromJSON(json: string): ControlCenterCommand {
         const body = JSON.parse(json);
@@ -29,6 +32,12 @@ export class ControlCenterCommand {
 
         if (typeof data.udid === 'string') {
             command.udid = data.udid;
+        }
+        if (typeof data.ipv4 === 'string') {
+            command.ipv4 = data.ipv4;
+        }
+        if (typeof data.port === 'number') {
+            command.port = data.port;
         }
         switch (body.type) {
             case ControlCenterCommand.KILL_SERVER:
@@ -49,6 +58,7 @@ export class ControlCenterCommand {
             case ControlCenterCommand.CONFIGURE_STREAM:
             case ControlCenterCommand.RUN_WDA:
             case ControlCenterCommand.SCREENSHOT:
+            case ControlCenterCommand.RECONNECT_DEVICE:
                 return command;
             default:
                 throw new Error(`Unknown command "${body.command}"`);
@@ -75,5 +85,11 @@ export class ControlCenterCommand {
     }
     public getArgs(): any {
         return this.args;
+    }
+    public getIpv4(): string {
+        return this.ipv4;
+    }
+    public getPort(): number {
+        return this.port;
     }
 }

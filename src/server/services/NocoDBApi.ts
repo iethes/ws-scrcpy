@@ -46,51 +46,81 @@ export class NocoDBApi {
             return [];
         }
 
-        const url = `${this.baseUrl}/api/v2/tables/${this.tableId}/records`;
+        const allRecords: MobileScraperRecord[] = [];
+        let page = 1;
+        const pageSize = 100;
+        let hasMore = true;
 
-        return new Promise<MobileScraperRecord[]>((resolve, reject) => {
-            const protocol = this.baseUrl.startsWith('https') ? https : http;
+        while (hasMore) {
+            const url = `${this.baseUrl}/api/v2/tables/${this.tableId}/records?limit=${pageSize}&offset=${
+                (page - 1) * pageSize
+            }`;
 
-            const options = {
-                method: 'GET',
-                headers: {
-                    'xc-token': this.apiToken,
-                    Accept: 'application/json',
-                },
-            };
+            const records = await new Promise<MobileScraperRecord[]>((resolve, reject) => {
+                const protocol = this.baseUrl.startsWith('https') ? https : http;
 
-            const req = protocol.request(url, options, (res) => {
-                let data = '';
+                const options = {
+                    method: 'GET',
+                    headers: {
+                        'xc-token': this.apiToken,
+                        Accept: 'application/json',
+                    },
+                };
 
-                res.on('data', (chunk) => {
-                    data += chunk;
+                const req = protocol.request(url, options, (res) => {
+                    let data = '';
+
+                    res.on('data', (chunk) => {
+                        data += chunk;
+                    });
+
+                    res.on('end', () => {
+                        try {
+                            const response: unknown = JSON.parse(data);
+                            const mobileScraperResponse = response as MobileScraperResponse;
+                            const records = mobileScraperResponse.list || [];
+                            console.log(
+                                TAG,
+                                `Fetched page ${page}: ${records.length} records (totalRows: ${
+                                    mobileScraperResponse.pageInfo?.totalRows || 'unknown'
+                                })`,
+                            );
+                            resolve(records);
+                        } catch (error: any) {
+                            console.error(TAG, 'Failed to parse response:', error.message);
+                            console.log(TAG, 'Raw response data:', data);
+                            reject(error);
+                        }
+                    });
                 });
 
-                res.on('end', () => {
-                    try {
-                        const response: unknown = JSON.parse(data);
-                        const mobileScraperResponse = response as MobileScraperResponse;
-                        const records = mobileScraperResponse.list || [];
-                        resolve(records);
-                    } catch (error: any) {
-                        console.error(TAG, 'Failed to parse response:', error.message);
-                        console.log(TAG, 'Raw response data:', data);
-                        reject(error);
-                    }
+                req.on('error', (error) => {
+                    console.error(TAG, 'Request error:', error.message);
+                    reject(error);
                 });
+
+                req.end();
             });
 
-            req.on('error', (error) => {
-                console.error(TAG, 'Request error:', error.message);
-                reject(error);
-            });
+            allRecords.push(...records);
 
-            req.end();
-        });
+            if (records.length < pageSize) {
+                hasMore = false;
+            } else {
+                page++;
+            }
+        }
+
+        console.log(TAG, `Total records fetched: ${allRecords.length}`);
+        return allRecords;
     }
 
     public async getMobileScraperData(): Promise<Map<string, MobileScraperRecord>> {
         if (this.isCacheValid()) {
+            console.log(
+                TAG,
+                `Returning cached data with ${this.cache.size} devices: ${Array.from(this.cache.keys()).join(', ')}`,
+            );
             return this.cache;
         }
 
@@ -99,6 +129,7 @@ export class NocoDBApi {
             this.cache.clear();
             records.forEach((record) => {
                 const ztnetIp = record.ztnet_ip;
+                console.log(TAG, `Caching: ${ztnetIp} -> ${record.label} (active: ${record.active})`);
                 this.cache.set(ztnetIp, record);
             });
             this.cacheTimestamp = Date.now();

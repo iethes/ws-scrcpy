@@ -2,7 +2,7 @@
 
 ## Overview
 
-The device list displays all devices from the NocoDB database, showing both connected and disconnected devices with their current state.
+The device list displays devices from the NocoDB database for the configured orchestrator, showing both connected and disconnected devices with their current state.
 
 ## Device List Architecture
 
@@ -11,7 +11,8 @@ The device list displays all devices from the NocoDB database, showing both conn
 1. **NocoDBApi** (`src/server/services/NocoDBApi.ts`)
 
     - Server-side API client that directly queries NocoDB REST API
-    - Fetches all devices with pagination support
+    - Fetches devices with pagination support
+    - Filters by `NOCODB_ORCHESTRATOR_ID` when set
     - Implements 60-second cache TTL
     - Returns devices as `Map<string, MobileScraperRecord>`
 
@@ -42,7 +43,7 @@ The device list displays all devices from the NocoDB database, showing both conn
 1. ControlCenter.init()
    └─> refreshAllKnownDevices()
        └─> NocoDBApi.getMobileScraperData()
-           └─> Fetches all devices from NocoDB
+           └─> Fetches this orchestrator's devices from NocoDB
                └─> updateDeviceList()
                    └─> Creates descriptors for all devices
                        └─> Emits device events
@@ -151,6 +152,7 @@ interface MobileScraperRecord {
     loggedin: string; // Comma-separated logged-in countries
     operator: string; // Operator name
     remote_stream: string | null;
+    orchestrator_id: string; // mobile-orch instance ID/name
     active: boolean; // Whether device is active
 }
 ```
@@ -195,6 +197,7 @@ interface GoogDeviceDescriptor {
     - `NOCODB_API_TOKEN`
     - `NOCODB_BASE_URL`
     - `NOCODB_TABLE_ID`
+    - `NOCODB_ORCHESTRATOR_ID` (for example `BPP-G1`)
 
 ### Reconnect button not working
 

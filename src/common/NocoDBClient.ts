@@ -10,6 +10,7 @@ export interface MobileScraperRecord {
     loggedin: string;
     operator: string;
     remote_stream: string | null;
+    orchestrator_id: string;
     active: boolean;
 }
 

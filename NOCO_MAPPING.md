@@ -32,6 +32,7 @@ Add to `.env` file:
 NOCODB_API_TOKEN="-DNW9DinHU3Ho-zrf9SB7SgDwkfirASHjyIbmjbn"
 NOCODB_BASE_URL="https://nocodb.magpie.co.id/"
 NOCODB_TABLE_ID="p4ct2g2urhzcfnz"
+NOCODB_ORCHESTRATOR_ID="BPP-G1"
 ```
 
 ### Required Variables
@@ -39,6 +40,7 @@ NOCODB_TABLE_ID="p4ct2g2urhzcfnz"
 -   `NOCODB_API_TOKEN` - Authentication token for NocoDB API
 -   `NOCODB_BASE_URL` - Base URL of NocoDB instance
 -   `NOCODB_TABLE_ID` - Table ID for mobile-scrapers table
+-   `NOCODB_ORCHESTRATOR_ID` - Optional: only list records assigned to this mobile-orch instance
 
 ## Data Mapping
 
@@ -51,6 +53,7 @@ NOCODB_TABLE_ID="p4ct2g2urhzcfnz"
 | Region checkboxes (editable)                | `regions` (comma-separated)  | Active regions (checked in UI)     |
 | Available regions (from `loggedin`)         | `loggedin` (comma-separated) | Available countries for checkboxes |
 | Device metadata                             | `operator`                   | Discord operator ID                |
+| Orchestrator assignment                     | `orchestrator_id`            | mobile-orch instance ID/name       |
 
 ### Mobile-scrapers Table Schema
 
@@ -65,6 +68,7 @@ interface MobileScraperRecord {
     loggedin: string; // Comma-separated logged-in countries
     operator: string; // Discord operator ID
     remote_stream: string | null;
+    orchestrator_id: string;
     active: boolean;
 }
 ```
@@ -80,6 +84,7 @@ interface MobileScraperRecord {
 2. **`src/server/services/NocoDBApi.ts`**
 
     - Fetches data from NocoDB API
+    - Filters by `NOCODB_ORCHESTRATOR_ID` when set
     - Implements caching (60s TTL)
     - Maps `ztnet_ip` to device records
     - `updateRecord()` method to update device records in NocoDB

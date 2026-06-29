@@ -83,7 +83,7 @@ To fetch all records, loop until `pageInfo.isLastPage` is `true`, incrementing `
 - **Empty where/sort:** Omit the param entirely rather than sending empty string.
 
 ## Table mobile-scrapers:
-Table in our NocoDB that holds the existing mapping of devices ztnet_ips, labels, regions, etc. 
+Table in our NocoDB that holds the existing mapping of devices ztnet_ips, labels, regions, orchestrator assignments, etc. 
 
 This is the response you get from GET api:
 
@@ -103,6 +103,7 @@ This is the response you get from GET api:
         ],
         "operator": "string",
         "remote_stream": "string",
+        "orchestrator_id": "BPP-G1",
         "active": true
       }
     }

@@ -10,6 +10,7 @@ export class NocoDBApi {
     private readonly apiToken: string;
     private readonly baseUrl: string;
     private readonly tableId: string;
+    private readonly orchestratorId: string;
     private cache: Map<string, MobileScraperRecord> = new Map();
     private cacheTimestamp = 0;
     private readonly CACHE_TTL = 60000;
@@ -18,6 +19,7 @@ export class NocoDBApi {
         this.apiToken = process.env[EnvName.NOCODB_API_TOKEN] || '';
         this.baseUrl = (process.env[EnvName.NOCODB_BASE_URL] || '').replace(/\/$/, '');
         this.tableId = process.env[EnvName.NOCODB_TABLE_ID] || '';
+        this.orchestratorId = process.env[EnvName.NOCODB_ORCHESTRATOR_ID] || '';
 
         if (!this.apiToken) {
             console.warn(TAG, 'NOCODB_API_TOKEN not set in environment');
@@ -27,6 +29,9 @@ export class NocoDBApi {
         }
         if (!this.tableId) {
             console.warn(TAG, 'NOCODB_TABLE_ID not set in environment');
+        }
+        if (!this.orchestratorId) {
+            console.warn(TAG, 'NOCODB_ORCHESTRATOR_ID not set in environment; showing all NocoDB devices');
         }
     }
 
@@ -52,9 +57,12 @@ export class NocoDBApi {
         let hasMore = true;
 
         while (hasMore) {
+            const where = this.orchestratorId
+                ? `&where=${encodeURIComponent(`(orchestrator_id,eq,${this.orchestratorId})`)}`
+                : '';
             const url = `${this.baseUrl}/api/v2/tables/${this.tableId}/records?limit=${pageSize}&offset=${
                 (page - 1) * pageSize
-            }`;
+            }${where}`;
 
             const records = await new Promise<MobileScraperRecord[]>((resolve, reject) => {
                 const protocol = this.baseUrl.startsWith('https') ? https : http;
@@ -111,7 +119,12 @@ export class NocoDBApi {
             }
         }
 
-        console.log(TAG, `Total records fetched: ${allRecords.length}`);
+        console.log(
+            TAG,
+            `Total records fetched: ${allRecords.length}${
+                this.orchestratorId ? ` for orchestrator_id=${this.orchestratorId}` : ''
+            }`,
+        );
         return allRecords;
     }
 

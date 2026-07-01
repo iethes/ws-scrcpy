@@ -12,7 +12,8 @@ The device list displays devices from the NocoDB database for the configured orc
 
     - Server-side API client that directly queries NocoDB REST API
     - Fetches devices with pagination support
-    - Filters by `NOCODB_ORCHESTRATOR_ID` when set
+    - Fetches all records so connected ADB devices can still use NocoDB labels
+    - Uses `NOCODB_ORCHESTRATOR_ID` to decide which disconnected NocoDB devices to show
     - Implements 60-second cache TTL
     - Returns devices as `Map<string, MobileScraperRecord>`
 

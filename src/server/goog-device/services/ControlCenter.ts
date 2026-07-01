@@ -105,8 +105,15 @@ export class ControlCenter extends BaseControlCenter<GoogDeviceDescriptor> imple
     private async refreshAllKnownDevices(): Promise<void> {
         try {
             this.allKnownDevices = await this.nocodbApi.getMobileScraperData();
-            console.log(`[${this.getName()}] Fetched ${this.allKnownDevices.size} devices from NocoDB`);
-            console.log(`[${this.getName()}] Known devices: ${Array.from(this.allKnownDevices.keys()).join(', ')}`);
+            const visibleDevices = Array.from(this.allKnownDevices.entries()).filter(([, record]) =>
+                this.nocodbApi.matchesOrchestrator(record),
+            );
+            console.log(
+                `[${this.getName()}] Fetched ${visibleDevices.length} visible devices from ${
+                    this.allKnownDevices.size
+                } NocoDB records`,
+            );
+            console.log(`[${this.getName()}] Known devices: ${visibleDevices.map(([ztnetIp]) => ztnetIp).join(', ')}`);
             await this.updateDeviceList();
         } catch (error) {
             console.error(`[${this.getName()}] Error refreshing known devices:`, error);
@@ -123,6 +130,9 @@ export class ControlCenter extends BaseControlCenter<GoogDeviceDescriptor> imple
         );
 
         for (const [ztnetIp, record] of this.allKnownDevices.entries()) {
+            if (!this.nocodbApi.matchesOrchestrator(record)) {
+                continue;
+            }
             newDevices.add(ztnetIp);
             let descriptor = this.descriptors.get(ztnetIp);
             const device = this.deviceMap.get(ztnetIp);

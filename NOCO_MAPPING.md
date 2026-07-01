@@ -84,7 +84,8 @@ interface MobileScraperRecord {
 2. **`src/server/services/NocoDBApi.ts`**
 
     - Fetches data from NocoDB API
-    - Filters by `NOCODB_ORCHESTRATOR_ID` when set
+    - Fetches all records for label lookup on connected ADB devices
+    - Uses `NOCODB_ORCHESTRATOR_ID` when showing disconnected NocoDB devices
     - Implements caching (60s TTL)
     - Maps `ztnet_ip` to device records
     - `updateRecord()` method to update device records in NocoDB

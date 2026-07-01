@@ -57,12 +57,9 @@ export class NocoDBApi {
         let hasMore = true;
 
         while (hasMore) {
-            const where = this.orchestratorId
-                ? `&where=${encodeURIComponent(`(orchestrator_id,eq,${this.orchestratorId})`)}`
-                : '';
             const url = `${this.baseUrl}/api/v2/tables/${this.tableId}/records?limit=${pageSize}&offset=${
                 (page - 1) * pageSize
-            }${where}`;
+            }`;
 
             const records = await new Promise<MobileScraperRecord[]>((resolve, reject) => {
                 const protocol = this.baseUrl.startsWith('https') ? https : http;
@@ -119,12 +116,7 @@ export class NocoDBApi {
             }
         }
 
-        console.log(
-            TAG,
-            `Total records fetched: ${allRecords.length}${
-                this.orchestratorId ? ` for orchestrator_id=${this.orchestratorId}` : ''
-            }`,
-        );
+        console.log(TAG, `Total records fetched: ${allRecords.length}`);
         return allRecords;
     }
 
@@ -158,8 +150,8 @@ export class NocoDBApi {
         return this.cache.get(ztnetIp);
     }
 
-    public isFilteredByOrchestrator(): boolean {
-        return !!this.orchestratorId;
+    public matchesOrchestrator(record: MobileScraperRecord): boolean {
+        return !this.orchestratorId || record.orchestrator_id === this.orchestratorId;
     }
 
     public invalidateCache(): void {

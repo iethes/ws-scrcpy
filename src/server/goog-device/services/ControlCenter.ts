@@ -88,6 +88,11 @@ export class ControlCenter extends BaseControlCenter<GoogDeviceDescriptor> imple
     };
 
     private handleConnected(udid: string, state: string): void {
+        if (this.nocodbApi.isFilteredByOrchestrator() && !this.allKnownDevices.has(udid)) {
+            this.deviceMap.delete(udid);
+            this.descriptors.delete(udid);
+            return;
+        }
         let device = this.deviceMap.get(udid);
         if (device) {
             const existingDescriptor = this.descriptors.get(udid);
@@ -156,8 +161,12 @@ export class ControlCenter extends BaseControlCenter<GoogDeviceDescriptor> imple
         }
 
         for (const oldDevice of oldDevices) {
-            if (!newDevices.has(oldDevice) && !this.deviceMap.has(oldDevice)) {
+            if (
+                !newDevices.has(oldDevice) &&
+                (this.nocodbApi.isFilteredByOrchestrator() || !this.deviceMap.has(oldDevice))
+            ) {
                 console.log(`[${this.getName()}] Removing device: ${oldDevice}`);
+                this.deviceMap.delete(oldDevice);
                 this.descriptors.delete(oldDevice);
             }
         }

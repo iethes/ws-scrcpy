@@ -158,6 +158,10 @@ export class NocoDBApi {
         return this.cache.get(ztnetIp);
     }
 
+    public isFilteredByOrchestrator(): boolean {
+        return !!this.orchestratorId;
+    }
+
     public invalidateCache(): void {
         this.cache.clear();
         this.cacheTimestamp = 0;
